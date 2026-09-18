@@ -1,0 +1,14 @@
+{
+  "name": "familia-fort-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "import": "python3 scripts/import_vercatalogo.py",
+    "validate": "python3 tests/validate_catalog.py",
+    "test:e2e": "node tests/e2e.js",
+    "serve": "python3 -m http.server 4173 --directory public"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.58.2"
+  }
+}

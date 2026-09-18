@@ -1,0 +1,6 @@
+node_modules/
+research/
+data/
+artifacts/
+*.tar.gz
+.DS_Store

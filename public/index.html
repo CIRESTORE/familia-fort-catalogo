@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo independiente de Familia Fort. Herramientas y soluciones para el hogar, taller y trabajo.">
+  <meta name="theme-color" content="#0b5864">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>Familia Fort | Catálogo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#productos">Ir a productos</a>
+
+  <div class="utility-bar">
+    <div class="shell utility-inner">
+      <span>Compra fácil y atención directa</span>
+      <span class="utility-dot" aria-hidden="true"></span>
+      <span>Precios finales en pesos colombianos</span>
+    </div>
+  </div>
+
+  <header class="site-header" id="inicio">
+    <div class="shell header-inner">
+      <a class="brand" href="#inicio" aria-label="Familia Fort, inicio">
+        <span class="brand-mark" aria-hidden="true">FF</span>
+        <span class="brand-copy"><strong>Familia Fort</strong><small>Catálogo</small></span>
+      </a>
+      <label class="header-search" for="searchInput">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+        <input id="searchInput" type="search" autocomplete="off" placeholder="Buscar por producto, referencia o categoría">
+      </label>
+      <button class="cart-trigger" id="cartTrigger" type="button" aria-label="Abrir carrito">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h2l2.1 10.4a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.6L20 7H6M10 20a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>
+        <span>Carrito</span>
+        <b id="cartCount">0</b>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell" aria-labelledby="heroTitle">
+      <div class="hero-copy">
+        <p class="eyebrow">Herramientas que responden</p>
+        <h1 id="heroTitle">Lo que necesitas para <em>hacerlo bien.</em></h1>
+        <p class="hero-text">Encuentra herramientas, equipos y accesorios para el hogar, el taller y el trabajo. Compra con un único precio final y sin mínimos.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#productos">Ver catálogo</a>
+          <button class="button button-secondary" id="heroHelp" type="button">Hablar con un asesor</button>
+        </div>
+        <dl class="hero-proof">
+          <div><dt id="heroProductCount">—</dt><dd>productos</dd></div>
+          <div><dt id="heroCategoryCount">—</dt><dd>categorías</dd></div>
+          <div><dt>1</dt><dd>precio final</dd></div>
+        </dl>
+      </div>
+      <div class="hero-visual" aria-label="Selección de productos Familia Fort">
+        <div class="hero-grid" id="heroGrid" aria-hidden="true"></div>
+        <span class="hero-stamp">Catálogo<br>completo</span>
+      </div>
+    </section>
+
+    <section class="benefit-strip" aria-label="Beneficios">
+      <div class="shell benefit-grid">
+        <article><span>01</span><div><strong>Compra clara</strong><p>Un único precio final por producto.</p></div></article>
+        <article><span>02</span><div><strong>Carrito práctico</strong><p>Modifica cantidades antes de pedir.</p></div></article>
+        <article><span>03</span><div><strong>Atención directa</strong><p>Finaliza tu pedido por WhatsApp.</p></div></article>
+      </div>
+    </section>
+
+    <section class="catalog shell" id="productos" aria-labelledby="catalogTitle">
+      <div class="catalog-heading">
+        <div>
+          <p class="eyebrow">Explora por necesidad</p>
+          <h2 id="catalogTitle">Todos los productos</h2>
+        </div>
+        <p id="resultsText" class="results-text" aria-live="polite">Cargando catálogo…</p>
+      </div>
+
+      <div class="catalog-tools">
+        <div class="category-row" id="categoryRow" aria-label="Categorías"></div>
+        <div class="sort-wrap">
+          <label for="sortSelect">Ordenar</label>
+          <select id="sortSelect">
+            <option value="featured">Destacados</option>
+            <option value="name-asc">Nombre A–Z</option>
+            <option value="price-asc">Menor precio</option>
+            <option value="price-desc">Mayor precio</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <strong>No encontramos productos</strong>
+        <p>Prueba con otra palabra o selecciona “Todos”.</p>
+        <button class="button button-primary" id="clearFilters" type="button">Limpiar búsqueda</button>
+      </div>
+      <button class="load-more" id="loadMore" type="button" hidden>Mostrar más productos</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">FF</span>
+        <div><strong>Familia Fort</strong><p>Soluciones para tu día a día.</p></div>
+      </div>
+      <nav aria-label="Enlaces del catálogo">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <button type="button" id="footerHelp">Atención por WhatsApp</button>
+      </nav>
+      <p class="footer-note">Catálogo independiente. Los precios se muestran en COP.</p>
+    </div>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" aria-hidden="true">
+    <div class="drawer-head">
+      <div><p class="eyebrow">Tu selección</p><h2 id="cartTitle">Carrito</h2></div>
+      <button class="icon-button" id="cartClose" type="button" aria-label="Cerrar carrito">×</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty">
+      <span aria-hidden="true">＋</span>
+      <strong>Tu carrito está vacío</strong>
+      <p>Agrega productos para preparar tu pedido.</p>
+    </div>
+    <div class="cart-summary" id="cartSummary" hidden>
+      <div><span>Productos</span><strong id="cartUnits">0</strong></div>
+      <div class="cart-total"><span>Total</span><strong id="cartTotal">$0</strong></div>
+      <button class="button button-primary checkout-button" id="checkoutButton" type="button">Finalizar por WhatsApp</button>
+      <p id="checkoutNote">El pedido se enviará con productos, cantidades y total.</p>
+    </div>
+  </aside>
+
+  <section class="product-modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <button class="icon-button modal-close" id="modalClose" type="button" aria-label="Cerrar producto">×</button>
+    <div class="modal-gallery">
+      <img id="modalImage" src="" alt="">
+      <div class="thumb-row" id="thumbRow"></div>
+    </div>
+    <div class="modal-info">
+      <p class="product-category" id="modalCategory"></p>
+      <h2 id="modalTitle"></h2>
+      <p class="modal-sku" id="modalSku"></p>
+      <p class="modal-price" id="modalPrice"></p>
+      <p class="modal-description" id="modalDescription"></p>
+      <div class="quantity-control" aria-label="Cantidad">
+        <button type="button" id="modalMinus" aria-label="Restar uno">−</button>
+        <input id="modalQuantity" type="number" min="1" max="99" value="1" inputmode="numeric" aria-label="Cantidad">
+        <button type="button" id="modalPlus" aria-label="Sumar uno">＋</button>
+      </div>
+      <button class="button button-primary modal-add" id="modalAdd" type="button">Agregar al carrito</button>
+      <ul class="modal-benefits">
+        <li>Un único precio final por producto</li>
+        <li>Pedido organizado por WhatsApp</li>
+        <li>Modifica la cantidad desde el carrito</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
