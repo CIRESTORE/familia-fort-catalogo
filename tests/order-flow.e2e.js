@@ -50,13 +50,18 @@ function assert(condition, message) {
     await page.locator('#checkoutButton').click();
     await page.waitForSelector('#orderModal:not([hidden])');
     assert(await page.locator('#orderForm').isVisible(), 'Debe abrir el formulario antes de WhatsApp');
+    assert(await page.locator('#customerDepartment').evaluate((element) => element.tagName === 'SELECT'), 'Departamento debe ser un desplegable');
+    assert(await page.locator('#customerCity').evaluate((element) => element.tagName === 'SELECT'), 'Ciudad debe ser un desplegable');
+    assert(await page.locator('#customerDepartment option').count() === 34, 'Debe listar los 32 departamentos y Bogotá');
 
     await page.locator('#orderSubmit').click();
     assert(await page.locator('#orderForm :invalid').count() >= 1, 'El formulario debe exigir datos de entrega');
 
     await page.locator('#customerName').fill('Cliente de Prueba');
     await page.locator('#customerPhone').fill('3001234567');
-    await page.locator('#customerCity').fill('Bogotá');
+    await page.locator('#customerDepartment').selectOption({ label: 'Valle del Cauca' });
+    assert(!(await page.locator('#customerCity').isDisabled()), 'Ciudad debe habilitarse después de elegir departamento');
+    await page.locator('#customerCity').selectOption({ label: 'Cali' });
     await page.locator('#customerAddress').fill('Calle 1 # 2-3');
     await page.locator('#customerNeighborhood').fill('Centro');
     await page.locator('#customerNotes').fill('Entregar en portería');
@@ -69,11 +74,12 @@ function assert(condition, message) {
     const openedUrl = await page.evaluate(() => window.__openedUrl);
     assert(openedUrl.startsWith('https://wa.me/573206135128?text='), 'El pedido debe ir al WhatsApp oficial');
     const message = decodeURIComponent(openedUrl);
-    for (const expected of ['Cliente de Prueba', '3001234567', 'Bogotá', 'Calle 1 # 2-3', 'ENVÍO GRATIS', 'Únicamente pago anticipado', 'TOTAL']) {
+    for (const expected of ['*Nuevo pedido | Familia Fort*', 'Cliente de Prueba', '3001234567', '📍 Cali, Valle del Cauca', 'Calle 1 # 2-3', '🚚 *Envío gratis*', 'Únicamente pago anticipado', '*Total:']) {
       assert(message.includes(expected), `El mensaje no incluye: ${expected}`);
     }
+    assert(!message.includes('DATOS DEL CLIENTE'), 'El mensaje no debe usar encabezados largos en mayúscula');
     assert(errors.length === 0, `Errores de consola: ${errors.join(' | ')}`);
-    console.log(JSON.stringify({ minimumBlocked: true, paidShippingRange: true, freeShipping: true, formValidated: true, whatsapp: '573206135128', consoleErrors: errors }, null, 2));
+    console.log(JSON.stringify({ minimumBlocked: true, paidShippingRange: true, freeShipping: true, formValidated: true, dependentLocationSelectors: true, formattedWhatsapp: true, whatsapp: '573206135128', consoleErrors: errors }, null, 2));
   } finally {
     await browser.close();
   }

@@ -172,7 +172,7 @@
     <div class="order-head">
       <p class="eyebrow">Último paso</p>
       <h2 id="orderTitle">Datos para tu pedido</h2>
-      <p>Completa la información de entrega. Después enviaremos el pedido organizado al WhatsApp oficial.</p>
+      <p>Completa la información de entrega. Abriremos WhatsApp con un pedido claro y listo para enviar.</p>
       <div class="order-shipping" id="orderShipping"></div>
     </div>
     <form id="orderForm" class="order-form">
@@ -182,8 +182,15 @@
       <label class="field">Celular
         <input id="customerPhone" name="customerPhone" type="tel" autocomplete="tel" inputmode="tel" required minlength="7" maxlength="20">
       </label>
+      <label class="field">Departamento
+        <select id="customerDepartment" name="customerDepartment" autocomplete="address-level1" required>
+          <option value="">Selecciona un departamento</option>
+        </select>
+      </label>
       <label class="field">Ciudad o municipio
-        <input id="customerCity" name="customerCity" type="text" autocomplete="address-level2" required maxlength="80">
+        <select id="customerCity" name="customerCity" autocomplete="address-level2" required disabled>
+          <option value="">Primero selecciona el departamento</option>
+        </select>
       </label>
       <label class="field field-wide">Dirección de entrega
         <input id="customerAddress" name="customerAddress" type="text" autocomplete="street-address" required maxlength="140">
@@ -195,13 +202,15 @@
         <input id="customerNotes" name="customerNotes" type="text" maxlength="180" placeholder="Torre, apartamento, portería…">
       </label>
       <p class="form-privacy field-wide">Estos datos se incluirán únicamente en el mensaje de WhatsApp para gestionar este pedido.</p>
-      <button class="button button-primary order-submit field-wide" id="orderSubmit" type="submit">Enviar pedido por WhatsApp</button>
+      <button class="button button-primary order-submit field-wide" id="orderSubmit" type="submit">Abrir pedido en WhatsApp</button>
+      <p class="whatsapp-note field-wide">WhatsApp abrirá el pedido listo. Por seguridad, la aplicación te pedirá tocar <strong>Enviar</strong>.</p>
     </form>
   </section>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="config.js"></script>
+  <script src="data/colombia-locations.js"></script>
   <script src="app.js" defer></script>
 </body>
 </html>

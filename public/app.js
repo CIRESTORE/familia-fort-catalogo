@@ -60,6 +60,8 @@
     orderClose: $("#orderClose"),
     orderForm: $("#orderForm"),
     orderShipping: $("#orderShipping"),
+    customerDepartment: $("#customerDepartment"),
+    customerCity: $("#customerCity"),
     heroHelp: $("#heroHelp"),
     footerHelp: $("#footerHelp"),
     toast: $("#toast")
@@ -84,6 +86,34 @@
       currency: CONFIG.currency || "COP",
       maximumFractionDigits: 0
     }).format(Number(value || 0));
+  }
+
+  function populateDepartments() {
+    const locations = Array.isArray(window.COLOMBIA_LOCATIONS) ? window.COLOMBIA_LOCATIONS : [];
+    locations.forEach(({ name }) => {
+      const option = document.createElement("option");
+      option.value = name;
+      option.textContent = name;
+      elements.customerDepartment.append(option);
+    });
+  }
+
+  function populateCities() {
+    const departmentName = elements.customerDepartment.value;
+    const locations = Array.isArray(window.COLOMBIA_LOCATIONS) ? window.COLOMBIA_LOCATIONS : [];
+    const department = locations.find(({ name }) => name === departmentName);
+    elements.customerCity.replaceChildren();
+    const placeholder = document.createElement("option");
+    placeholder.value = "";
+    placeholder.textContent = department ? "Selecciona una ciudad o municipio" : "Primero selecciona el departamento";
+    elements.customerCity.append(placeholder);
+    elements.customerCity.disabled = !department;
+    (department?.cities || []).forEach((city) => {
+      const option = document.createElement("option");
+      option.value = city;
+      option.textContent = city;
+      elements.customerCity.append(option);
+    });
   }
 
   function normalize(value) {
@@ -445,26 +475,27 @@
     }
     const data = new FormData(elements.orderForm);
     const value = (key) => String(data.get(key) || "").trim();
+    const neighborhood = value("customerNeighborhood");
     const lines = [
-      CONFIG.whatsappMessage || "Hola, quiero realizar este pedido:",
+      "🛒 *Nuevo pedido | Familia Fort*",
       "",
-      "DATOS DEL CLIENTE",
-      `Nombre: ${value("customerName")}`,
-      `Celular: ${value("customerPhone")}`,
-      `Ciudad: ${value("customerCity")}`,
-      `Dirección: ${value("customerAddress")}`,
+      "*Cliente*",
+      `👤 ${value("customerName")}`,
+      `📱 ${value("customerPhone")}`,
+      `📍 ${value("customerCity")}, ${value("customerDepartment")}`,
+      `🏠 ${value("customerAddress")}${neighborhood ? ` · ${neighborhood}` : ""}`,
     ];
-    if (value("customerNeighborhood")) lines.push(`Barrio: ${value("customerNeighborhood")}`);
-    if (value("customerNotes")) lines.push(`Indicaciones: ${value("customerNotes")}`);
-    lines.push("", "PRODUCTOS");
+    if (value("customerNotes")) lines.push(`📝 ${value("customerNotes")}`);
+    lines.push("", "*Productos*");
     entries.forEach(({ product, quantity }, index) => {
-      lines.push(`${index + 1}. ${product.name}`);
-      lines.push(`   Ref: ${product.sku} · Cantidad: ${quantity} · Unitario: ${formatPrice(product.price)} · Subtotal: ${formatPrice(product.price * quantity)}`);
-      if (product.payment_terms) lines.push(`   Condición: ${product.payment_terms}`);
+      lines.push(`*${index + 1}. ${quantity} × ${product.name}*`);
+      lines.push(`Ref. ${product.sku} · ${formatPrice(product.price)} c/u`);
+      lines.push(`Subtotal: ${formatPrice(product.price * quantity)}`);
+      if (product.payment_terms) lines.push(`⚠️ ${product.payment_terms}`);
     });
-    lines.push("", `TOTAL PRODUCTOS: ${formatPrice(total)}`);
-    lines.push(total >= freeShipping ? "ENVÍO GRATIS" : "ENVÍO: Se cotiza aparte");
-    lines.push("", "¿Me confirman disponibilidad y entrega?");
+    lines.push("", "────────────", `*Total: ${formatPrice(total)}*`);
+    lines.push(total >= freeShipping ? "🚚 *Envío gratis*" : "🚚 Envío por cotizar");
+    lines.push("", "_Confirma disponibilidad y tiempo de entrega, por favor._");
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(lines.join("\n"))}`, "_blank", "noopener,noreferrer");
   }
 
@@ -507,6 +538,7 @@
     elements.cartClose.addEventListener("click", closeCart);
     elements.modalClose.addEventListener("click", closeModal);
     elements.orderClose.addEventListener("click", closeOrder);
+    elements.customerDepartment.addEventListener("change", populateCities);
     elements.overlay.addEventListener("click", () => {
       closeCart();
       closeModal();
@@ -540,6 +572,7 @@
   }
 
   async function init() {
+    populateDepartments();
     bindEvents();
     try {
       const response = await fetch("data/catalog.json", { cache: "no-store" });
