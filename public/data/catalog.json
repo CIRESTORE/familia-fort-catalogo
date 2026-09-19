@@ -747,7 +747,7 @@
       "description": "",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 480000,
+      "price": 450000,
       "currency": "COP",
       "images": [
         "/assets/products/33ep21pk9qy-1.png",
@@ -759,9 +759,7 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 450000,
-      "pricing_adjustment": 30000,
-      "pricing_rule": "Rotomartillos"
+      "source_price": 450000
     },
     {
       "id": "4p6bf1ymf0i",
@@ -770,7 +768,7 @@
       "description": "Potencia y rendimiento para trabajos exigentes en construcción, remodelación y perforación. 💪 ⚡ Potencia: 1550W 💥 Impactos: 4.600 BPM 🔨 Fuerza de impacto: 10J ⚙️ Velocidad: 950 RPM 📦 Incluye: ✔️ Cincel ✔️ Caja plástica 💪 ENUM | Potencia que responde cuando el trabajo",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Enum",
-      "price": 480000,
+      "price": 450000,
       "currency": "COP",
       "images": [
         "/assets/products/4p6bf1ymf0i-1.png",
@@ -781,9 +779,7 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 450000,
-      "pricing_adjustment": 30000,
-      "pricing_rule": "Rotomartillos"
+      "source_price": 450000
     },
     {
       "id": "u9qj93irur",
@@ -792,7 +788,7 @@
       "description": "Si necesitas potencia para perforar y trabajar sobre concreto, este Rotomartillo ENUM está diseñado para trabajos exigentes en construcción, remodelación y obra. 💪⚙️ ⚡ Potencia: 1500W 💥 Fuerza de impacto: 15 J 🔨 Impactos: 4.850 BPM 🔄 Velocidad: 1.800 RPM 🎚️ Velocidad variable para mayor control 🛠️ Tecnología AVR para reducir las vibraciones y trabajar con mayor comodidad 🪓 Incluye cincel 🧰 Caja plástica para transporte y almacenamiento Ideal para concreto, construcción, remodelaciones y Trabajos de alta exigencia.",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Enum",
-      "price": 650000,
+      "price": 620000,
       "currency": "COP",
       "images": [
         "/assets/products/u9qj93irur-1.png",
@@ -804,9 +800,7 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 620000,
-      "pricing_adjustment": 30000,
-      "pricing_rule": "Rotomartillos"
+      "source_price": 620000
     },
     {
       "id": "ivf5gtsesul",
@@ -815,7 +809,7 @@
       "description": "Rotomartillo 2 en 1 de PROTOOL POWER, diseñado para ofrecer un excelente rendimiento en trabajos de perforación y demolición ligera. ✅ Potencia: 1050W ⚡ Velocidad: 1100 RPM 🔄 Doble mandril: Funciona como rotomartillo y taladro de 1/2\". 🛠️ Incluye: Cinceles, brocas y resistente caja plástica para un transporte seguro. Ideal para construcción, remodelaciones, instalaciones y trabajos profesionales que requieren Potencia,precisión y practicidad",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 250000,
+      "price": 220000,
       "currency": "COP",
       "images": [
         "/assets/products/ivf5gtsesul-1.png",
@@ -826,9 +820,7 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 220000,
-      "pricing_adjustment": 30000,
-      "pricing_rule": "Taladro"
+      "source_price": 220000
     },
     {
       "id": "1nvwaf4c7s9j",
@@ -837,7 +829,7 @@
       "description": "Rotomartillo 2 en 1 de PROTOOL POWER, diseñado para ofrecer un excelente rendimiento en trabajos de perforación y demolición ligera. ✅ Potencia: 1050W ⚡ Velocidad: 1100 RPM 🔄 Doble mandril: Funciona como rotomartillo y taladro de 1/2\". 🛠️ Incluye: Cinceles, brocas y resistente caja plástica para un transporte seguro. Ideal para construcción, remodelaciones, instalaciones y trabajos profesionales que requieren Potencia,precisión y practicidad.",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 250000,
+      "price": 220000,
       "currency": "COP",
       "images": [
         "/assets/products/1nvwaf4c7s9j-1.png",
@@ -848,9 +840,7 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 220000,
-      "pricing_adjustment": 30000,
-      "pricing_rule": "Rotomartillos"
+      "source_price": 220000
     },
     {
       "id": "go3iu2pqg67",
@@ -859,7 +849,7 @@
       "description": "Rotomartillo 2 en 1 de PROTOOL POWER, diseñado para ofrecer un excelente rendimiento en trabajos de perforación y demolición ligera. ✅ Potencia: 1050W ⚡ Velocidad: 1100 RPM 🔄 Doble mandril: Funciona como rotomartillo y taladro de 1/2\". 🛠️ Incluye: Cinceles, brocas y resistente caja plástica para un transporte seguro. Ideal para construcción, remodelaciones, instalaciones y trabajos profesionales que requieren potencia precisión y practicidad",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 250000,
+      "price": 220000,
       "currency": "COP",
       "images": [
         "/assets/products/go3iu2pqg67-1.png",
@@ -870,9 +860,7 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 220000,
-      "pricing_adjustment": 30000,
-      "pricing_rule": "Rotomartillos"
+      "source_price": 220000
     },
     {
       "id": "ucoqw5zvgt7",
@@ -3389,7 +3377,7 @@
       "description": "800w 60Hz 110v",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 250000,
+      "price": 220000,
       "currency": "COP",
       "images": [
         "/assets/products/c1jgapcxpep-1.png",
@@ -3397,9 +3385,7 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 220000,
-      "pricing_adjustment": 30000,
-      "pricing_rule": "Rotomartillos"
+      "source_price": 220000
     },
     {
       "id": "2ycp4qae81j",
@@ -3408,7 +3394,7 @@
       "description": "110V 60Hz 800w",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 250000,
+      "price": 220000,
       "currency": "COP",
       "images": [
         "/assets/products/2ycp4qae81j-1.png",
@@ -3419,9 +3405,7 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 220000,
-      "pricing_adjustment": 30000,
-      "pricing_rule": "Rotomartillos"
+      "source_price": 220000
     },
     {
       "id": "nzl5qdksg5i",
@@ -9322,7 +9306,7 @@
       "description": "Rotomartillo inalámbrico diseñado para trabajos de perforación y percusión. Ofrece potencia, movilidad y rendimiento confiable para uso profesional en obra.",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Prtool",
-      "price": 380000,
+      "price": 350000,
       "currency": "COP",
       "images": [
         "/assets/products/rc7gve294m-1.png",
@@ -9331,9 +9315,7 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 350000,
-      "pricing_adjustment": 30000,
-      "pricing_rule": "Rotomartillos"
+      "source_price": 350000
     },
     {
       "id": "6dowsqxa77l",
@@ -9593,7 +9575,7 @@
       "description": "Taladro de impacto Protool diseñado para ofrecer potencia y resistencia en trabajos de perforación en concreto, madera y metal. Ideal para uso profesional y de alta exigencia.",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Prtool",
-      "price": 280000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/fsotn51lrtm-1.png",
@@ -9601,9 +9583,7 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 250000,
-      "pricing_adjustment": 30000,
-      "pricing_rule": "Taladro"
+      "source_price": 250000
     },
     {
       "id": "6d3tfpok0p4",
