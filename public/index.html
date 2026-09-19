@@ -17,9 +17,9 @@
 
   <div class="utility-bar">
     <div class="shell utility-inner">
-      <span>Compra fácil y atención directa</span>
+      <span>Pedido mínimo $80.000</span>
       <span class="utility-dot" aria-hidden="true"></span>
-      <span>Precios finales en pesos colombianos</span>
+      <span>Envío gratis desde $100.000</span>
     </div>
   </div>
 
@@ -134,7 +134,8 @@
     <div class="cart-summary" id="cartSummary" hidden>
       <div><span>Productos</span><strong id="cartUnits">0</strong></div>
       <div class="cart-total"><span>Total</span><strong id="cartTotal">$0</strong></div>
-      <button class="button button-primary checkout-button" id="checkoutButton" type="button">Finalizar por WhatsApp</button>
+      <div class="shipping-progress" id="shippingProgress" aria-hidden="true"><span></span></div>
+      <button class="button button-primary checkout-button" id="checkoutButton" type="button">Continuar con datos de entrega</button>
       <p id="checkoutNote">El pedido se enviará con productos, cantidades y total.</p>
     </div>
   </aside>
@@ -150,6 +151,7 @@
       <h2 id="modalTitle"></h2>
       <p class="modal-sku" id="modalSku"></p>
       <p class="modal-price" id="modalPrice"></p>
+      <p class="payment-terms" id="modalTerms" hidden></p>
       <p class="modal-description" id="modalDescription"></p>
       <div class="quantity-control" aria-label="Cantidad">
         <button type="button" id="modalMinus" aria-label="Restar uno">−</button>
@@ -163,6 +165,38 @@
         <li>Modifica la cantidad desde el carrito</li>
       </ul>
     </div>
+  </section>
+
+  <section class="order-modal" id="orderModal" role="dialog" aria-modal="true" aria-labelledby="orderTitle" hidden>
+    <button class="icon-button modal-close" id="orderClose" type="button" aria-label="Cerrar formulario">×</button>
+    <div class="order-head">
+      <p class="eyebrow">Último paso</p>
+      <h2 id="orderTitle">Datos para tu pedido</h2>
+      <p>Completa la información de entrega. Después enviaremos el pedido organizado al WhatsApp oficial.</p>
+      <div class="order-shipping" id="orderShipping"></div>
+    </div>
+    <form id="orderForm" class="order-form">
+      <label class="field field-wide">Nombre completo
+        <input id="customerName" name="customerName" type="text" autocomplete="name" required maxlength="80">
+      </label>
+      <label class="field">Celular
+        <input id="customerPhone" name="customerPhone" type="tel" autocomplete="tel" inputmode="tel" required minlength="7" maxlength="20">
+      </label>
+      <label class="field">Ciudad o municipio
+        <input id="customerCity" name="customerCity" type="text" autocomplete="address-level2" required maxlength="80">
+      </label>
+      <label class="field field-wide">Dirección de entrega
+        <input id="customerAddress" name="customerAddress" type="text" autocomplete="street-address" required maxlength="140">
+      </label>
+      <label class="field">Barrio
+        <input id="customerNeighborhood" name="customerNeighborhood" type="text" autocomplete="address-line2" maxlength="80">
+      </label>
+      <label class="field">Indicaciones de entrega
+        <input id="customerNotes" name="customerNotes" type="text" maxlength="180" placeholder="Torre, apartamento, portería…">
+      </label>
+      <p class="form-privacy field-wide">Estos datos se incluirán únicamente en el mensaje de WhatsApp para gestionar este pedido.</p>
+      <button class="button button-primary order-submit field-wide" id="orderSubmit" type="submit">Enviar pedido por WhatsApp</button>
+    </form>
   </section>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>

@@ -6,6 +6,9 @@ Catálogo estático con carrito persistente y finalización de pedidos por Whats
 
 ```bash
 npm run validate
+npm run test:pricing
+npm run test:e2e
+npm run test:order
 npm run serve
 ```
 
@@ -19,7 +22,19 @@ El checkout está conectado al WhatsApp oficial de Familia Fort:
 whatsapp: "573206135128"
 ```
 
-Los pedidos se generan con productos, cantidades, precios y total antes de abrir WhatsApp.
+Antes de abrir WhatsApp, el cliente diligencia nombre, celular, ciudad, dirección, barrio e indicaciones. El mensaje incluye esos datos, productos, cantidades, precio unitario, subtotales, total y condición de envío.
+
+## Reglas comerciales
+
+- Pedido mínimo: `$80.000`.
+- Envío gratis desde `$100.000`.
+- Entre `$80.000` y `$99.999`, el envío se cotiza aparte.
+- Cortasetos inalámbrico: `$379.900`.
+- Cortasetos a gasolina: `$800.000`, únicamente pago anticipado.
+- Taladros: incremento de `$30.000` sobre el precio fuente.
+- Combos con taladro o pulidora: incremento de `$50.000` sobre el precio fuente, sin acumular el aumento individual del taladro.
+
+Las reglas están en `scripts/pricing_rules.py` y el importador las reaplica de forma idempotente.
 
 ## Actualizar productos
 

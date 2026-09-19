@@ -41,6 +41,7 @@
     cartTotal: $("#cartTotal"),
     checkoutButton: $("#checkoutButton"),
     checkoutNote: $("#checkoutNote"),
+    shippingProgress: $("#shippingProgress span"),
     productModal: $("#productModal"),
     modalClose: $("#modalClose"),
     modalImage: $("#modalImage"),
@@ -49,11 +50,16 @@
     modalTitle: $("#modalTitle"),
     modalSku: $("#modalSku"),
     modalPrice: $("#modalPrice"),
+    modalTerms: $("#modalTerms"),
     modalDescription: $("#modalDescription"),
     modalQuantity: $("#modalQuantity"),
     modalMinus: $("#modalMinus"),
     modalPlus: $("#modalPlus"),
     modalAdd: $("#modalAdd"),
+    orderModal: $("#orderModal"),
+    orderClose: $("#orderClose"),
+    orderForm: $("#orderForm"),
+    orderShipping: $("#orderShipping"),
     heroHelp: $("#heroHelp"),
     footerHelp: $("#footerHelp"),
     toast: $("#toast")
@@ -206,6 +212,11 @@
     const sku = document.createElement("p");
     sku.className = "product-sku";
     sku.textContent = `Ref. ${product.sku}`;
+    const restriction = product.payment_terms ? document.createElement("p") : null;
+    if (restriction) {
+      restriction.className = "product-restriction";
+      restriction.textContent = product.payment_terms;
+    }
     const bottom = document.createElement("div");
     bottom.className = "product-bottom";
     const price = document.createElement("strong");
@@ -213,7 +224,9 @@
     price.textContent = formatPrice(product.price);
     const details = createButton("Ver detalles", "view-link", () => openProduct(product.id));
     bottom.append(price, details);
-    body.append(category, title, sku, bottom);
+    body.append(category, title, sku);
+    if (restriction) body.append(restriction);
+    body.append(bottom);
     article.append(imageButton, body);
     return article;
   }
@@ -240,6 +253,8 @@
     elements.modalTitle.textContent = product.name;
     elements.modalSku.textContent = `Referencia: ${product.sku}`;
     elements.modalPrice.textContent = formatPrice(product.price);
+    elements.modalTerms.textContent = product.payment_terms || "";
+    elements.modalTerms.hidden = !product.payment_terms;
     elements.modalDescription.textContent = product.description || "Consulta disponibilidad y detalles con nuestro equipo.";
     elements.modalQuantity.value = "1";
     renderGallery(product);
@@ -291,10 +306,36 @@
     closeOverlayIfIdle();
   }
 
+  function closeOrder() {
+    elements.orderModal.hidden = true;
+    closeOverlayIfIdle();
+  }
+
+  function openOrderForm() {
+    const entries = cartEntries();
+    const total = entries.reduce((sum, entry) => sum + entry.product.price * entry.quantity, 0);
+    const minimum = Number(CONFIG.minimumOrder || 0);
+    const freeShipping = Number(CONFIG.freeShippingThreshold || 0);
+    if (!entries.length || total < minimum) {
+      showToast(`El pedido mínimo es ${formatPrice(minimum)}`);
+      return;
+    }
+    elements.cartDrawer.classList.remove("open");
+    elements.cartDrawer.setAttribute("aria-hidden", "true");
+    elements.orderShipping.textContent = total >= freeShipping
+      ? `Tu pedido tiene envío gratis · Total ${formatPrice(total)}`
+      : `Total ${formatPrice(total)} · El valor del envío se cotiza aparte`;
+    elements.overlay.hidden = false;
+    document.body.classList.add("no-scroll");
+    elements.orderModal.hidden = false;
+    $("#customerName").focus();
+  }
+
   function closeOverlayIfIdle() {
     const cartOpen = elements.cartDrawer.classList.contains("open");
     const modalOpen = !elements.productModal.hidden;
-    if (!cartOpen && !modalOpen) {
+    const orderOpen = !elements.orderModal.hidden;
+    if (!cartOpen && !modalOpen && !orderOpen) {
       elements.overlay.hidden = true;
       document.body.classList.remove("no-scroll");
     }
@@ -351,7 +392,14 @@
       value.textContent = String(quantity);
       const plus = createButton("＋", "", () => setQuantity(product.id, quantity + 1));
       controls.append(minus, value, plus);
-      info.append(name, price, controls);
+      info.append(name, price);
+      if (product.payment_terms) {
+        const terms = document.createElement("p");
+        terms.className = "product-restriction";
+        terms.textContent = product.payment_terms;
+        info.append(terms);
+      }
+      info.append(controls);
       const remove = createButton("×", "remove-item", () => setQuantity(product.id, 0));
       remove.setAttribute("aria-label", `Eliminar ${product.name}`);
       item.append(image, info, remove);
@@ -363,27 +411,60 @@
     elements.cartUnits.textContent = `${units} unidad${units === 1 ? "" : "es"}`;
     elements.cartTotal.textContent = formatPrice(total);
     const configured = Boolean(String(CONFIG.whatsapp || "").replace(/\D/g, ""));
-    elements.checkoutButton.disabled = !configured;
-    elements.checkoutNote.textContent = configured
-      ? "El pedido se enviará con productos, cantidades y total."
-      : "Falta configurar el número oficial de WhatsApp de Familia Fort.";
+    const minimum = Number(CONFIG.minimumOrder || 0);
+    const freeShipping = Number(CONFIG.freeShippingThreshold || 0);
+    elements.checkoutButton.disabled = !configured || total < minimum;
+    elements.shippingProgress.style.width = `${Math.min(100, freeShipping ? (total / freeShipping) * 100 : 100)}%`;
+    if (!configured) {
+      elements.checkoutNote.textContent = "Falta configurar el número oficial de WhatsApp de Familia Fort.";
+    } else if (total < minimum) {
+      elements.checkoutNote.textContent = `Pedido mínimo ${formatPrice(minimum)} · Agrega ${formatPrice(minimum - total)} para continuar.`;
+    } else if (total < freeShipping) {
+      elements.checkoutNote.textContent = `Pedido habilitado · El envío se cotiza aparte. Agrega ${formatPrice(freeShipping - total)} para envío gratis.`;
+    } else {
+      elements.checkoutNote.textContent = `¡Envío gratis! Superaste ${formatPrice(freeShipping)}.`;
+    }
   }
 
-  function checkoutWhatsApp() {
+  function checkoutWhatsApp(event) {
+    event?.preventDefault();
     const phone = String(CONFIG.whatsapp || "").replace(/\D/g, "");
     if (!phone) {
       showToast("Falta configurar el WhatsApp de Familia Fort");
       return;
     }
+    if (!elements.orderForm.reportValidity()) return;
     const entries = cartEntries();
     if (!entries.length) return;
     const total = entries.reduce((sum, entry) => sum + entry.product.price * entry.quantity, 0);
-    const lines = [CONFIG.whatsappMessage || "Hola, quiero realizar este pedido:", ""];
+    const minimum = Number(CONFIG.minimumOrder || 0);
+    const freeShipping = Number(CONFIG.freeShippingThreshold || 0);
+    if (total < minimum) {
+      showToast(`El pedido mínimo es ${formatPrice(minimum)}`);
+      return;
+    }
+    const data = new FormData(elements.orderForm);
+    const value = (key) => String(data.get(key) || "").trim();
+    const lines = [
+      CONFIG.whatsappMessage || "Hola, quiero realizar este pedido:",
+      "",
+      "DATOS DEL CLIENTE",
+      `Nombre: ${value("customerName")}`,
+      `Celular: ${value("customerPhone")}`,
+      `Ciudad: ${value("customerCity")}`,
+      `Dirección: ${value("customerAddress")}`,
+    ];
+    if (value("customerNeighborhood")) lines.push(`Barrio: ${value("customerNeighborhood")}`);
+    if (value("customerNotes")) lines.push(`Indicaciones: ${value("customerNotes")}`);
+    lines.push("", "PRODUCTOS");
     entries.forEach(({ product, quantity }, index) => {
       lines.push(`${index + 1}. ${product.name}`);
-      lines.push(`   Ref: ${product.sku} · Cantidad: ${quantity} · ${formatPrice(product.price * quantity)}`);
+      lines.push(`   Ref: ${product.sku} · Cantidad: ${quantity} · Unitario: ${formatPrice(product.price)} · Subtotal: ${formatPrice(product.price * quantity)}`);
+      if (product.payment_terms) lines.push(`   Condición: ${product.payment_terms}`);
     });
-    lines.push("", `TOTAL: ${formatPrice(total)}`, "", "¿Me confirman disponibilidad y entrega?");
+    lines.push("", `TOTAL PRODUCTOS: ${formatPrice(total)}`);
+    lines.push(total >= freeShipping ? "ENVÍO GRATIS" : "ENVÍO: Se cotiza aparte");
+    lines.push("", "¿Me confirman disponibilidad y entrega?");
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(lines.join("\n"))}`, "_blank", "noopener,noreferrer");
   }
 
@@ -425,9 +506,11 @@
     elements.cartTrigger.addEventListener("click", () => openLayer("cart"));
     elements.cartClose.addEventListener("click", closeCart);
     elements.modalClose.addEventListener("click", closeModal);
+    elements.orderClose.addEventListener("click", closeOrder);
     elements.overlay.addEventListener("click", () => {
       closeCart();
       closeModal();
+      closeOrder();
     });
     elements.modalMinus.addEventListener("click", () => {
       elements.modalQuantity.value = String(Math.max(1, Number(elements.modalQuantity.value || 1) - 1));
@@ -444,13 +527,15 @@
       closeModal();
       openLayer("cart");
     });
-    elements.checkoutButton.addEventListener("click", checkoutWhatsApp);
+    elements.checkoutButton.addEventListener("click", openOrderForm);
+    elements.orderForm.addEventListener("submit", checkoutWhatsApp);
     elements.heroHelp.addEventListener("click", openHelp);
     elements.footerHelp.addEventListener("click", openHelp);
     document.addEventListener("keydown", (event) => {
       if (event.key !== "Escape") return;
       closeCart();
       closeModal();
+      closeOrder();
     });
   }
 

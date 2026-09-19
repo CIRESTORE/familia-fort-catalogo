@@ -7,7 +7,8 @@
     "currency": "COP",
     "retail_price_field": "pcia",
     "wholesale_prices_included": false,
-    "images_hosted_locally": true
+    "images_hosted_locally": true,
+    "pricing_rules_applied": true
   },
   "categories": [
     "CEPILLOS ELECTRICOS",
@@ -56,7 +57,8 @@
         "/assets/products/orsvs28i1s-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 3500
     },
     {
       "id": "dnj11j4am7c",
@@ -71,7 +73,8 @@
         "/assets/products/dnj11j4am7c-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 3500
     },
     {
       "id": "p7pllmy0stj",
@@ -86,7 +89,8 @@
         "/assets/products/p7pllmy0stj-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 210000
     },
     {
       "id": "0vgtk61ekgl",
@@ -101,7 +105,8 @@
         "/assets/products/0vgtk61ekgl-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 1100000
     },
     {
       "id": "vj16dguzq4k",
@@ -116,7 +121,8 @@
         "/assets/products/vj16dguzq4k-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 145000
     },
     {
       "id": "2gfsrsp5vd8",
@@ -131,7 +137,8 @@
         "/assets/products/2gfsrsp5vd8-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 120000
     },
     {
       "id": "xq5ouh6zan",
@@ -146,7 +153,8 @@
         "/assets/products/xq5ouh6zan-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 160000
     },
     {
       "id": "da78nun3np4",
@@ -155,13 +163,16 @@
       "description": "Potencia, autonomía y precisión para trabajos de perforación y atornillado. Su motor sin escobillas (Brushless) ofrece un funcionamiento eficiente y está diseñado para trabajos exigentes. 💪🔧 ⚙️ Motor: Brushless, sin escobillas 🔩 Mandril: Metálico de 1/2” 🚀 Velocidad: hasta 2.200 RPM 🔋 Incluye: 2 baterías de 128V 🧰 Accesorios incluidos 📦 Caja plástica para almacenamiento y transporte 💥 Función percutora para trabajar en diferentes materiales. Ideal para talleres, construcción, mantenimiento, carpintería y trabajos profesionales o de bricolaje.",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 200000,
+      "price": 230000,
       "currency": "COP",
       "images": [
         "/assets/products/da78nun3np4-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 200000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "l9btqt75ik",
@@ -170,13 +181,16 @@
       "description": "Compacto, práctico y potente, ideal para trabajos de perforación y atornillado en el hogar, taller y mantenimiento. 🛠️🔧 🔩Mandril: 3/8” 💥Torque máximo: 25 N·m 🚀Velocidad: hasta 1.580 RPM 🔋Batería: tipo pila redonda ⚡Función: percutora 💪Diseño compacto para mayor comodidad y facilidad de uso.",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 85000,
+      "price": 115000,
       "currency": "COP",
       "images": [
         "/assets/products/l9btqt75ik-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 85000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "sdt2hjxm6f",
@@ -185,13 +199,16 @@
       "description": "Compacto, práctico y potente, ideal para trabajos de perforación y atornillado en el hogar, taller y mantenimiento. 🛠️🔧 🔩Mandril: 3/8” 💥Torque máximo: 25 N·m 🚀Velocidad: hasta 1.580 RPM 🔋Batería: tipo pila redonda ⚡Función: percutora 💪Diseño compacto para mayor comodidad y facilidad de uso.",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 85000,
+      "price": 115000,
       "currency": "COP",
       "images": [
         "/assets/products/sdt2hjxm6f-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 85000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "kwj55mci5w",
@@ -200,13 +217,16 @@
       "description": "Potencia y versatilidad para trabajos de perforación, atornillado y percusión. Ideal para talleres, mantenimiento, construcción y proyectos de bricolaje. 🛠️🔩 🔩 Mandril: 1/2” 💥 Torque máximo: 50 N·m 🚀 Velocidad: hasta 1.580 RPM 🔋 Batería: tipo pila cuadrada ⚡ Función: percutora 💪 Diseño práctico y cómodo para trabajar en diferentes aplicaciones.",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 100000,
+      "price": 130000,
       "currency": "COP",
       "images": [
         "/assets/products/kwj55mci5w-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 100000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "ihb8cvmpfpc",
@@ -215,13 +235,16 @@
       "description": "Potencia y versatilidad para trabajos de perforación, atornillado y percusión. Ideal para talleres, mantenimiento, construcción y proyectos de bricolaje. 🛠️🔩 🔩 Mandril: 1/2” 💥 Torque máximo: 50 N·m 🚀 Velocidad: hasta 1.580 RPM 🔋 Batería: tipo pila cuadrada ⚡ Función: percutora 💪 Diseño práctico y cómodo para trabajar en diferentes aplicaciones.",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 100000,
+      "price": 130000,
       "currency": "COP",
       "images": [
         "/assets/products/ihb8cvmpfpc-1.png"
       ],
       "available": true,
-      "featured": true
+      "featured": true,
+      "source_price": 100000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "mqczbtfs1ph",
@@ -236,7 +259,8 @@
         "/assets/products/mqczbtfs1ph-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000
     },
     {
       "id": "eaolaghh2ap",
@@ -251,7 +275,8 @@
         "/assets/products/eaolaghh2ap-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "lw61l7el5o",
@@ -266,7 +291,8 @@
         "/assets/products/lw61l7el5o-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "lywxr9bd6h",
@@ -281,7 +307,8 @@
         "/assets/products/lywxr9bd6h-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "gv01tb2u2t",
@@ -296,7 +323,8 @@
         "/assets/products/gv01tb2u2t-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "9outigiehjq",
@@ -311,7 +339,8 @@
         "/assets/products/9outigiehjq-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "2wzj14n1q8f",
@@ -326,7 +355,8 @@
         "/assets/products/2wzj14n1q8f-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "20q46v9hkud",
@@ -341,7 +371,8 @@
         "/assets/products/20q46v9hkud-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "ynpk9iiiie",
@@ -356,7 +387,8 @@
         "/assets/products/ynpk9iiiie-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "6dfjkmcjt24",
@@ -371,7 +403,8 @@
         "/assets/products/6dfjkmcjt24-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 40000
     },
     {
       "id": "06izo7ur8qmb",
@@ -386,7 +419,8 @@
         "/assets/products/06izo7ur8qmb-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 30000
     },
     {
       "id": "b01lnwlxjh6",
@@ -401,7 +435,8 @@
         "/assets/products/b01lnwlxjh6-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 160000
     },
     {
       "id": "hf9ioqgu8z",
@@ -417,7 +452,8 @@
         "/assets/products/hf9ioqgu8z-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000
     },
     {
       "id": "429smoa0trv",
@@ -432,7 +468,8 @@
         "/assets/products/429smoa0trv-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 45000
     },
     {
       "id": "8suiboyc8b",
@@ -448,7 +485,8 @@
         "/assets/products/8suiboyc8b-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 85000
     },
     {
       "id": "cv51jzf5iqp",
@@ -464,7 +502,8 @@
         "/assets/products/cv51jzf5iqp-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 250000
     },
     {
       "id": "f70qt0wfvb6",
@@ -479,7 +518,8 @@
         "/assets/products/f70qt0wfvb6-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 60000
     },
     {
       "id": "f1jebr81i4w",
@@ -495,7 +535,8 @@
         "/assets/products/f1jebr81i4w-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "x3cw5uax2nb",
@@ -512,7 +553,8 @@
         "/assets/products/x3cw5uax2nb-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 135000
     },
     {
       "id": "d5dr51a6hzl",
@@ -531,7 +573,8 @@
         "/assets/products/d5dr51a6hzl-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 450000
     },
     {
       "id": "fkaqz8na1zp",
@@ -549,7 +592,8 @@
         "/assets/products/fkaqz8na1zp-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 500000
     },
     {
       "id": "qrxi9xp0pym",
@@ -566,7 +610,8 @@
         "/assets/products/qrxi9xp0pym-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 1700000
     },
     {
       "id": "ab1pom5tow",
@@ -584,7 +629,8 @@
         "/assets/products/ab1pom5tow-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000
     },
     {
       "id": "8038gs0viun",
@@ -593,7 +639,7 @@
       "description": "Un combo potente y versátil para trabajos de construcción, talleres, mantenimiento y uso profesional. 🔩 Taladro 1/2\" – 950W ⚡ Hasta 3.000 RPM 🔌 110V 🎚️ Velocidad variable 🔄 Función reversible 📏 Incluye burbuja nivel y punta destornillador 💿 Pulidora 4 1/2\" – 1200W ⚡ Hasta 11.000 RPM 🔌 110V 🎚️ Velocidad variable ✋ Incluye mango auxiliar 🛡️ Incluye protector de seguridad 💪 ENUM Professional | Potencia, versatilidad y resndimiento en un solo combo",
       "category": "COMBOS PULIDORA/TALADROS",
       "brand": "Enum",
-      "price": 320000,
+      "price": 370000,
       "currency": "COP",
       "images": [
         "/assets/products/8038gs0viun-1.png",
@@ -604,7 +650,10 @@
         "/assets/products/8038gs0viun-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 320000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "t8i21mvwq8b",
@@ -622,7 +671,8 @@
         "/assets/products/t8i21mvwq8b-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000
     },
     {
       "id": "fil82h9k54",
@@ -640,7 +690,8 @@
         "/assets/products/fil82h9k54-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000
     },
     {
       "id": "f3juyph6iu7",
@@ -658,7 +709,8 @@
         "/assets/products/f3juyph6iu7-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000
     },
     {
       "id": "33ep21pk9qy",
@@ -678,7 +730,8 @@
         "/assets/products/33ep21pk9qy-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 450000
     },
     {
       "id": "4p6bf1ymf0i",
@@ -697,7 +750,8 @@
         "/assets/products/4p6bf1ymf0i-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 450000
     },
     {
       "id": "u9qj93irur",
@@ -717,7 +771,8 @@
         "/assets/products/u9qj93irur-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 620000
     },
     {
       "id": "ivf5gtsesul",
@@ -726,7 +781,7 @@
       "description": "Rotomartillo 2 en 1 de PROTOOL POWER, diseñado para ofrecer un excelente rendimiento en trabajos de perforación y demolición ligera. ✅ Potencia: 1050W ⚡ Velocidad: 1100 RPM 🔄 Doble mandril: Funciona como rotomartillo y taladro de 1/2\". 🛠️ Incluye: Cinceles, brocas y resistente caja plástica para un transporte seguro. Ideal para construcción, remodelaciones, instalaciones y trabajos profesionales que requieren Potencia,precisión y practicidad",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 220000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/ivf5gtsesul-1.png",
@@ -736,7 +791,10 @@
         "/assets/products/ivf5gtsesul-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "1nvwaf4c7s9j",
@@ -755,7 +813,8 @@
         "/assets/products/1nvwaf4c7s9j-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "go3iu2pqg67",
@@ -774,7 +833,8 @@
         "/assets/products/go3iu2pqg67-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "ucoqw5zvgt7",
@@ -783,7 +843,7 @@
       "description": "La combinación perfecta de potencia y versatilidad para perforar, atornillar y realizar trabajos exigentes en madera, metal y otras superficies. Ideal para talleres, instaladores, mantenimiento y uso profesional. 💪🔩 🔧 Taladro percutor/atornillador con ajuste de torque. ⚡ Atornillador de impacto de alto rendimiento. 💥 Motor BL Brushless para mayor potencia, eficiencia y durabilidad. 🔋 Sistema inalámbrico 48V para mayor libertad de movimiento. ⚙️ Diseño ergonómico con excelente agarre y comodidad. 🛠️ Ideal para trabajos profesionales y de uso",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Drill",
-      "price": 300000,
+      "price": 350000,
       "currency": "COP",
       "images": [
         "/assets/products/ucoqw5zvgt7-1.png",
@@ -792,7 +852,10 @@
         "/assets/products/ucoqw5zvgt7-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 300000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "4xz25bk1g0a",
@@ -810,7 +873,8 @@
         "/assets/products/4xz25bk1g0a-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 1300000
     },
     {
       "id": "gpl0jdv8oko",
@@ -828,7 +892,8 @@
         "/assets/products/gpl0jdv8oko-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000
     },
     {
       "id": "g60x8epx8zk",
@@ -846,7 +911,8 @@
         "/assets/products/g60x8epx8zk-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 400000
     },
     {
       "id": "gyoadlwrz3t",
@@ -863,7 +929,8 @@
         "/assets/products/gyoadlwrz3t-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 320000
     },
     {
       "id": "vcn7ry7kq1",
@@ -872,7 +939,7 @@
       "description": "Potencia y rendimiento profesional en un diseño inalámbrico. Ideal para perforar, atornillar y trabajar en diferentes aplicaciones con mayor eficiencia. Características: ✅ Voltaje: 128V ✅ Sistema Brushless ✅ Velocidad: 2500 rpm ✅ Torque máximo: 60 Nm ✅ Mandril: 3/8\" ✅ Incluye 2 baterías ✅ Incluye cargador ✅ Incluye caja plástica ✅ Diseño ergonómico y luz LED",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Drill",
-      "price": 330000,
+      "price": 360000,
       "currency": "COP",
       "images": [
         "/assets/products/vcn7ry7kq1-1.png",
@@ -881,7 +948,10 @@
         "/assets/products/vcn7ry7kq1-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 330000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "qgkru7cdrsa",
@@ -890,7 +960,7 @@
       "description": "Potencia y rendimiento profesional en un diseño inalámbrico. Ideal para perforar, atornillar y trabajar en diferentes aplicaciones con mayor eficiencia. Características: ✅ Voltaje: 128V ✅ Sistema Brushless ✅ Velocidad: 2500 rpm ✅ Torque máximo: 60 Nm ✅ Mandril: 3/8\" ✅ Incluye 2 baterías ✅ Incluye cargador ✅ Incluye caja plástica ✅ Diseño ergonómico y luz LED",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Drill",
-      "price": 340000,
+      "price": 370000,
       "currency": "COP",
       "images": [
         "/assets/products/qgkru7cdrsa-1.png",
@@ -900,7 +970,10 @@
         "/assets/products/qgkru7cdrsa-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 340000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "73jba3d3bn",
@@ -917,7 +990,8 @@
         "/assets/products/73jba3d3bn-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 370000
     },
     {
       "id": "hx85snm55eq",
@@ -934,7 +1008,8 @@
         "/assets/products/hx85snm55eq-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 420000
     },
     {
       "id": "2e33zdd5kju",
@@ -951,7 +1026,8 @@
         "/assets/products/2e33zdd5kju-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 55000
     },
     {
       "id": "ngs2h8iejs",
@@ -970,7 +1046,8 @@
         "/assets/products/ngs2h8iejs-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 145000
     },
     {
       "id": "mho3195kf9b",
@@ -989,7 +1066,8 @@
         "/assets/products/mho3195kf9b-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000
     },
     {
       "id": "z05hhsl0ys8",
@@ -1008,7 +1086,8 @@
         "/assets/products/z05hhsl0ys8-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 290000
     },
     {
       "id": "nd74omq3p3t",
@@ -1027,7 +1106,8 @@
         "/assets/products/nd74omq3p3t-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 360000
     },
     {
       "id": "8cynn4a4sh5",
@@ -1046,7 +1126,8 @@
         "/assets/products/8cynn4a4sh5-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 270000
     },
     {
       "id": "t7ey06i5haq",
@@ -1065,7 +1146,8 @@
         "/assets/products/t7ey06i5haq-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 320000
     },
     {
       "id": "3085ib2ardy",
@@ -1082,7 +1164,8 @@
         "/assets/products/3085ib2ardy-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 95000
     },
     {
       "id": "fshab5f986",
@@ -1097,7 +1180,8 @@
         "/assets/products/fshab5f986-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 80000
     },
     {
       "id": "jxfp06taxt",
@@ -1114,7 +1198,8 @@
         "/assets/products/jxfp06taxt-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 130000
     },
     {
       "id": "ktzpwwlcrzp",
@@ -1131,7 +1216,8 @@
         "/assets/products/ktzpwwlcrzp-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 145000
     },
     {
       "id": "42ey6g48yrf",
@@ -1148,7 +1234,8 @@
         "/assets/products/42ey6g48yrf-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000
     },
     {
       "id": "eaneizgpye",
@@ -1157,7 +1244,7 @@
       "description": "El Taladro Percutor Inalámbrico 1/2\" Marca ENUM combina potencia, autonomía y tecnología Brushless para brindar un rendimiento superior en perforación y atornillado, incluso en los trabajos más exigentes. ✅ Motor Brushless, mayor potencia, eficiencia y vida útil. 🔋 Voltaje: 20V. 🔋 Incluye 2 baterías de 4Ah para una mayor autonomía. 💪 Torque máximo: 38 N·m. ⚡ Velocidad: Hasta 1.600 RPM. 🔨 Función percutora, ideal para perforar madera, metal, mampostería y concreto liviano. 🧰 Incluye cargador, accesorios completos y resistente caja plástica para un transporte seguro.",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Enum",
-      "price": 300000,
+      "price": 330000,
       "currency": "COP",
       "images": [
         "/assets/products/eaneizgpye-1.png",
@@ -1167,7 +1254,10 @@
         "/assets/products/eaneizgpye-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 300000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "nteqsfykl9d",
@@ -1176,7 +1266,7 @@
       "description": "El Taladro Eléctrico 1/2\" Marca ENUM está diseñado para brindar un excelente rendimiento en trabajos de perforación y atornillado, siendo una herramienta confiable para talleres, construcción y uso profesional. ✅ Potencia: 850W. ⚡ Velocidad: Hasta 3.000 RPM para perforaciones rápidas y precisas. 🔩 Mandril de 1/2\", ideal para una amplia variedad de brocas y aplicaciones. 🔌 Alimentación: 110V. 🎚️ Velocidad variable, que permite un mayor control según el tipo de trabajo. 🔄 Función reversible, ideal para atornillar y desatornillar con facilidad.",
       "category": "TALADROS ELECTRICOS",
       "brand": "Enum",
-      "price": 130000,
+      "price": 160000,
       "currency": "COP",
       "images": [
         "/assets/products/nteqsfykl9d-1.png",
@@ -1184,7 +1274,10 @@
         "/assets/products/nteqsfykl9d-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 130000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "9go4jnlgbna",
@@ -1193,7 +1286,7 @@
       "description": "El Taladro Eléctrico 1/2\" Marca ENUM está diseñado para brindar un excelente rendimiento en trabajos de perforación y atornillado, siendo una herramienta confiable para talleres, construcción y uso profesional. ✅ Potencia: 850W. ⚡ Velocidad: Hasta 3.000 RPM para perforaciones rápidas y precisas. 🔩 Mandril de 1/2\", ideal para una amplia variedad de brocas y aplicaciones. 🔌 Alimentación: 110V. 🎚️ Velocidad variable, que permite un mayor control según el tipo de trabajo. 🔄 Función reversible, ideal para atornillar y desatornillar con facilidad. ✋ Diseño ergonómico que proporciona mayor comodidad y control durante su uso. Ideal para trabajar en madera, metal, plástico y otros materiales, ofreciendo un desempeño confiable en cada proyecto.",
       "category": "TALADROS ELECTRICOS",
       "brand": "Enum",
-      "price": 120000,
+      "price": 150000,
       "currency": "COP",
       "images": [
         "/assets/products/9go4jnlgbna-1.png",
@@ -1201,7 +1294,10 @@
         "/assets/products/9go4jnlgbna-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "l0tdzcrbg1",
@@ -1219,7 +1315,8 @@
         "/assets/products/l0tdzcrbg1-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 820000
     },
     {
       "id": "jeaws5g3k3g",
@@ -1236,7 +1333,8 @@
         "/assets/products/jeaws5g3k3g-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 110000
     },
     {
       "id": "8q8bwfvdmco",
@@ -1256,7 +1354,8 @@
         "/assets/products/8q8bwfvdmco-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 270000
     },
     {
       "id": "meq1ndqu5ki",
@@ -1274,7 +1373,8 @@
         "/assets/products/meq1ndqu5ki-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 200000
     },
     {
       "id": "kyr4trok62n",
@@ -1293,7 +1393,8 @@
         "/assets/products/kyr4trok62n-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 540000
     },
     {
       "id": "29pojptiri8",
@@ -1312,7 +1413,8 @@
         "/assets/products/29pojptiri8-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 420000
     },
     {
       "id": "3biflgo3ll3",
@@ -1332,7 +1434,8 @@
         "/assets/products/3biflgo3ll3-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 315000
     },
     {
       "id": "2ocbl6k817h",
@@ -1352,7 +1455,8 @@
         "/assets/products/2ocbl6k817h-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "9jr3xv00zvg",
@@ -1370,7 +1474,8 @@
         "/assets/products/9jr3xv00zvg-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 320000
     },
     {
       "id": "0qvg4k00h30a",
@@ -1387,7 +1492,8 @@
         "/assets/products/0qvg4k00h30a-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 135000
     },
     {
       "id": "bjp9j8l0mp5",
@@ -1403,7 +1509,8 @@
         "/assets/products/bjp9j8l0mp5-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 28000
     },
     {
       "id": "sfs5wx21oj8",
@@ -1421,7 +1528,8 @@
         "/assets/products/sfs5wx21oj8-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 480000
     },
     {
       "id": "62wy4nq3qp",
@@ -1436,7 +1544,8 @@
         "/assets/products/62wy4nq3qp-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 65000
     },
     {
       "id": "gpkiul7bcu4",
@@ -1456,7 +1565,8 @@
         "/assets/products/gpkiul7bcu4-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 540000
     },
     {
       "id": "87hbjxaoa2l",
@@ -1476,7 +1586,8 @@
         "/assets/products/87hbjxaoa2l-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 260000
     },
     {
       "id": "35vk55hxp4d",
@@ -1495,7 +1606,8 @@
         "/assets/products/35vk55hxp4d-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 320000
     },
     {
       "id": "szdmkjy7id",
@@ -1504,7 +1616,7 @@
       "description": "Incluye: • Motor Brushless (sin escobillas) • Mandril metálico de 13 mm (1/2”) • 2 baterías de litio 128VF 5.0Ah • Cargador rápido • Juego de accesorios • Maletín rígido de alta resistencia Características: ✔️ 2 velocidades mecánicas ✔️ 25+1 posiciones de torque ✔️ Giro reversible ✔️ Luz LED integrada ✔️ Diseño ergonómico antideslizante ✔️ Excelente potencia para perforar madera, metal y realizar trabajos de atornillado.",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 210000,
+      "price": 240000,
       "currency": "COP",
       "images": [
         "/assets/products/szdmkjy7id-1.png",
@@ -1512,7 +1624,10 @@
         "/assets/products/szdmkjy7id-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 210000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "curhfa5wact",
@@ -1530,7 +1645,8 @@
         "/assets/products/curhfa5wact-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 160000
     },
     {
       "id": "o1luzbcm3cg",
@@ -1550,7 +1666,8 @@
         "/assets/products/o1luzbcm3cg-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 420000
     },
     {
       "id": "4s5isff8blw",
@@ -1559,7 +1676,7 @@
       "description": "Doble función Sirve como taladro y atornillador de impacto Mandrill extraible Incluye 2 baterías y accesorios",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Prtool",
-      "price": 220000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/4s5isff8blw-1.png",
@@ -1568,7 +1685,10 @@
         "/assets/products/4s5isff8blw-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "q6yqshtcgwa",
@@ -1587,7 +1707,8 @@
         "/assets/products/q6yqshtcgwa-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "zdpcvp5wjka",
@@ -1605,7 +1726,8 @@
         "/assets/products/zdpcvp5wjka-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 980000
     },
     {
       "id": "mtg3rdo3xj",
@@ -1620,7 +1742,8 @@
         "/assets/products/mtg3rdo3xj-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 17000
     },
     {
       "id": "rgj3nuwr18g",
@@ -1635,7 +1758,8 @@
         "/assets/products/rgj3nuwr18g-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 12000
     },
     {
       "id": "kwh88bpa8cr",
@@ -1650,7 +1774,8 @@
         "/assets/products/kwh88bpa8cr-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 33000
     },
     {
       "id": "ktw72gh8ei",
@@ -1665,7 +1790,8 @@
         "/assets/products/ktw72gh8ei-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 65000
     },
     {
       "id": "6l7may3oro7",
@@ -1680,7 +1806,8 @@
         "/assets/products/6l7may3oro7-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 28000
     },
     {
       "id": "xs9lsaxxusj",
@@ -1695,7 +1822,8 @@
         "/assets/products/xs9lsaxxusj-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 12000
     },
     {
       "id": "214uyuim646",
@@ -1710,7 +1838,8 @@
         "/assets/products/214uyuim646-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "a5qcotxeflh",
@@ -1728,7 +1857,8 @@
         "/assets/products/a5qcotxeflh-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 1200000
     },
     {
       "id": "s6rwrwhqgwn",
@@ -1743,7 +1873,8 @@
         "/assets/products/s6rwrwhqgwn-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 52000
     },
     {
       "id": "urhm5b5liw",
@@ -1758,7 +1889,8 @@
         "/assets/products/urhm5b5liw-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 70000
     },
     {
       "id": "73n7k6izog",
@@ -1775,7 +1907,8 @@
         "/assets/products/73n7k6izog-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 85000
     },
     {
       "id": "d4n6nd6vpfw",
@@ -1792,7 +1925,8 @@
         "/assets/products/d4n6nd6vpfw-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 130000
     },
     {
       "id": "ktktgvg1s8",
@@ -1809,7 +1943,8 @@
         "/assets/products/ktktgvg1s8-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 55000
     },
     {
       "id": "rctjz6ddhae",
@@ -1825,7 +1960,8 @@
         "/assets/products/rctjz6ddhae-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 80000
     },
     {
       "id": "tp1d0cybf8",
@@ -1834,7 +1970,7 @@
       "description": "Combo x2 Motor brushless 2 baterías 48v Mandril metálico 3/8 2200 rpm Llave de impacto 1680 130 nm",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Prtool",
-      "price": 300000,
+      "price": 350000,
       "currency": "COP",
       "images": [
         "/assets/products/tp1d0cybf8-1.png",
@@ -1844,7 +1980,10 @@
         "/assets/products/tp1d0cybf8-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 300000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "5srgaig4nhr",
@@ -1853,7 +1992,7 @@
       "description": "COMBOx. 2 Motor brushless 2 baterías redondas 48v Taladro mandril metálico 3/8 2200 rpm Llave de impacto 1680 130nm",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Prtool",
-      "price": 300000,
+      "price": 350000,
       "currency": "COP",
       "images": [
         "/assets/products/5srgaig4nhr-1.png",
@@ -1863,7 +2002,10 @@
         "/assets/products/5srgaig4nhr-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 300000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "tzx5owfzyca",
@@ -1872,7 +2014,7 @@
       "description": "COMBOx 2 Motor brushless 2 baterías redondas 48v Taladro mandril metálico 3/8 2200rpm Llave impacto 1680rpm 130nm",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Prtool",
-      "price": 300000,
+      "price": 350000,
       "currency": "COP",
       "images": [
         "/assets/products/tzx5owfzyca-1.png",
@@ -1882,7 +2024,10 @@
         "/assets/products/tzx5owfzyca-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 300000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "o9ejmhhvhb",
@@ -1891,7 +2036,7 @@
       "description": "Motor brushless 2 baterías redondas 48v 2200 rpm",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Prtool",
-      "price": 155000,
+      "price": 185000,
       "currency": "COP",
       "images": [
         "/assets/products/o9ejmhhvhb-1.png",
@@ -1900,7 +2045,10 @@
         "/assets/products/o9ejmhhvhb-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 155000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "3shzvdpa5rb",
@@ -1909,7 +2057,7 @@
       "description": "Motor brushless 2 baterías redondas 48v 2200 rpm",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Prtool",
-      "price": 155000,
+      "price": 185000,
       "currency": "COP",
       "images": [
         "/assets/products/3shzvdpa5rb-1.png",
@@ -1918,7 +2066,10 @@
         "/assets/products/3shzvdpa5rb-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 155000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "pngo1yqb9",
@@ -1927,7 +2078,7 @@
       "description": "Motor brushless 2 baterías redondas 48v 2200RPM 35nm",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Prtool",
-      "price": 155000,
+      "price": 185000,
       "currency": "COP",
       "images": [
         "/assets/products/pngo1yqb9-1.png",
@@ -1936,7 +2087,10 @@
         "/assets/products/pngo1yqb9-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 155000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "j0kzixkp5lb",
@@ -1954,7 +2108,8 @@
         "/assets/products/j0kzixkp5lb-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 230000
     },
     {
       "id": "9lvi4sd8g3",
@@ -1963,7 +2118,7 @@
       "description": "Taladro inalámbrico 48v Mandril metálico de 3/8 2 baterías 48v Percutor",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Prower",
-      "price": 120000,
+      "price": 150000,
       "currency": "COP",
       "images": [
         "/assets/products/9lvi4sd8g3-1.png",
@@ -1973,7 +2128,10 @@
         "/assets/products/9lvi4sd8g3-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "ga026270htq",
@@ -1982,7 +2140,7 @@
       "description": "Taladro inalámbrico 48v Mandril metálico de 3/8 2 baterías 48v Percutor",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Prower",
-      "price": 120000,
+      "price": 150000,
       "currency": "COP",
       "images": [
         "/assets/products/ga026270htq-1.png",
@@ -1992,7 +2150,10 @@
         "/assets/products/ga026270htq-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "vyyup82bdw7",
@@ -2001,7 +2162,7 @@
       "description": "Taladro inalámbrico 48V Mandril metálico de 3/8 2 baterías 48v Percutor",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Prower",
-      "price": 120000,
+      "price": 150000,
       "currency": "COP",
       "images": [
         "/assets/products/vyyup82bdw7-1.png",
@@ -2011,7 +2172,10 @@
         "/assets/products/vyyup82bdw7-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "dhvlap6zrx",
@@ -2028,7 +2192,8 @@
         "/assets/products/dhvlap6zrx-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 5000
     },
     {
       "id": "miqy8zhykd",
@@ -2044,7 +2209,8 @@
         "/assets/products/miqy8zhykd-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 38000
     },
     {
       "id": "48emxvjmc15",
@@ -2061,7 +2227,8 @@
         "/assets/products/48emxvjmc15-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "gfg5z15xvba",
@@ -2076,7 +2243,8 @@
         "/assets/products/gfg5z15xvba-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "miqgg5ro4tp",
@@ -2092,7 +2260,8 @@
         "/assets/products/miqgg5ro4tp-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "2a0zn2ykhjj",
@@ -2107,7 +2276,8 @@
         "/assets/products/2a0zn2ykhjj-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "2fsc7bloc8r",
@@ -2125,7 +2295,8 @@
         "/assets/products/2fsc7bloc8r-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "pfsjf0vjgtc",
@@ -2140,7 +2311,8 @@
         "/assets/products/pfsjf0vjgtc-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 40000
     },
     {
       "id": "zj3uviomdg",
@@ -2157,7 +2329,8 @@
         "/assets/products/zj3uviomdg-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "q1x25mnjoe",
@@ -2174,7 +2347,8 @@
         "/assets/products/q1x25mnjoe-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "djbwbav60i",
@@ -2192,7 +2366,8 @@
         "/assets/products/djbwbav60i-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 530000
     },
     {
       "id": "i1fyw8yoaaq",
@@ -2207,7 +2382,8 @@
         "/assets/products/i1fyw8yoaaq-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 8000
     },
     {
       "id": "fasf5reobcn",
@@ -2222,7 +2398,8 @@
         "/assets/products/fasf5reobcn-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 8000
     },
     {
       "id": "lf13dt2jde",
@@ -2237,7 +2414,8 @@
         "/assets/products/lf13dt2jde-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 8000
     },
     {
       "id": "t17rbk5y57",
@@ -2252,7 +2430,8 @@
         "/assets/products/t17rbk5y57-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 8000
     },
     {
       "id": "98r5qo46kb",
@@ -2270,7 +2449,8 @@
         "/assets/products/98r5qo46kb-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 250000
     },
     {
       "id": "cbbzqyf3l7b",
@@ -2285,7 +2465,8 @@
         "/assets/products/cbbzqyf3l7b-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "6o70wuu3nj8",
@@ -2300,7 +2481,8 @@
         "/assets/products/6o70wuu3nj8-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 55000
     },
     {
       "id": "p1kbh9t2xd",
@@ -2316,7 +2498,8 @@
         "/assets/products/p1kbh9t2xd-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 580000
     },
     {
       "id": "butfrdt0y6c",
@@ -2335,7 +2518,8 @@
         "/assets/products/butfrdt0y6c-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 950000
     },
     {
       "id": "5kep4oyi5h2",
@@ -2350,7 +2534,8 @@
         "/assets/products/5kep4oyi5h2-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 28000
     },
     {
       "id": "kv0nyu8a03",
@@ -2365,7 +2550,8 @@
         "/assets/products/kv0nyu8a03-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 17000
     },
     {
       "id": "zbbaegq26bp",
@@ -2380,7 +2566,8 @@
         "/assets/products/zbbaegq26bp-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 16000
     },
     {
       "id": "fx4zkmsyh2g",
@@ -2395,7 +2582,8 @@
         "/assets/products/fx4zkmsyh2g-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 12000
     },
     {
       "id": "jiovhwdcd3",
@@ -2410,7 +2598,8 @@
         "/assets/products/jiovhwdcd3-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "gtuwhri3jaj",
@@ -2425,7 +2614,8 @@
         "/assets/products/gtuwhri3jaj-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "dxwicay85we",
@@ -2440,7 +2630,8 @@
         "/assets/products/dxwicay85we-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 100000
     },
     {
       "id": "969sg7z7lq",
@@ -2455,7 +2646,8 @@
         "/assets/products/969sg7z7lq-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "9g4k13fklj",
@@ -2470,7 +2662,8 @@
         "/assets/products/9g4k13fklj-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "2560ophhlqn",
@@ -2485,7 +2678,8 @@
         "/assets/products/2560ophhlqn-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "pen6oe4ti4s",
@@ -2500,7 +2694,8 @@
         "/assets/products/pen6oe4ti4s-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000
     },
     {
       "id": "odhzx1qye3g",
@@ -2515,7 +2710,8 @@
         "/assets/products/odhzx1qye3g-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "wojutoh3x7t",
@@ -2530,7 +2726,8 @@
         "/assets/products/wojutoh3x7t-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 55000
     },
     {
       "id": "r46qyoxz3fn",
@@ -2545,7 +2742,8 @@
         "/assets/products/r46qyoxz3fn-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "7hyzygpetcq",
@@ -2560,7 +2758,8 @@
         "/assets/products/7hyzygpetcq-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "3cbwi8nnpa3",
@@ -2575,7 +2774,8 @@
         "/assets/products/3cbwi8nnpa3-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 35000
     },
     {
       "id": "dlwf2tnsoa",
@@ -2590,7 +2790,8 @@
         "/assets/products/dlwf2tnsoa-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 25000
     },
     {
       "id": "1v3whg50ynn",
@@ -2605,7 +2806,8 @@
         "/assets/products/1v3whg50ynn-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "ujkw6c33oxj",
@@ -2620,7 +2822,8 @@
         "/assets/products/ujkw6c33oxj-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "ndrttd8rqgn",
@@ -2635,7 +2838,8 @@
         "/assets/products/ndrttd8rqgn-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 90000
     },
     {
       "id": "dykr2uf7byo",
@@ -2650,7 +2854,8 @@
         "/assets/products/dykr2uf7byo-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 40000
     },
     {
       "id": "isn43n2vmos",
@@ -2665,7 +2870,8 @@
         "/assets/products/isn43n2vmos-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "86twpiclj8u",
@@ -2682,7 +2888,8 @@
         "/assets/products/86twpiclj8u-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 430000
     },
     {
       "id": "7zx7pzes4iu",
@@ -2691,7 +2898,7 @@
       "description": "Inalámbrico 2 baterías 48v Mandrill 1/2",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 150000,
+      "price": 180000,
       "currency": "COP",
       "images": [
         "/assets/products/7zx7pzes4iu-1.png",
@@ -2700,7 +2907,10 @@
         "/assets/products/7zx7pzes4iu-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "k79xvt2axr",
@@ -2709,7 +2919,7 @@
       "description": "Inalámbrico Mandrill 1/2 2 baterías 48V",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 150000,
+      "price": 180000,
       "currency": "COP",
       "images": [
         "/assets/products/k79xvt2axr-1.png",
@@ -2717,7 +2927,10 @@
         "/assets/products/k79xvt2axr-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "kw8r8ntrpi",
@@ -2726,7 +2939,7 @@
       "description": "Inalámbrico Mandrill 1/2 2 baterías 48V",
       "category": "Otros",
       "brand": "Protool",
-      "price": 150000,
+      "price": 180000,
       "currency": "COP",
       "images": [
         "/assets/products/kw8r8ntrpi-1.png",
@@ -2735,7 +2948,10 @@
         "/assets/products/kw8r8ntrpi-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "st4p0ufqey",
@@ -2750,7 +2966,8 @@
         "/assets/products/st4p0ufqey-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 250000
     },
     {
       "id": "vqp5o8mzhl",
@@ -2765,7 +2982,8 @@
         "/assets/products/vqp5o8mzhl-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "2p2ytbiwqfu",
@@ -2781,7 +2999,8 @@
         "/assets/products/2p2ytbiwqfu-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000
     },
     {
       "id": "osuobprca98",
@@ -2797,7 +3016,8 @@
         "/assets/products/osuobprca98-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "cxc0pgbnnip",
@@ -2812,7 +3032,8 @@
         "/assets/products/cxc0pgbnnip-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "bp3dgbrdg5",
@@ -2827,7 +3048,8 @@
         "/assets/products/bp3dgbrdg5-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "aurph63dk",
@@ -2843,7 +3065,8 @@
         "/assets/products/aurph63dk-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 100000
     },
     {
       "id": "sruldop0sr",
@@ -2859,7 +3082,8 @@
         "/assets/products/sruldop0sr-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000
     },
     {
       "id": "ggy3pkbiyi4",
@@ -2875,7 +3099,8 @@
         "/assets/products/ggy3pkbiyi4-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000
     },
     {
       "id": "06fllla69d3y",
@@ -2891,7 +3116,8 @@
         "/assets/products/06fllla69d3y-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000
     },
     {
       "id": "zsw3xuoqlya",
@@ -2908,7 +3134,8 @@
         "/assets/products/zsw3xuoqlya-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 270000
     },
     {
       "id": "50b6fsd71ri",
@@ -2917,7 +3144,7 @@
       "description": "Taladro percutor 1300r/m Llave impacto 280NM 2 baterías 68v",
       "category": "COMBOS INALAMBRICOS",
       "brand": "",
-      "price": 400000,
+      "price": 450000,
       "currency": "COP",
       "images": [
         "/assets/products/50b6fsd71ri-1.png",
@@ -2925,7 +3152,10 @@
         "/assets/products/50b6fsd71ri-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 400000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "o73x6fb5zvf",
@@ -2934,7 +3164,7 @@
       "description": "Percutor atornillador Pantalla LCD 2 baterías 48 v",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 140000,
+      "price": 170000,
       "currency": "COP",
       "images": [
         "/assets/products/o73x6fb5zvf-1.png",
@@ -2943,7 +3173,10 @@
         "/assets/products/o73x6fb5zvf-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "1qcfo5d6lrn",
@@ -2952,7 +3185,7 @@
       "description": "850w 3000r/mn",
       "category": "TALADROS ELECTRICOS",
       "brand": "ProEKCO",
-      "price": 100000,
+      "price": 130000,
       "currency": "COP",
       "images": [
         "/assets/products/1qcfo5d6lrn-1.png",
@@ -2961,7 +3194,10 @@
         "/assets/products/1qcfo5d6lrn-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 100000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "ux4jp40uy1",
@@ -2970,7 +3206,7 @@
       "description": "850w 3000r/mn",
       "category": "TALADROS ELECTRICOS",
       "brand": "ProEKCO",
-      "price": 100000,
+      "price": 130000,
       "currency": "COP",
       "images": [
         "/assets/products/ux4jp40uy1-1.png",
@@ -2979,7 +3215,10 @@
         "/assets/products/ux4jp40uy1-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 100000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "jk2uqqtmhof",
@@ -2988,14 +3227,17 @@
       "description": "Cable Mandril metálico",
       "category": "TALADROS ELECTRICOS",
       "brand": "BOSITENG",
-      "price": 135000,
+      "price": 165000,
       "currency": "COP",
       "images": [
         "/assets/products/jk2uqqtmhof-1.png",
         "/assets/products/jk2uqqtmhof-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 135000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "0firqru7csd",
@@ -3004,7 +3246,7 @@
       "description": "1/2 y cable 110v",
       "category": "COMBOS PULIDORA/TALADROS",
       "brand": "Protool",
-      "price": 200000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/0firqru7csd-1.png",
@@ -3012,7 +3254,10 @@
         "/assets/products/0firqru7csd-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 200000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "ejwui0cvh9",
@@ -3028,7 +3273,8 @@
         "/assets/products/ejwui0cvh9-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 28000
     },
     {
       "id": "7uc6g5ahvz2",
@@ -3045,7 +3291,8 @@
         "/assets/products/7uc6g5ahvz2-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 1550000
     },
     {
       "id": "c1jgapcxpep",
@@ -3061,7 +3308,8 @@
         "/assets/products/c1jgapcxpep-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "2ycp4qae81j",
@@ -3080,7 +3328,8 @@
         "/assets/products/2ycp4qae81j-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "nzl5qdksg5i",
@@ -3089,7 +3338,7 @@
       "description": "Batería 128v 13mm 1400r/min",
       "category": "COMBOS INALAMBRICOS",
       "brand": "",
-      "price": 420000,
+      "price": 470000,
       "currency": "COP",
       "images": [
         "/assets/products/nzl5qdksg5i-1.png",
@@ -3100,7 +3349,10 @@
         "/assets/products/nzl5qdksg5i-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 420000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "mai3ukq02rg",
@@ -3118,7 +3370,8 @@
         "/assets/products/mai3ukq02rg-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "p7ylgu88he",
@@ -3135,7 +3388,8 @@
         "/assets/products/p7ylgu88he-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 280000
     },
     {
       "id": "mikmaabk9h",
@@ -3151,7 +3405,8 @@
         "/assets/products/mikmaabk9h-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "yidiu59v08a",
@@ -3160,14 +3415,17 @@
       "description": "Taladro 1/2. 600w Pulidora 4 1/2 710 w",
       "category": "COMBOS PULIDORA/TALADROS",
       "brand": "Protool",
-      "price": 200000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/yidiu59v08a-1.png",
         "/assets/products/yidiu59v08a-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 200000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "8jlam9g8qgi",
@@ -3183,7 +3441,8 @@
         "/assets/products/8jlam9g8qgi-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 2650000
     },
     {
       "id": "agy44ipll2m",
@@ -3200,7 +3459,8 @@
         "/assets/products/agy44ipll2m-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 830000
     },
     {
       "id": "0skrnibp9bd",
@@ -3217,7 +3477,8 @@
         "/assets/products/0skrnibp9bd-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 550000
     },
     {
       "id": "ilqwxl054en",
@@ -3233,7 +3494,8 @@
         "/assets/products/ilqwxl054en-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 550000
     },
     {
       "id": "7v9bc55hij",
@@ -3242,7 +3504,7 @@
       "description": "22.5 500ml 0.65kw 6500rpm",
       "category": "HERRAMIENTA AGRICOLA*JARDIN",
       "brand": "Protool",
-      "price": 550000,
+      "price": 800000,
       "currency": "COP",
       "images": [
         "/assets/products/7v9bc55hij-1.png",
@@ -3251,7 +3513,11 @@
         "/assets/products/7v9bc55hij-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 550000,
+      "pricing_adjustment": 250000,
+      "pricing_rule": "Precio fijo Cortasetos a Gasolina",
+      "payment_terms": "Únicamente pago anticipado"
     },
     {
       "id": "8o9jijmtlrf",
@@ -3269,7 +3535,8 @@
         "/assets/products/8o9jijmtlrf-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 450000
     },
     {
       "id": "p5cj5660ou",
@@ -3287,7 +3554,8 @@
         "/assets/products/p5cj5660ou-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "os0ujpw4il",
@@ -3296,7 +3564,7 @@
       "description": "Combo brushless 4 baterías 128v Taladro:mandril metálico 3/8 35N/m Pulidora 1/2 1800 r/m 350 Nm Llave de impacto: 1/2 1800 r/m 350Nm Rotomartillo:500w 450bpm 1100rpm Tijera :300w sierra 8” 18000r/M",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Protool",
-      "price": 720000,
+      "price": 770000,
       "currency": "COP",
       "images": [
         "/assets/products/os0ujpw4il-1.png",
@@ -3310,7 +3578,10 @@
         "/assets/products/os0ujpw4il-9.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 720000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "3353sx6z6do",
@@ -3319,7 +3590,7 @@
       "description": "Combo brushless 4 baterías 128v Taladro:mandril metálico 3/8 35N/m Pulidora 1/2 1800 r/m 350 Nm Llave de impacto: 1/2 1800 r/m 350Nm Rotomartillo:500w 450bpm 1100rpm Tijera :300w sierra 8” 18000r/M",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Protool",
-      "price": 720000,
+      "price": 770000,
       "currency": "COP",
       "images": [
         "/assets/products/3353sx6z6do-1.png",
@@ -3333,7 +3604,10 @@
         "/assets/products/3353sx6z6do-9.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 720000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "qq6d4taut3r",
@@ -3342,7 +3616,7 @@
       "description": "Combó inalambrico Brushless",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Protool",
-      "price": 680000,
+      "price": 730000,
       "currency": "COP",
       "images": [
         "/assets/products/qq6d4taut3r-1.png",
@@ -3353,7 +3627,10 @@
         "/assets/products/qq6d4taut3r-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 680000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "77vfr3lxaqq",
@@ -3362,7 +3639,7 @@
       "description": "Combo brushless",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Protool",
-      "price": 680000,
+      "price": 730000,
       "currency": "COP",
       "images": [
         "/assets/products/77vfr3lxaqq-1.png",
@@ -3373,7 +3650,10 @@
         "/assets/products/77vfr3lxaqq-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 680000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "1gkz6kjic5c",
@@ -3382,7 +3662,7 @@
       "description": "1/2 68v",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 230000,
+      "price": 260000,
       "currency": "COP",
       "images": [
         "/assets/products/1gkz6kjic5c-1.png",
@@ -3392,7 +3672,10 @@
         "/assets/products/1gkz6kjic5c-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 230000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "111kd32rz4ll",
@@ -3401,7 +3684,7 @@
       "description": "1/2 68v",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 220000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/111kd32rz4ll-1.png",
@@ -3410,7 +3693,10 @@
         "/assets/products/111kd32rz4ll-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "ycblfg3lqf",
@@ -3419,7 +3705,7 @@
       "description": "1/2 percutor 68 v 1 Sola Velocidad",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 180000,
+      "price": 210000,
       "currency": "COP",
       "images": [
         "/assets/products/ycblfg3lqf-1.png",
@@ -3429,7 +3715,10 @@
         "/assets/products/ycblfg3lqf-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "dxoeoepkjjd",
@@ -3447,7 +3736,8 @@
         "/assets/products/dxoeoepkjjd-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "gcucj7eyi8",
@@ -3465,7 +3755,8 @@
         "/assets/products/gcucj7eyi8-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000
     },
     {
       "id": "s1vr0ptx5l",
@@ -3482,7 +3773,8 @@
         "/assets/products/s1vr0ptx5l-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 250000
     },
     {
       "id": "7z88oq4y47j",
@@ -3500,7 +3792,8 @@
         "/assets/products/7z88oq4y47j-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 70000
     },
     {
       "id": "tka06tpbtwi",
@@ -3518,7 +3811,8 @@
         "/assets/products/tka06tpbtwi-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 70000
     },
     {
       "id": "68o499pmlc7",
@@ -3536,7 +3830,8 @@
         "/assets/products/68o499pmlc7-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000
     },
     {
       "id": "l96oh69bbb",
@@ -3552,7 +3847,8 @@
         "/assets/products/l96oh69bbb-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 750000
     },
     {
       "id": "yvy0mep1ehf",
@@ -3569,7 +3865,8 @@
         "/assets/products/yvy0mep1ehf-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 110000
     },
     {
       "id": "oe7lxw8te5",
@@ -3584,7 +3881,8 @@
         "/assets/products/oe7lxw8te5-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 60000
     },
     {
       "id": "r8zqmhah5q",
@@ -3599,7 +3897,8 @@
         "/assets/products/r8zqmhah5q-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "2qo6bxu0xcv",
@@ -3614,7 +3913,8 @@
         "/assets/products/2qo6bxu0xcv-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 90000
     },
     {
       "id": "vap8npc02pe",
@@ -3630,7 +3930,8 @@
         "/assets/products/vap8npc02pe-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 65000
     },
     {
       "id": "ruyukg7yyhb",
@@ -3645,7 +3946,8 @@
         "/assets/products/ruyukg7yyhb-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 65000
     },
     {
       "id": "0g81p2nldrw",
@@ -3660,7 +3962,8 @@
         "/assets/products/0g81p2nldrw-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "kpapvh0uai9",
@@ -3677,7 +3980,8 @@
         "/assets/products/kpapvh0uai9-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "96i44ur4hen",
@@ -3692,7 +3996,8 @@
         "/assets/products/96i44ur4hen-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 10000
     },
     {
       "id": "xahspk2yuc",
@@ -3709,7 +4014,8 @@
         "/assets/products/xahspk2yuc-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 55000
     },
     {
       "id": "axbr08ea1kc",
@@ -3726,7 +4032,8 @@
         "/assets/products/axbr08ea1kc-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 60000
     },
     {
       "id": "0mq6biry6xca",
@@ -3743,7 +4050,8 @@
         "/assets/products/0mq6biry6xca-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 290000
     },
     {
       "id": "fkf5l5sllta",
@@ -3758,7 +4066,8 @@
         "/assets/products/fkf5l5sllta-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 11000
     },
     {
       "id": "x7lmj0ecoq",
@@ -3777,7 +4086,8 @@
         "/assets/products/x7lmj0ecoq-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 1500000
     },
     {
       "id": "ccrxf0l9ls9",
@@ -3792,7 +4102,8 @@
         "/assets/products/ccrxf0l9ls9-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 22000
     },
     {
       "id": "yhl8awdw3y9",
@@ -3807,7 +4118,8 @@
         "/assets/products/yhl8awdw3y9-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "5i9czowb4s",
@@ -3822,7 +4134,8 @@
         "/assets/products/5i9czowb4s-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 11000
     },
     {
       "id": "mdjllofgql",
@@ -3837,7 +4150,8 @@
         "/assets/products/mdjllofgql-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 11000
     },
     {
       "id": "7k6v5i5xct",
@@ -3852,7 +4166,8 @@
         "/assets/products/7k6v5i5xct-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "947asr7v8ct",
@@ -3867,7 +4182,8 @@
         "/assets/products/947asr7v8ct-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 12000
     },
     {
       "id": "g37iikb01m",
@@ -3882,7 +4198,8 @@
         "/assets/products/g37iikb01m-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 8000
     },
     {
       "id": "ow6v76ll0q",
@@ -3897,7 +4214,8 @@
         "/assets/products/ow6v76ll0q-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "1y3brin7wff",
@@ -3912,7 +4230,8 @@
         "/assets/products/1y3brin7wff-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "e7wme6p5jk6",
@@ -3921,7 +4240,7 @@
       "description": "Taladro percutor atornillador Mandel metálico 1/2 2 baterías 48v 3 h 40-80Nm",
       "category": "TALADROS INALAMBRICOS",
       "brand": "EKO TOOLS",
-      "price": 200000,
+      "price": 230000,
       "currency": "COP",
       "images": [
         "/assets/products/e7wme6p5jk6-1.png",
@@ -3930,7 +4249,10 @@
         "/assets/products/e7wme6p5jk6-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 200000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "8hfp3ogimlg",
@@ -3939,7 +4261,7 @@
       "description": "Taladro percutor 1/2 mandril metálico 2 baterías 21V 16-36Nm",
       "category": "TALADROS INALAMBRICOS",
       "brand": "EKO TOOLS",
-      "price": 135000,
+      "price": 165000,
       "currency": "COP",
       "images": [
         "/assets/products/8hfp3ogimlg-1.png",
@@ -3949,7 +4271,10 @@
         "/assets/products/8hfp3ogimlg-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 135000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "y4ympuow95",
@@ -3958,7 +4283,7 @@
       "description": "Taladro percutor atornillador motor brushless mandril metálico 1/2 Baterías de 48 v 40-80Nm",
       "category": "TALADROS INALAMBRICOS",
       "brand": "EKO TOOLS",
-      "price": 180000,
+      "price": 210000,
       "currency": "COP",
       "images": [
         "/assets/products/y4ympuow95-1.png",
@@ -3966,7 +4291,10 @@
         "/assets/products/y4ympuow95-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "bkauyacv1gd",
@@ -3981,7 +4309,8 @@
         "/assets/products/bkauyacv1gd-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 25000
     },
     {
       "id": "uvlije01q",
@@ -3996,7 +4325,8 @@
         "/assets/products/uvlije01q-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 22000
     },
     {
       "id": "yi512mrs53",
@@ -4011,7 +4341,8 @@
         "/assets/products/yi512mrs53-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 45000
     },
     {
       "id": "18zso626xkah",
@@ -4027,7 +4358,8 @@
         "/assets/products/18zso626xkah-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 160000
     },
     {
       "id": "9l27suf6kis",
@@ -4043,7 +4375,8 @@
         "/assets/products/9l27suf6kis-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000
     },
     {
       "id": "gdxlpq5ct96",
@@ -4058,7 +4391,8 @@
         "/assets/products/gdxlpq5ct96-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 7000
     },
     {
       "id": "uylkffc2mok",
@@ -4073,7 +4407,8 @@
         "/assets/products/uylkffc2mok-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 10000
     },
     {
       "id": "htzt22hg4nv",
@@ -4088,7 +4423,8 @@
         "/assets/products/htzt22hg4nv-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 8000
     },
     {
       "id": "rmjwmi88rbd",
@@ -4104,7 +4440,8 @@
         "/assets/products/rmjwmi88rbd-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 200000
     },
     {
       "id": "5gko5jjp5s",
@@ -4121,7 +4458,8 @@
         "/assets/products/5gko5jjp5s-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "igmxtv9c41",
@@ -4137,7 +4475,8 @@
         "/assets/products/igmxtv9c41-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 22000
     },
     {
       "id": "tt1hjrpsdhb",
@@ -4152,7 +4491,8 @@
         "/assets/products/tt1hjrpsdhb-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 6000
     },
     {
       "id": "xikprkjqsr",
@@ -4167,7 +4507,8 @@
         "/assets/products/xikprkjqsr-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 30000
     },
     {
       "id": "7sefcn4d68",
@@ -4182,7 +4523,8 @@
         "/assets/products/7sefcn4d68-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 45000
     },
     {
       "id": "gemnq0twepl",
@@ -4197,7 +4539,8 @@
         "/assets/products/gemnq0twepl-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "tgl081la329",
@@ -4214,7 +4557,8 @@
         "/assets/products/tgl081la329-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 540000
     },
     {
       "id": "7se691l5qvj",
@@ -4231,7 +4575,8 @@
         "/assets/products/7se691l5qvj-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 580000
     },
     {
       "id": "rs3ulpr930k",
@@ -4247,7 +4592,8 @@
         "/assets/products/rs3ulpr930k-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "09zpovca757c",
@@ -4256,7 +4602,7 @@
       "description": "Taladro inalámbrico NO Percutor mandril metálico Rojo",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 150000,
+      "price": 180000,
       "currency": "COP",
       "images": [
         "/assets/products/09zpovca757c-1.png",
@@ -4264,7 +4610,10 @@
         "/assets/products/09zpovca757c-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "dyv65g2cbra",
@@ -4273,7 +4622,7 @@
       "description": "Taladro inalámbrico 3/8 mandril metálico",
       "category": "TALADROS INALAMBRICOS",
       "brand": "EKO TOOLS",
-      "price": 180000,
+      "price": 210000,
       "currency": "COP",
       "images": [
         "/assets/products/dyv65g2cbra-1.png",
@@ -4281,7 +4630,10 @@
         "/assets/products/dyv65g2cbra-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "p52r4vzem1b",
@@ -4290,7 +4642,7 @@
       "description": "Taladro inalámbrico 3/8 mandril metálico azul",
       "category": "TALADROS INALAMBRICOS",
       "brand": "",
-      "price": 180000,
+      "price": 210000,
       "currency": "COP",
       "images": [
         "/assets/products/p52r4vzem1b-1.png",
@@ -4298,7 +4650,10 @@
         "/assets/products/p52r4vzem1b-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "srvbtkhr08",
@@ -4315,7 +4670,8 @@
         "/assets/products/srvbtkhr08-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "xjfh4ch857",
@@ -4331,7 +4687,8 @@
         "/assets/products/xjfh4ch857-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 125000
     },
     {
       "id": "ifjbufdile8",
@@ -4340,7 +4697,7 @@
       "description": "Taladro inalámbrico 3/8 mandril metálico rojo",
       "category": "TALADROS INALAMBRICOS",
       "brand": "",
-      "price": 180000,
+      "price": 210000,
       "currency": "COP",
       "images": [
         "/assets/products/ifjbufdile8-1.png",
@@ -4348,7 +4705,10 @@
         "/assets/products/ifjbufdile8-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "i1h5rgc2mr",
@@ -4365,7 +4725,8 @@
         "/assets/products/i1h5rgc2mr-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 700000
     },
     {
       "id": "3nlnodnjj7i",
@@ -4381,7 +4742,8 @@
         "/assets/products/3nlnodnjj7i-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 12000
     },
     {
       "id": "td0qdk5lzn",
@@ -4397,7 +4759,8 @@
         "/assets/products/td0qdk5lzn-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "4aoawyqco7",
@@ -4412,7 +4775,8 @@
         "/assets/products/4aoawyqco7-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 90000
     },
     {
       "id": "ladrfxkmg1",
@@ -4428,7 +4792,8 @@
         "/assets/products/ladrfxkmg1-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 30000
     },
     {
       "id": "of26oqd8w6",
@@ -4444,7 +4809,8 @@
         "/assets/products/of26oqd8w6-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 260000
     },
     {
       "id": "1j0qclliugr",
@@ -4459,7 +4825,8 @@
         "/assets/products/1j0qclliugr-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 10000
     },
     {
       "id": "enun9tpr2du",
@@ -4475,7 +4842,8 @@
         "/assets/products/enun9tpr2du-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 45000
     },
     {
       "id": "d6gpn4wj7x6",
@@ -4491,7 +4859,8 @@
         "/assets/products/d6gpn4wj7x6-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 25000
     },
     {
       "id": "9h6wi0qacyq",
@@ -4506,7 +4875,8 @@
         "/assets/products/9h6wi0qacyq-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 40000
     },
     {
       "id": "vviu55a7yi",
@@ -4523,7 +4893,8 @@
         "/assets/products/vviu55a7yi-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 40000
     },
     {
       "id": "9g6eguz85p4",
@@ -4538,7 +4909,8 @@
         "/assets/products/9g6eguz85p4-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 65000
     },
     {
       "id": "pc7rbq4pjg8",
@@ -4553,7 +4925,8 @@
         "/assets/products/pc7rbq4pjg8-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 60000
     },
     {
       "id": "pa35bwn9r1",
@@ -4568,7 +4941,8 @@
         "/assets/products/pa35bwn9r1-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 40000
     },
     {
       "id": "cfmu6xfp54",
@@ -4583,7 +4957,8 @@
         "/assets/products/cfmu6xfp54-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 35000
     },
     {
       "id": "1vux09r3w0y",
@@ -4598,7 +4973,8 @@
         "/assets/products/1vux09r3w0y-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 12000
     },
     {
       "id": "npk114qdlxj",
@@ -4613,7 +4989,8 @@
         "/assets/products/npk114qdlxj-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "a5cuiuw7r7u",
@@ -4628,7 +5005,8 @@
         "/assets/products/a5cuiuw7r7u-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 18000
     },
     {
       "id": "uutqx6u1ouc",
@@ -4645,7 +5023,8 @@
         "/assets/products/uutqx6u1ouc-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 60000
     },
     {
       "id": "pmglo2276bs",
@@ -4662,7 +5041,8 @@
         "/assets/products/pmglo2276bs-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 45000
     },
     {
       "id": "n2nno3uagb9",
@@ -4679,7 +5059,8 @@
         "/assets/products/n2nno3uagb9-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "dlxo1sdmpkl",
@@ -4696,7 +5077,8 @@
         "/assets/products/dlxo1sdmpkl-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "zizt3x1o67i",
@@ -4712,7 +5094,8 @@
         "/assets/products/zizt3x1o67i-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 18000
     },
     {
       "id": "glhc7cmja37",
@@ -4729,7 +5112,8 @@
         "/assets/products/glhc7cmja37-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 25000
     },
     {
       "id": "xon37hk5at7",
@@ -4748,7 +5132,8 @@
         "/assets/products/xon37hk5at7-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 500000
     },
     {
       "id": "3ph5be2m0g",
@@ -4764,7 +5149,8 @@
         "/assets/products/3ph5be2m0g-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 30000
     },
     {
       "id": "0yr3y4ljw4ci",
@@ -4780,7 +5166,8 @@
         "/assets/products/0yr3y4ljw4ci-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 52000
     },
     {
       "id": "066981zkm6r3",
@@ -4795,7 +5182,8 @@
         "/assets/products/066981zkm6r3-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 22000
     },
     {
       "id": "kb0j6v5fkdd",
@@ -4812,7 +5200,8 @@
         "/assets/products/kb0j6v5fkdd-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 100000
     },
     {
       "id": "kd4f7nywls",
@@ -4829,7 +5218,8 @@
         "/assets/products/kd4f7nywls-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 35000
     },
     {
       "id": "kjog608q2t",
@@ -4845,7 +5235,8 @@
         "/assets/products/kjog608q2t-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "7w14d6al5u7",
@@ -4860,7 +5251,8 @@
         "/assets/products/7w14d6al5u7-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 25000
     },
     {
       "id": "0kpp7iuryrm",
@@ -4877,7 +5269,8 @@
         "/assets/products/0kpp7iuryrm-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 300000
     },
     {
       "id": "xqnxn178xln",
@@ -4894,7 +5287,8 @@
         "/assets/products/xqnxn178xln-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "rauurf87hl",
@@ -4909,7 +5303,8 @@
         "/assets/products/rauurf87hl-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 45000
     },
     {
       "id": "uv9pdbf3nlm",
@@ -4924,7 +5319,8 @@
         "/assets/products/uv9pdbf3nlm-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000
     },
     {
       "id": "jgnsgvh5eb",
@@ -4941,7 +5337,8 @@
         "/assets/products/jgnsgvh5eb-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "m4d6z98u1ka",
@@ -4956,7 +5353,8 @@
         "/assets/products/m4d6z98u1ka-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 10000
     },
     {
       "id": "etdmwej6hfp",
@@ -4971,7 +5369,8 @@
         "/assets/products/etdmwej6hfp-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 170000
     },
     {
       "id": "lz4s5304ja",
@@ -4988,7 +5387,8 @@
         "/assets/products/lz4s5304ja-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 240000
     },
     {
       "id": "gekj4v3hntn",
@@ -5005,7 +5405,8 @@
         "/assets/products/gekj4v3hntn-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000
     },
     {
       "id": "m4003wvlkv",
@@ -5021,7 +5422,8 @@
         "/assets/products/m4003wvlkv-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 260000
     },
     {
       "id": "uzlifd2g2th",
@@ -5039,7 +5441,8 @@
         "/assets/products/uzlifd2g2th-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 260000
     },
     {
       "id": "9mt1jwbh2rr",
@@ -5056,7 +5459,8 @@
         "/assets/products/9mt1jwbh2rr-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 280000
     },
     {
       "id": "i6c9lz1pzz",
@@ -5071,7 +5475,8 @@
         "/assets/products/i6c9lz1pzz-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "58cyu0i6hdc",
@@ -5087,7 +5492,8 @@
         "/assets/products/58cyu0i6hdc-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "qz4hdzbmqc",
@@ -5103,7 +5509,8 @@
         "/assets/products/qz4hdzbmqc-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 35000
     },
     {
       "id": "8y4nlx22e8",
@@ -5119,7 +5526,8 @@
         "/assets/products/8y4nlx22e8-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 25000
     },
     {
       "id": "jyfezrw0zq9",
@@ -5135,7 +5543,8 @@
         "/assets/products/jyfezrw0zq9-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 55000
     },
     {
       "id": "f4zplucr2wl",
@@ -5152,7 +5561,8 @@
         "/assets/products/f4zplucr2wl-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 160000
     },
     {
       "id": "peybo5rpmnq",
@@ -5171,7 +5581,8 @@
         "/assets/products/peybo5rpmnq-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 85000
     },
     {
       "id": "n06nsbb98ak",
@@ -5187,7 +5598,8 @@
         "/assets/products/n06nsbb98ak-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000
     },
     {
       "id": "hp2o0twy5f",
@@ -5203,7 +5615,8 @@
         "/assets/products/hp2o0twy5f-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 160000
     },
     {
       "id": "crigcrktsz",
@@ -5222,7 +5635,8 @@
         "/assets/products/crigcrktsz-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 320000
     },
     {
       "id": "y58f2brzwwd",
@@ -5240,7 +5654,8 @@
         "/assets/products/y58f2brzwwd-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 60000
     },
     {
       "id": "03k2f47ksf5",
@@ -5255,7 +5670,8 @@
         "/assets/products/03k2f47ksf5-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 30000
     },
     {
       "id": "u7ebvdxj0qg",
@@ -5270,7 +5686,8 @@
         "/assets/products/u7ebvdxj0qg-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "492gu7h7o7e",
@@ -5285,7 +5702,8 @@
         "/assets/products/492gu7h7o7e-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "ybfzlrmyi8",
@@ -5300,7 +5718,8 @@
         "/assets/products/ybfzlrmyi8-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 250000
     },
     {
       "id": "6hjqda1p1sx",
@@ -5319,7 +5738,8 @@
         "/assets/products/6hjqda1p1sx-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "pexc1zqvfrr",
@@ -5334,7 +5754,8 @@
         "/assets/products/pexc1zqvfrr-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 10000
     },
     {
       "id": "omjcxpxppgm",
@@ -5350,7 +5771,8 @@
         "/assets/products/omjcxpxppgm-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 22000
     },
     {
       "id": "uxrdc0m05t",
@@ -5367,7 +5789,8 @@
         "/assets/products/uxrdc0m05t-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 32000
     },
     {
       "id": "817ss37jh24",
@@ -5383,7 +5806,8 @@
         "/assets/products/817ss37jh24-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "elf615bwrpb",
@@ -5401,7 +5825,8 @@
         "/assets/products/elf615bwrpb-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 320000
     },
     {
       "id": "q33bjj0558p",
@@ -5420,7 +5845,8 @@
         "/assets/products/q33bjj0558p-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 450000
     },
     {
       "id": "hfhwqpb0qsv",
@@ -5436,7 +5862,8 @@
         "/assets/products/hfhwqpb0qsv-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 40000
     },
     {
       "id": "z4ojg3ue8k",
@@ -5445,14 +5872,17 @@
       "description": "Taladro 110v 1400W 3000r/m",
       "category": "TALADROS ELECTRICOS",
       "brand": "Enum",
-      "price": 140000,
+      "price": 170000,
       "currency": "COP",
       "images": [
         "/assets/products/z4ojg3ue8k-1.png",
         "/assets/products/z4ojg3ue8k-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "f7eoihwio1i",
@@ -5468,7 +5898,8 @@
         "/assets/products/f7eoihwio1i-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 300000
     },
     {
       "id": "cvkx0pv3x38",
@@ -5477,14 +5908,17 @@
       "description": "850W",
       "category": "TALADROS ELECTRICOS",
       "brand": "ProEKCO",
-      "price": 100000,
+      "price": 130000,
       "currency": "COP",
       "images": [
         "/assets/products/cvkx0pv3x38-1.png",
         "/assets/products/cvkx0pv3x38-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 100000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "z806i2cjqh",
@@ -5493,7 +5927,7 @@
       "description": "? Taladro Alámbrico ENUM 950W – PRO by Protool Power SAS Potencia constante y precisión en cada perforación. El Taladro Alámbrico ENUM 950W está diseñado para ofrecer rendimiento profesional y máxima eficiencia en todo tipo de trabajo. Su motor de 950 vatios proporciona fuerza estable y perforación potente en materiales como metal, concreto o madera. Cuenta con mandril de 13 mm, función percutora, velocidad variable y marcha adelante y reversa, lo que permite mayor control y versatilidad en cada tarea. Opera a 110V – 60Hz, brindando un desempeño confiable y continuo para uso doméstico o profesional. Su diseño ergonómico y estructura reforzada garantizan comodidad, precisión y durabilidad, convirtiéndolo en una herramienta esencial para talleres, construcción o mantenimiento.",
       "category": "TALADROS ELECTRICOS",
       "brand": "Enum",
-      "price": 135000,
+      "price": 165000,
       "currency": "COP",
       "images": [
         "/assets/products/z806i2cjqh-1.png",
@@ -5502,7 +5936,10 @@
         "/assets/products/z806i2cjqh-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 135000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "ksragp4arlm",
@@ -5511,7 +5948,7 @@
       "description": "",
       "category": "HERRAMIENTA INALAMBRICA SURTIDA",
       "brand": "Drill",
-      "price": 350000,
+      "price": 380000,
       "currency": "COP",
       "images": [
         "/assets/products/ksragp4arlm-1.png",
@@ -5521,7 +5958,10 @@
         "/assets/products/ksragp4arlm-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "krsc9j8q7g",
@@ -5530,7 +5970,7 @@
       "description": "250W",
       "category": "TALADROS ELECTRICOS",
       "brand": "",
-      "price": 540000,
+      "price": 570000,
       "currency": "COP",
       "images": [
         "/assets/products/krsc9j8q7g-1.png",
@@ -5539,7 +5979,10 @@
         "/assets/products/krsc9j8q7g-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 540000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "a78z96r2tjd",
@@ -5558,7 +6001,8 @@
         "/assets/products/a78z96r2tjd-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 490000
     },
     {
       "id": "cz45povbhx",
@@ -5575,7 +6019,8 @@
         "/assets/products/cz45povbhx-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 6000
     },
     {
       "id": "f665efifmvn",
@@ -5593,7 +6038,8 @@
         "/assets/products/f665efifmvn-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 60000
     },
     {
       "id": "79x3xquseyq",
@@ -5611,7 +6057,8 @@
         "/assets/products/79x3xquseyq-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 340000
     },
     {
       "id": "2tlere9ms3q",
@@ -5629,7 +6076,8 @@
         "/assets/products/2tlere9ms3q-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 210000
     },
     {
       "id": "8srq88fpiug",
@@ -5647,7 +6095,8 @@
         "/assets/products/8srq88fpiug-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000
     },
     {
       "id": "hga9mpnz1i5",
@@ -5666,7 +6115,8 @@
         "/assets/products/hga9mpnz1i5-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000
     },
     {
       "id": "6uvtwtc968k",
@@ -5684,7 +6134,8 @@
         "/assets/products/6uvtwtc968k-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 280000
     },
     {
       "id": "9s7caf3f71r",
@@ -5702,7 +6153,8 @@
         "/assets/products/9s7caf3f71r-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 260000
     },
     {
       "id": "b5zvvp5vr1r",
@@ -5718,7 +6170,8 @@
         "/assets/products/b5zvvp5vr1r-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "6oq00euw4zf",
@@ -5735,7 +6188,8 @@
         "/assets/products/6oq00euw4zf-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 65000
     },
     {
       "id": "5tjk2efcdxb",
@@ -5752,7 +6206,8 @@
         "/assets/products/5tjk2efcdxb-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 100000
     },
     {
       "id": "icpkgrgsbr",
@@ -5771,7 +6226,8 @@
         "/assets/products/icpkgrgsbr-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 200000
     },
     {
       "id": "aho4w4nyjag",
@@ -5789,7 +6245,8 @@
         "/assets/products/aho4w4nyjag-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "g7jrxcd8hj6",
@@ -5806,7 +6263,8 @@
         "/assets/products/g7jrxcd8hj6-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 95000
     },
     {
       "id": "y3a9cc0mn1",
@@ -5824,7 +6282,8 @@
         "/assets/products/y3a9cc0mn1-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "v6d4vi4e6o9",
@@ -5841,7 +6300,8 @@
         "/assets/products/v6d4vi4e6o9-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 170000
     },
     {
       "id": "aux1sxu0uxj",
@@ -5856,7 +6316,8 @@
         "/assets/products/aux1sxu0uxj-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 300000
     },
     {
       "id": "vwqus0dvkx",
@@ -5874,7 +6335,8 @@
         "/assets/products/vwqus0dvkx-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000
     },
     {
       "id": "6blv57vqzwi",
@@ -5894,7 +6356,8 @@
         "/assets/products/6blv57vqzwi-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 500000
     },
     {
       "id": "bawbqhyrxsc",
@@ -5911,7 +6374,8 @@
         "/assets/products/bawbqhyrxsc-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 230000
     },
     {
       "id": "1lbwmrwvqyi",
@@ -5927,7 +6391,8 @@
         "/assets/products/1lbwmrwvqyi-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 165000
     },
     {
       "id": "xizdccpcfl9",
@@ -5945,7 +6410,8 @@
         "/assets/products/xizdccpcfl9-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000
     },
     {
       "id": "449k57tqzdn",
@@ -5963,7 +6429,8 @@
         "/assets/products/449k57tqzdn-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 160000
     },
     {
       "id": "vr5b3hm8vmn",
@@ -5979,7 +6446,8 @@
         "/assets/products/vr5b3hm8vmn-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 40000
     },
     {
       "id": "atzdwbspm6v",
@@ -5995,7 +6463,8 @@
         "/assets/products/atzdwbspm6v-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "33t1e75tqk",
@@ -6012,7 +6481,8 @@
         "/assets/products/33t1e75tqk-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 200000
     },
     {
       "id": "lwjjw97m98h",
@@ -6027,7 +6497,8 @@
         "/assets/products/lwjjw97m98h-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "ezs92cqe3l8",
@@ -6043,7 +6514,8 @@
         "/assets/products/ezs92cqe3l8-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 13000
     },
     {
       "id": "8d5gdrxtxgb",
@@ -6062,7 +6534,8 @@
         "/assets/products/8d5gdrxtxgb-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 35000
     },
     {
       "id": "htm9558tgqn",
@@ -6080,7 +6553,8 @@
         "/assets/products/htm9558tgqn-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 185000
     },
     {
       "id": "6t67h55lo04",
@@ -6096,7 +6570,8 @@
         "/assets/products/6t67h55lo04-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 60000
     },
     {
       "id": "3dgc76r26co",
@@ -6105,14 +6580,17 @@
       "description": "Combo taladro pulidora Taladro 950w 1/2”3000r/ms pulidora",
       "category": "COMBOS PULIDORA/TALADROS",
       "brand": "Enum",
-      "price": 250000,
+      "price": 300000,
       "currency": "COP",
       "images": [
         "/assets/products/3dgc76r26co-1.png",
         "/assets/products/3dgc76r26co-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 250000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "vi56rsuun2h",
@@ -6129,7 +6607,8 @@
         "/assets/products/vi56rsuun2h-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "4z7si4xfydo",
@@ -6146,7 +6625,8 @@
         "/assets/products/4z7si4xfydo-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 230000
     },
     {
       "id": "k5ee8dhjkr8",
@@ -6164,7 +6644,8 @@
         "/assets/products/k5ee8dhjkr8-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 90000
     },
     {
       "id": "1x4rvmvms0e",
@@ -6181,7 +6662,8 @@
         "/assets/products/1x4rvmvms0e-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 28000
     },
     {
       "id": "cf1scuk4jtw",
@@ -6197,7 +6679,8 @@
         "/assets/products/cf1scuk4jtw-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 240000
     },
     {
       "id": "5khrqpg0w9g",
@@ -6213,7 +6696,8 @@
         "/assets/products/5khrqpg0w9g-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "hkiav3d8m",
@@ -6230,7 +6714,8 @@
         "/assets/products/hkiav3d8m-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 170000
     },
     {
       "id": "aoou0dnbtr6",
@@ -6252,7 +6737,8 @@
         "/assets/products/aoou0dnbtr6-8.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 370000
     },
     {
       "id": "59kkjjlzi2h",
@@ -6270,7 +6756,8 @@
         "/assets/products/59kkjjlzi2h-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000
     },
     {
       "id": "rvv54gcd0oe",
@@ -6287,7 +6774,8 @@
         "/assets/products/rvv54gcd0oe-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 90000
     },
     {
       "id": "u7yx0nmfwcs",
@@ -6305,7 +6793,8 @@
         "/assets/products/u7yx0nmfwcs-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000
     },
     {
       "id": "0oa2peiwttxf",
@@ -6324,7 +6813,8 @@
         "/assets/products/0oa2peiwttxf-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 25000
     },
     {
       "id": "nwswyuxq9vf",
@@ -6342,7 +6832,8 @@
         "/assets/products/nwswyuxq9vf-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 220000
     },
     {
       "id": "bnv8or6ln7h",
@@ -6359,7 +6850,8 @@
         "/assets/products/bnv8or6ln7h-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 42000
     },
     {
       "id": "8wkegib2nlx",
@@ -6377,7 +6869,8 @@
         "/assets/products/8wkegib2nlx-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 65000
     },
     {
       "id": "9xtb06bp9g",
@@ -6398,7 +6891,8 @@
         "/assets/products/9xtb06bp9g-7.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 30000
     },
     {
       "id": "a2xjoovkubk",
@@ -6415,7 +6909,8 @@
         "/assets/products/a2xjoovkubk-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "734pdtp9y5d",
@@ -6432,7 +6927,8 @@
         "/assets/products/734pdtp9y5d-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 46000
     },
     {
       "id": "957qbvwqbpd",
@@ -6451,7 +6947,8 @@
         "/assets/products/957qbvwqbpd-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 25000
     },
     {
       "id": "bvlrre695yq",
@@ -6472,7 +6969,8 @@
         "/assets/products/bvlrre695yq-7.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 105000
     },
     {
       "id": "te1pghktvl",
@@ -6489,7 +6987,8 @@
         "/assets/products/te1pghktvl-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 200000
     },
     {
       "id": "1rjyhn90hwp",
@@ -6505,7 +7004,8 @@
         "/assets/products/1rjyhn90hwp-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 90000
     },
     {
       "id": "3e88i969zq7",
@@ -6522,7 +7022,8 @@
         "/assets/products/3e88i969zq7-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 90000
     },
     {
       "id": "dzknjk2s53i",
@@ -6539,7 +7040,8 @@
         "/assets/products/dzknjk2s53i-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 250000
     },
     {
       "id": "u0pwobbf7ik",
@@ -6557,7 +7059,8 @@
         "/assets/products/u0pwobbf7ik-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 30000
     },
     {
       "id": "xppeotw2ct",
@@ -6577,7 +7080,8 @@
         "/assets/products/xppeotw2ct-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000
     },
     {
       "id": "8ya8oydctxm",
@@ -6595,7 +7099,8 @@
         "/assets/products/8ya8oydctxm-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 300000
     },
     {
       "id": "qibnmezn5er",
@@ -6612,7 +7117,8 @@
         "/assets/products/qibnmezn5er-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 325000
     },
     {
       "id": "88a391iwk0u",
@@ -6630,7 +7136,8 @@
         "/assets/products/88a391iwk0u-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 500000
     },
     {
       "id": "gvfg924wsd6",
@@ -6646,7 +7153,8 @@
         "/assets/products/gvfg924wsd6-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "ltquzz0c0uh",
@@ -6664,7 +7172,8 @@
         "/assets/products/ltquzz0c0uh-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 12000
     },
     {
       "id": "0huvv5v09pcu",
@@ -6681,7 +7190,8 @@
         "/assets/products/0huvv5v09pcu-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 250000
     },
     {
       "id": "5ks6aumla4a",
@@ -6697,7 +7207,8 @@
         "/assets/products/5ks6aumla4a-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 260000
     },
     {
       "id": "3tgd1zh14cd",
@@ -6718,7 +7229,8 @@
         "/assets/products/3tgd1zh14cd-7.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "2jq7lx4dulu",
@@ -6735,7 +7247,8 @@
         "/assets/products/2jq7lx4dulu-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 52000
     },
     {
       "id": "jknohxru4vg",
@@ -6752,7 +7265,8 @@
         "/assets/products/jknohxru4vg-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 520000
     },
     {
       "id": "roq4rt4imgc",
@@ -6770,7 +7284,8 @@
         "/assets/products/roq4rt4imgc-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 170000
     },
     {
       "id": "6m0nq85z79u",
@@ -6788,7 +7303,8 @@
         "/assets/products/6m0nq85z79u-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 340000
     },
     {
       "id": "xw9jsh5bjl8",
@@ -6806,7 +7322,8 @@
         "/assets/products/xw9jsh5bjl8-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "aa1h3e977bm",
@@ -6822,7 +7339,8 @@
         "/assets/products/aa1h3e977bm-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 30000
     },
     {
       "id": "swywgerrqzn",
@@ -6839,7 +7357,8 @@
         "/assets/products/swywgerrqzn-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 30000
     },
     {
       "id": "285m04kvaid",
@@ -6855,7 +7374,8 @@
         "/assets/products/285m04kvaid-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 700000
     },
     {
       "id": "o8fc9e2wq4",
@@ -6874,7 +7394,8 @@
         "/assets/products/o8fc9e2wq4-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 920000
     },
     {
       "id": "kaz344co48d",
@@ -6891,7 +7412,8 @@
         "/assets/products/kaz344co48d-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 820000
     },
     {
       "id": "l0kpxhp2uk8",
@@ -6907,7 +7429,8 @@
         "/assets/products/l0kpxhp2uk8-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 900000
     },
     {
       "id": "w4r4l86yicd",
@@ -6922,7 +7445,8 @@
         "/assets/products/w4r4l86yicd-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "g4ya4b028nr",
@@ -6937,7 +7461,8 @@
         "/assets/products/g4ya4b028nr-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 40000
     },
     {
       "id": "lq7qbqo3k6",
@@ -6953,7 +7478,8 @@
         "/assets/products/lq7qbqo3k6-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 95000
     },
     {
       "id": "t4ylr0vjbx",
@@ -6969,7 +7495,8 @@
         "/assets/products/t4ylr0vjbx-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 70000
     },
     {
       "id": "g0mlw0a2l5p",
@@ -6985,7 +7512,8 @@
         "/assets/products/g0mlw0a2l5p-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "bl4e92flkxo",
@@ -7000,7 +7528,8 @@
         "/assets/products/bl4e92flkxo-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 4000
     },
     {
       "id": "g3ievvy1b2",
@@ -7016,7 +7545,8 @@
         "/assets/products/g3ievvy1b2-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 10000
     },
     {
       "id": "cv7qfoj410h",
@@ -7032,7 +7562,8 @@
         "/assets/products/cv7qfoj410h-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 12000
     },
     {
       "id": "7jb1cf0t61r",
@@ -7050,7 +7581,8 @@
         "/assets/products/7jb1cf0t61r-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 25000
     },
     {
       "id": "d1d8ruehrv",
@@ -7067,7 +7599,8 @@
         "/assets/products/d1d8ruehrv-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "2yscwrj6iy7",
@@ -7082,7 +7615,8 @@
         "/assets/products/2yscwrj6iy7-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "0xsw5y9z1zd",
@@ -7099,7 +7633,8 @@
         "/assets/products/0xsw5y9z1zd-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 12000
     },
     {
       "id": "6bpd7ca3zo4",
@@ -7115,7 +7650,8 @@
         "/assets/products/6bpd7ca3zo4-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "kxvz25w6gw",
@@ -7135,7 +7671,8 @@
         "/assets/products/kxvz25w6gw-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 100000
     },
     {
       "id": "5vpj2poxs66",
@@ -7151,7 +7688,8 @@
         "/assets/products/5vpj2poxs66-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 100000
     },
     {
       "id": "4nmfsws0vam",
@@ -7167,7 +7705,8 @@
         "/assets/products/4nmfsws0vam-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 22000
     },
     {
       "id": "48kshmcxfgq",
@@ -7182,7 +7721,8 @@
         "/assets/products/48kshmcxfgq-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "d10rp2zrxpt",
@@ -7198,7 +7738,8 @@
         "/assets/products/d10rp2zrxpt-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 25000
     },
     {
       "id": "6ohe74r24eg",
@@ -7214,7 +7755,8 @@
         "/assets/products/6ohe74r24eg-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "2sirnqy8865",
@@ -7232,7 +7774,8 @@
         "/assets/products/2sirnqy8865-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "1yrjjgtprhs",
@@ -7250,7 +7793,8 @@
         "/assets/products/1yrjjgtprhs-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "l9hxtjyyt4",
@@ -7267,7 +7811,8 @@
         "/assets/products/l9hxtjyyt4-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 60000
     },
     {
       "id": "mx5ty8udc3",
@@ -7285,7 +7830,8 @@
         "/assets/products/mx5ty8udc3-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 100000
     },
     {
       "id": "8eg7uewyy5a",
@@ -7302,7 +7848,8 @@
         "/assets/products/8eg7uewyy5a-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 55000
     },
     {
       "id": "kaygt22s6di",
@@ -7311,14 +7858,17 @@
       "description": "Espada 48 cm inalámbrico 14mm 1350rm max",
       "category": "HERRAMIENTA INALAMBRICA SURTIDA",
       "brand": "Drill",
-      "price": 320000,
+      "price": 379900,
       "currency": "COP",
       "images": [
         "/assets/products/kaygt22s6di-1.png",
         "/assets/products/kaygt22s6di-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 320000,
+      "pricing_adjustment": 59900,
+      "pricing_rule": "Precio fijo Cortasetos Inalámbrico"
     },
     {
       "id": "3wghhu93lje",
@@ -7336,7 +7886,8 @@
         "/assets/products/3wghhu93lje-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 100000
     },
     {
       "id": "ez3g57rg26f",
@@ -7353,7 +7904,8 @@
         "/assets/products/ez3g57rg26f-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 80000
     },
     {
       "id": "oxtppk4nb4",
@@ -7369,7 +7921,8 @@
         "/assets/products/oxtppk4nb4-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 80000
     },
     {
       "id": "k36v3lz9un",
@@ -7386,7 +7939,8 @@
         "/assets/products/k36v3lz9un-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 80000
     },
     {
       "id": "shy5j9v4gp9",
@@ -7404,7 +7958,8 @@
         "/assets/products/shy5j9v4gp9-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "k168ykd5osc",
@@ -7420,7 +7975,8 @@
         "/assets/products/k168ykd5osc-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000
     },
     {
       "id": "7wgc7jor61p",
@@ -7436,7 +7992,8 @@
         "/assets/products/7wgc7jor61p-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 95000
     },
     {
       "id": "lrfq21yvij",
@@ -7454,7 +8011,8 @@
         "/assets/products/lrfq21yvij-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000
     },
     {
       "id": "hqso0x6cr67",
@@ -7472,7 +8030,8 @@
         "/assets/products/hqso0x6cr67-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000
     },
     {
       "id": "op5gaf8omq8",
@@ -7490,7 +8049,8 @@
         "/assets/products/op5gaf8omq8-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 480000
     },
     {
       "id": "tmvmj4yeu2",
@@ -7506,7 +8066,8 @@
         "/assets/products/tmvmj4yeu2-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 80000
     },
     {
       "id": "54rt08x02pa",
@@ -7521,7 +8082,8 @@
         "/assets/products/54rt08x02pa-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 30000
     },
     {
       "id": "e7e02kv9lg",
@@ -7540,7 +8102,8 @@
         "/assets/products/e7e02kv9lg-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 80000
     },
     {
       "id": "ckdhg2fbved",
@@ -7556,7 +8119,8 @@
         "/assets/products/ckdhg2fbved-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 80000
     },
     {
       "id": "nyaba41f4y",
@@ -7573,7 +8137,8 @@
         "/assets/products/nyaba41f4y-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 650000
     },
     {
       "id": "u1sx1m1w6lf",
@@ -7589,7 +8154,8 @@
         "/assets/products/u1sx1m1w6lf-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 540000
     },
     {
       "id": "xipahhc2f7n",
@@ -7605,7 +8171,8 @@
         "/assets/products/xipahhc2f7n-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "axqb1gajda4",
@@ -7622,7 +8189,8 @@
         "/assets/products/axqb1gajda4-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "66ywz5xskzn",
@@ -7638,7 +8206,8 @@
         "/assets/products/66ywz5xskzn-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 420000
     },
     {
       "id": "vd5og5sh5n",
@@ -7655,7 +8224,8 @@
         "/assets/products/vd5og5sh5n-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 17000
     },
     {
       "id": "twjmkogpjln",
@@ -7664,7 +8234,7 @@
       "description": "taladro percutor Madrill de 1/2” BaTeria 36V 320w 1500r/m",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Prtool",
-      "price": 240000,
+      "price": 270000,
       "currency": "COP",
       "images": [
         "/assets/products/twjmkogpjln-1.png",
@@ -7673,7 +8243,10 @@
         "/assets/products/twjmkogpjln-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 240000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "9okj5bc5uw5",
@@ -7682,14 +8255,17 @@
       "description": "Taladro de árbol mediano Finder 350 potencia 1750r/ m 5 Niveles 13mm",
       "category": "TALADROS ELECTRICOS",
       "brand": "",
-      "price": 650000,
+      "price": 680000,
       "currency": "COP",
       "images": [
         "/assets/products/9okj5bc5uw5-1.png",
         "/assets/products/9okj5bc5uw5-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 650000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "ctui9kz93ka",
@@ -7698,7 +8274,7 @@
       "description": "Taladro ALAMBRICO 1/2\" 950W 3000r/m El Taladro Eléctrico 1/2\" Marca ENUM está diseñado para brindar un excelente rendimiento en trabajos de perforación y atornillado, siendo una herramienta confiable para talleres, construcción y uso profesional. ✅ Potencia: 950W. ⚡ Velocidad: Hasta 3.000 RPM para perforaciones rápidas y precisas. 🔩 Mandril de 1/2\", ideal para una amplia variedad de brocas y aplicaciones. 🔌 Alimentación: 110V. 🎚️ Velocidad variable, que permite un mayor control según el tipo de trabajo. 🔄 Función reversible, ideal para atornillar y desatornillar con facilidad. ✋Incluye burguja nivel y punta Desatonilladir. Diseño ergonómico que proporciona mayor Comodidad",
       "category": "TALADROS ELECTRICOS",
       "brand": "Enum",
-      "price": 150000,
+      "price": 180000,
       "currency": "COP",
       "images": [
         "/assets/products/ctui9kz93ka-1.png",
@@ -7706,7 +8282,10 @@
         "/assets/products/ctui9kz93ka-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "62rypcrq2km",
@@ -7715,7 +8294,7 @@
       "description": "Motor brushless Taladro: 68V 3000r/m 1/2\" Llave 68V 450nm /2\"",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Drill",
-      "price": 450000,
+      "price": 500000,
       "currency": "COP",
       "images": [
         "/assets/products/62rypcrq2km-1.png",
@@ -7723,7 +8302,10 @@
         "/assets/products/62rypcrq2km-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 450000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "r96s32z1rik",
@@ -7732,7 +8314,7 @@
       "description": "Taladro y pistola de impacto 68V",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Drill",
-      "price": 430000,
+      "price": 480000,
       "currency": "COP",
       "images": [
         "/assets/products/r96s32z1rik-1.png",
@@ -7740,7 +8322,10 @@
         "/assets/products/r96s32z1rik-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 430000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "7gcu15g6bw9",
@@ -7749,7 +8334,7 @@
       "description": "? Combo Taladro + Pulidora Inalámbrica 68V MACRAFT Brushless – Protool Power SAS Potencia doble, rendimiento profesional. El Combo MACRAFT 68V incluye un taladro percutor y una pulidora inalámbrica diseñados con motor brushless (sin escobillas), que garantiza mayor potencia, eficiencia y vida útil sin pérdida de fuerza. El taladro cuenta con mandril metálico de 13 mm, ideal para perforar metal, concreto y madera con total precisión. La pulidora, ligera y ergonómica, ofrece una velocidad estable y control total para trabajos de acabado, corte y pulido en diferentes materiales. Ambas herramientas operan con batería recargable de 68V, brindando libertad total de movimiento, excelente autonomía y fuerza constante en cada tarea. Perfecto para profesionales, talleres, contratistas o emprendedores que buscan potencia, versatilidad y durabilidad en un solo kit. ? Protool Power SAS, tu tienda de confianza en herramientas profesionales y de alto rendimiento. ? Venta disponible para público minorista y mayorista. ? Para obtener precio mayorista, escríbenos al WhatsApp 3337319604 y recibe atención personalizada.",
       "category": "COMBOS INALAMBRICOS",
       "brand": "McCraft",
-      "price": 430000,
+      "price": 480000,
       "currency": "COP",
       "images": [
         "/assets/products/7gcu15g6bw9-1.png",
@@ -7757,7 +8342,10 @@
         "/assets/products/7gcu15g6bw9-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 430000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "j7ibcedmfk",
@@ -7766,7 +8354,7 @@
       "description": "Motor brushless Taladro 68V 3000r/m 1/2\" Pulidora 68V 9000r/m 4 1/2\"",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Drill",
-      "price": 450000,
+      "price": 500000,
       "currency": "COP",
       "images": [
         "/assets/products/j7ibcedmfk-1.png",
@@ -7774,7 +8362,10 @@
         "/assets/products/j7ibcedmfk-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 450000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "f2vrxx4yzq",
@@ -7790,7 +8381,8 @@
         "/assets/products/f2vrxx4yzq-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 210000
     },
     {
       "id": "huuoyzupt8r",
@@ -7806,7 +8398,8 @@
         "/assets/products/huuoyzupt8r-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 170000
     },
     {
       "id": "0uihqo0d5nwj",
@@ -7823,7 +8416,8 @@
         "/assets/products/0uihqo0d5nwj-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 250000
     },
     {
       "id": "uxpdn0xqwt",
@@ -7840,7 +8434,8 @@
         "/assets/products/uxpdn0xqwt-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 280000
     },
     {
       "id": "u19upts2yy",
@@ -7849,7 +8444,7 @@
       "description": "El Taladro Percutor Inalámbrico 1/2\" Marca ENUM combina fuerza, autonomía y rendimiento para perforar, atornillar y trabajar en materiales de alta exigencia con total comodidad. ✅ Motor de alto rendimiento. 🔋 Voltaje: 21V. 🔋 2 baterías de 4Ah para mayor autonomía y productividad. ⚡ Velocidad máxima: 1.600 RPM. 💪 Torque de 58 N·m, ideal para aplicaciones profesionales. 🔨 Función percutora para perforar concreto, ladrillo, madera y metal. ✋ Incluye mango auxiliar para un mejor control y estabilidad. 🔌 Incluye cargador y resistente caja plástica para un transporte seguro. 💼 Diseñado para uso profesional, ofreciendo potencia, precisión y durabilidad en cada proyecto",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Enum",
-      "price": 350000,
+      "price": 380000,
       "currency": "COP",
       "images": [
         "/assets/products/u19upts2yy-1.png",
@@ -7861,7 +8456,10 @@
         "/assets/products/u19upts2yy-7.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "jg7ezx9fcm",
@@ -7870,7 +8468,7 @@
       "description": "Taladro Inalámbrico Mandril metálico 3/8\" 2 batería 48v 1350r/m",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Prtool",
-      "price": 120000,
+      "price": 150000,
       "currency": "COP",
       "images": [
         "/assets/products/jg7ezx9fcm-1.png",
@@ -7878,7 +8476,10 @@
         "/assets/products/jg7ezx9fcm-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 120000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "7cn8qnv5iqt",
@@ -7887,7 +8488,7 @@
       "description": "13mm Metálico estuches herramientas 2 Baterías 48V",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Drill",
-      "price": 190000,
+      "price": 220000,
       "currency": "COP",
       "images": [
         "/assets/products/7cn8qnv5iqt-1.png",
@@ -7895,7 +8496,10 @@
         "/assets/products/7cn8qnv5iqt-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "gsunevp1beb",
@@ -7904,14 +8508,17 @@
       "description": "Taladro atornillador percutor pantalla LCD Mandrill metálico 3/8\" 2 baterías LCD 18-25nm 1500r/m",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 130000,
+      "price": 160000,
       "currency": "COP",
       "images": [
         "/assets/products/gsunevp1beb-1.png",
         "/assets/products/gsunevp1beb-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 130000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "nkag6j0dbp",
@@ -7920,14 +8527,17 @@
       "description": "Taladro inalámbrico amarillo Contiene: 2 Batería 48V 8AH 1550R/MIN MANDRILL METÁLICO DE 10MM 3/8\"",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Drill",
-      "price": 190000,
+      "price": 220000,
       "currency": "COP",
       "images": [
         "/assets/products/nkag6j0dbp-1.png",
         "/assets/products/nkag6j0dbp-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "4m5u0v6dbrq",
@@ -7936,7 +8546,7 @@
       "description": "Brushless percutor 100nm Mandril 1/2\" 1800r/m",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 290000,
+      "price": 320000,
       "currency": "COP",
       "images": [
         "/assets/products/4m5u0v6dbrq-1.png",
@@ -7946,7 +8556,10 @@
         "/assets/products/4m5u0v6dbrq-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 290000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "74s9xs1ok6o",
@@ -7955,7 +8568,7 @@
       "description": "Taladro inalámbrico brushless Mandril metálico 3/8",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 200000,
+      "price": 230000,
       "currency": "COP",
       "images": [
         "/assets/products/74s9xs1ok6o-1.png",
@@ -7963,7 +8576,10 @@
         "/assets/products/74s9xs1ok6o-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 200000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "gdg0rh7nnt9",
@@ -7972,7 +8588,7 @@
       "description": "Taladro atornillador inalámbrico brushless NO percutor Mandril metalico de 3/8. Amarillo",
       "category": "TALADROS INALAMBRICOS",
       "brand": "Protool",
-      "price": 150000,
+      "price": 180000,
       "currency": "COP",
       "images": [
         "/assets/products/gdg0rh7nnt9-1.png",
@@ -7981,7 +8597,10 @@
         "/assets/products/gdg0rh7nnt9-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "lv4garqx4z",
@@ -7990,7 +8609,7 @@
       "description": "Taladro Percutor Inalámbrico Profesional – PROTOOL POWER SAS Potencia, precisión y comodidad en una sola herramienta ⚙️ El Taladro Percutor Inalámbrico Protool Power está diseñado para ofrecer máximo rendimiento y durabilidad tanto en trabajos de construcción como en proyectos domésticos exigentes. Su motor de alto torque y sistema de impacto potente te garantizan perforaciones precisas y rápidas en madera, metal o concreto. ? Especificaciones técnicas: Voltaje nominal: 21V Velocidad sin carga: 0–1350 rpm / 0–3750 rpm Frecuencia de impacto: 5700–22350 golpes por minuto Batería: Recargable de ion-litio, alta capacidad y larga duración Carga: 1.5A / 24V Diseño ergonómico y liviano, ideal para trabajos continuos sin fatiga Incluye accesorios de perforación y atornillado ✅ Ideal para profesionales, técnicos y aficionados que buscan una herramienta confiable, potente y versátil. ✅ Construcción robusta con materiales de alta calidad para mayor resistencia. Confía en Protool Power SAS, tu aliado en herramientas de alto rendimiento. ? Venta para público minorista y mayorista. ? Escríbenos al WhatsApp 333 731 96 04 para solicitar precio mayorista y atención personalizada.",
       "category": "TALADROS INALAMBRICOS",
       "brand": "",
-      "price": 140000,
+      "price": 170000,
       "currency": "COP",
       "images": [
         "/assets/products/lv4garqx4z-1.png",
@@ -7999,7 +8618,10 @@
         "/assets/products/lv4garqx4z-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "nbibv6m1yn",
@@ -8008,7 +8630,7 @@
       "description": "Rojo 2 baterías",
       "category": "Otros",
       "brand": "Drill",
-      "price": 400000,
+      "price": 430000,
       "currency": "COP",
       "images": [
         "/assets/products/nbibv6m1yn-1.png",
@@ -8016,7 +8638,10 @@
         "/assets/products/nbibv6m1yn-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 400000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "6soitwuhdoa",
@@ -8033,7 +8658,8 @@
         "/assets/products/6soitwuhdoa-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 260000
     },
     {
       "id": "ymyrl2syra",
@@ -8050,7 +8676,8 @@
         "/assets/products/ymyrl2syra-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000
     },
     {
       "id": "090vdvt3tfqx",
@@ -8067,7 +8694,8 @@
         "/assets/products/090vdvt3tfqx-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 320000
     },
     {
       "id": "38pphy4a7jf",
@@ -8085,7 +8713,8 @@
         "/assets/products/38pphy4a7jf-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 390000
     },
     {
       "id": "kuoqk1sqi4",
@@ -8102,7 +8731,8 @@
         "/assets/products/kuoqk1sqi4-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "zp3qdomqjyh",
@@ -8120,7 +8750,8 @@
         "/assets/products/zp3qdomqjyh-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 200000
     },
     {
       "id": "7wd7qjwjtb9",
@@ -8138,7 +8769,8 @@
         "/assets/products/7wd7qjwjtb9-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 820000
     },
     {
       "id": "5ga4cc5kuhn",
@@ -8157,7 +8789,8 @@
         "/assets/products/5ga4cc5kuhn-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 1500000
     },
     {
       "id": "1o128hsxw19",
@@ -8174,7 +8807,8 @@
         "/assets/products/1o128hsxw19-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 1350000
     },
     {
       "id": "7sx70v0uxnr",
@@ -8192,7 +8826,8 @@
         "/assets/products/7sx70v0uxnr-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "mu38id9hyf",
@@ -8212,7 +8847,8 @@
         "/assets/products/mu38id9hyf-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 85000
     },
     {
       "id": "eoyh5w6i7vr",
@@ -8229,7 +8865,8 @@
         "/assets/products/eoyh5w6i7vr-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 110000
     },
     {
       "id": "sgyjwmc9wzp",
@@ -8245,7 +8882,8 @@
         "/assets/products/sgyjwmc9wzp-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 52000
     },
     {
       "id": "mxic9hr8ywl",
@@ -8261,7 +8899,8 @@
         "/assets/products/mxic9hr8ywl-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 55000
     },
     {
       "id": "ijfwj9v1j5o",
@@ -8278,7 +8917,8 @@
         "/assets/products/ijfwj9v1j5o-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 45000
     },
     {
       "id": "9qiunbhve9p",
@@ -8295,7 +8935,8 @@
         "/assets/products/9qiunbhve9p-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 60000
     },
     {
       "id": "76yy46hfr8v",
@@ -8313,7 +8954,8 @@
         "/assets/products/76yy46hfr8v-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "byqhwga6h2",
@@ -8330,7 +8972,8 @@
         "/assets/products/byqhwga6h2-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "mdi33ka8cq",
@@ -8348,7 +8991,8 @@
         "/assets/products/mdi33ka8cq-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 90000
     },
     {
       "id": "huo8ixis0u6",
@@ -8366,7 +9010,8 @@
         "/assets/products/huo8ixis0u6-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000
     },
     {
       "id": "0skjfdtm35sl",
@@ -8384,7 +9029,8 @@
         "/assets/products/0skjfdtm35sl-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 300000
     },
     {
       "id": "p9ky93oz4xp",
@@ -8401,7 +9047,8 @@
         "/assets/products/p9ky93oz4xp-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 300000
     },
     {
       "id": "5o0hvi6tnfq",
@@ -8419,7 +9066,8 @@
         "/assets/products/5o0hvi6tnfq-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 115000
     },
     {
       "id": "evr8uykojg",
@@ -8436,7 +9084,8 @@
         "/assets/products/evr8uykojg-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "eucreuzuaha",
@@ -8453,7 +9102,8 @@
         "/assets/products/eucreuzuaha-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "5amo1o8ms2h",
@@ -8474,7 +9124,8 @@
         "/assets/products/5amo1o8ms2h-7.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 180000
     },
     {
       "id": "rc7gve294m",
@@ -8491,7 +9142,8 @@
         "/assets/products/rc7gve294m-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000
     },
     {
       "id": "6dowsqxa77l",
@@ -8508,7 +9160,8 @@
         "/assets/products/6dowsqxa77l-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 240000
     },
     {
       "id": "7v22keuyu33",
@@ -8524,7 +9177,8 @@
         "/assets/products/7v22keuyu33-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000
     },
     {
       "id": "z95erozrdp",
@@ -8542,7 +9196,8 @@
         "/assets/products/z95erozrdp-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 170000
     },
     {
       "id": "ym1vz2mu3g",
@@ -8559,7 +9214,8 @@
         "/assets/products/ym1vz2mu3g-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 10000
     },
     {
       "id": "115ius1emyth",
@@ -8577,7 +9233,8 @@
         "/assets/products/115ius1emyth-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 130000
     },
     {
       "id": "ou3fjf5ebs",
@@ -8594,7 +9251,8 @@
         "/assets/products/ou3fjf5ebs-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 40000
     },
     {
       "id": "zniq5su8hlm",
@@ -8611,7 +9269,8 @@
         "/assets/products/zniq5su8hlm-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 150000
     },
     {
       "id": "08ziw28zfj05",
@@ -8626,7 +9285,8 @@
         "/assets/products/08ziw28zfj05-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 60000
     },
     {
       "id": "84duaso2gwk",
@@ -8645,7 +9305,8 @@
         "/assets/products/84duaso2gwk-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "jsu2ebji5e9",
@@ -8664,7 +9325,8 @@
         "/assets/products/jsu2ebji5e9-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 55000
     },
     {
       "id": "sk0jbzftt2",
@@ -8682,7 +9344,8 @@
         "/assets/products/sk0jbzftt2-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 160000
     },
     {
       "id": "ygpzcm0a5c",
@@ -8699,7 +9362,8 @@
         "/assets/products/ygpzcm0a5c-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 145000
     },
     {
       "id": "oqas1q9rhp",
@@ -8708,7 +9372,7 @@
       "description": "Combo que incluye taladro y pulidora, diseñado para ofrecer versatilidad y rendimiento en distintos trabajos. Ideal para uso profesional y excelente opción para alta rotación.",
       "category": "COMBOS PULIDORA/TALADROS",
       "brand": "Prtool",
-      "price": 190000,
+      "price": 240000,
       "currency": "COP",
       "images": [
         "/assets/products/oqas1q9rhp-1.png",
@@ -8717,7 +9381,10 @@
         "/assets/products/oqas1q9rhp-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "fsotn51lrtm",
@@ -8726,14 +9393,17 @@
       "description": "Taladro de impacto Protool diseñado para ofrecer potencia y resistencia en trabajos de perforación en concreto, madera y metal. Ideal para uso profesional y de alta exigencia.",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Prtool",
-      "price": 250000,
+      "price": 280000,
       "currency": "COP",
       "images": [
         "/assets/products/fsotn51lrtm-1.png",
         "/assets/products/fsotn51lrtm-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 250000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "6d3tfpok0p4",
@@ -8751,7 +9421,8 @@
         "/assets/products/6d3tfpok0p4-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "vr44d23kxk",
@@ -8767,7 +9438,8 @@
         "/assets/products/vr44d23kxk-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 12000
     },
     {
       "id": "er7vuytoerh",
@@ -8783,7 +9455,8 @@
         "/assets/products/er7vuytoerh-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 8000
     },
     {
       "id": "a4qjqzj6d5",
@@ -8799,7 +9472,8 @@
         "/assets/products/a4qjqzj6d5-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 18000
     },
     {
       "id": "fu81ujwf5vr",
@@ -8815,7 +9489,8 @@
         "/assets/products/fu81ujwf5vr-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 400000
     },
     {
       "id": "40nl3q30x8h",
@@ -8831,7 +9506,8 @@
         "/assets/products/40nl3q30x8h-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000
     },
     {
       "id": "2vw3q7l9ytf",
@@ -8847,7 +9523,8 @@
         "/assets/products/2vw3q7l9ytf-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000
     },
     {
       "id": "jj1cae4nav",
@@ -8863,7 +9540,8 @@
         "/assets/products/jj1cae4nav-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "ibp2bhe60b",
@@ -8880,7 +9558,8 @@
         "/assets/products/ibp2bhe60b-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 90000
     },
     {
       "id": "6m4cw84kanf",
@@ -8896,7 +9575,8 @@
         "/assets/products/6m4cw84kanf-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 130000
     },
     {
       "id": "pcm6kbrgh7h",
@@ -8915,7 +9595,8 @@
         "/assets/products/pcm6kbrgh7h-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000
     },
     {
       "id": "2pb5r2he9oc",
@@ -8932,7 +9613,8 @@
         "/assets/products/2pb5r2he9oc-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 230000
     },
     {
       "id": "qte8husst1i",
@@ -8941,7 +9623,7 @@
       "description": "110v 1150w velocidad variable 3000rm Marcha adelante y atras El Taladro Eléctrico 1/2\" está diseñado para brindar un excelente rendimiento en trabajos de perforación y atornillado, siendo una herramienta confiable para talleres, construcción y uso profesional. ✅ Potencia: 1150W. ⚡ Velocidad: Hasta 3.000 RPM para perforaciones rápidas y precisas. 🔩 Mandril de 1/2\", ideal para una amplia variedad de brocas y aplicaciones. 🔌 Alimentación: 110V. 🎚️ Velocidad variable, que permite un mayor control según el tipo de trabajo. 🔄 Función reversible, ideal para atornillar y desatornillar con facilidad. ✋ Diseño ergonómico que proporciona mayor",
       "category": "TALADROS ELECTRICOS",
       "brand": "BOSITENG",
-      "price": 140000,
+      "price": 170000,
       "currency": "COP",
       "images": [
         "/assets/products/qte8husst1i-1.png",
@@ -8951,7 +9633,10 @@
         "/assets/products/qte8husst1i-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "q3zx13cr9ym",
@@ -8960,14 +9645,17 @@
       "description": "Taladro Chasis 110v/60Htz 1080W 980Rpm 13mm Cuerpo Aluminio",
       "category": "TALADROS ELECTRICOS",
       "brand": "",
-      "price": 125000,
+      "price": 155000,
       "currency": "COP",
       "images": [
         "/assets/products/q3zx13cr9ym-1.png",
         "/assets/products/q3zx13cr9ym-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 125000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "nd76e3g0ze",
@@ -8976,7 +9664,7 @@
       "description": "710w 13mm 110v 60htz 3000rpm Vel. Variable percutor reversa y adelante",
       "category": "TALADROS ELECTRICOS",
       "brand": "Meingeng",
-      "price": 125000,
+      "price": 155000,
       "currency": "COP",
       "images": [
         "/assets/products/nd76e3g0ze-1.png",
@@ -8988,7 +9676,10 @@
         "/assets/products/nd76e3g0ze-7.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 125000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     },
     {
       "id": "vioun1dif9e",
@@ -9006,7 +9697,8 @@
         "/assets/products/vioun1dif9e-4.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 245000
     },
     {
       "id": "1vopzzzyqcq",
@@ -9030,7 +9722,8 @@
         "/assets/products/1vopzzzyqcq-10.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 210000
     },
     {
       "id": "xfm07bihmcq",
@@ -9052,7 +9745,8 @@
         "/assets/products/xfm07bihmcq-8.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 170000
     },
     {
       "id": "tt7tvwa1aj",
@@ -9072,7 +9766,8 @@
         "/assets/products/tt7tvwa1aj-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 310000
     },
     {
       "id": "0wi386yr044d",
@@ -9093,7 +9788,8 @@
         "/assets/products/0wi386yr044d-7.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 430000
     },
     {
       "id": "q9wf4nul4m",
@@ -9112,7 +9808,8 @@
         "/assets/products/q9wf4nul4m-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 230000
     },
     {
       "id": "yex7lvwfusa",
@@ -9129,7 +9826,8 @@
         "/assets/products/yex7lvwfusa-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 190000
     },
     {
       "id": "46auzh4u7z7",
@@ -9146,7 +9844,8 @@
         "/assets/products/46auzh4u7z7-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 20000
     },
     {
       "id": "ta5r6gqvan9",
@@ -9166,7 +9865,8 @@
         "/assets/products/ta5r6gqvan9-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 390000
     },
     {
       "id": "5ey1fpzs4jf",
@@ -9181,7 +9881,8 @@
         "/assets/products/5ey1fpzs4jf-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 73000
     },
     {
       "id": "fqaw7jljlur",
@@ -9198,7 +9899,8 @@
         "/assets/products/fqaw7jljlur-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 57000
     },
     {
       "id": "b33nh5rfict",
@@ -9213,7 +9915,8 @@
         "/assets/products/b33nh5rfict-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 11000
     },
     {
       "id": "p5oszrnjewg",
@@ -9232,7 +9935,8 @@
         "/assets/products/p5oszrnjewg-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 37000
     },
     {
       "id": "xwsr4ngrcyf",
@@ -9249,7 +9953,8 @@
         "/assets/products/xwsr4ngrcyf-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 250000
     },
     {
       "id": "1tuuph8gybm",
@@ -9266,7 +9971,8 @@
         "/assets/products/1tuuph8gybm-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 57000
     },
     {
       "id": "grqxb8p9qci",
@@ -9286,7 +9992,8 @@
         "/assets/products/grqxb8p9qci-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 295000
     },
     {
       "id": "69mnspjz2qw",
@@ -9305,7 +10012,8 @@
         "/assets/products/69mnspjz2qw-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "iks88ui0zzb",
@@ -9324,7 +10032,8 @@
         "/assets/products/iks88ui0zzb-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 30000
     },
     {
       "id": "o8zmba0aes",
@@ -9344,7 +10053,8 @@
         "/assets/products/o8zmba0aes-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 295000
     },
     {
       "id": "bnailqiu1kn",
@@ -9361,7 +10071,8 @@
         "/assets/products/bnailqiu1kn-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 28000
     },
     {
       "id": "4r34bixdmpn",
@@ -9376,7 +10087,8 @@
         "/assets/products/4r34bixdmpn-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 650000
     },
     {
       "id": "c7zbeeieo7q",
@@ -9395,7 +10107,8 @@
         "/assets/products/c7zbeeieo7q-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 255000
     },
     {
       "id": "tps336dmjic",
@@ -9415,7 +10128,8 @@
         "/assets/products/tps336dmjic-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 52000
     },
     {
       "id": "f80ci61lvl",
@@ -9435,7 +10149,8 @@
         "/assets/products/f80ci61lvl-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 95000
     },
     {
       "id": "x07s8a8e7e",
@@ -9452,7 +10167,8 @@
         "/assets/products/x07s8a8e7e-3.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 22000
     },
     {
       "id": "kt1cqlquxbo",
@@ -9472,7 +10188,8 @@
         "/assets/products/kt1cqlquxbo-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 140000
     },
     {
       "id": "rt7t7h5nv1t",
@@ -9494,7 +10211,8 @@
         "/assets/products/rt7t7h5nv1t-8.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 45000
     },
     {
       "id": "0fsu7vrkt5zr",
@@ -9509,7 +10227,8 @@
         "/assets/products/0fsu7vrkt5zr-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "ef1cku3pg0t",
@@ -9524,7 +10243,8 @@
         "/assets/products/ef1cku3pg0t-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "mgks2idfuk",
@@ -9540,7 +10260,8 @@
         "/assets/products/mgks2idfuk-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "wg6vg34crh",
@@ -9555,7 +10276,8 @@
         "/assets/products/wg6vg34crh-1.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 75000
     },
     {
       "id": "giq1cc6yhr9",
@@ -9574,7 +10296,8 @@
         "/assets/products/giq1cc6yhr9-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 210000
     },
     {
       "id": "knrnq14j16c",
@@ -9593,7 +10316,8 @@
         "/assets/products/knrnq14j16c-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 50000
     },
     {
       "id": "7cxg6t9n92v",
@@ -9616,7 +10340,8 @@
         "/assets/products/7cxg6t9n92v-9.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 15000
     },
     {
       "id": "zqvsjx0ftv",
@@ -9625,7 +10350,7 @@
       "description": "Pildora y pistola de 68V 8AH",
       "category": "COMBOS INALAMBRICOS",
       "brand": "",
-      "price": 420000,
+      "price": 470000,
       "currency": "COP",
       "images": [
         "/assets/products/zqvsjx0ftv-1.png",
@@ -9638,7 +10363,10 @@
         "/assets/products/zqvsjx0ftv-8.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 420000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "03pahugbl8yq",
@@ -9647,7 +10375,7 @@
       "description": "Taladro y pistola de impacto 68V",
       "category": "COMBOS INALAMBRICOS",
       "brand": "Drill",
-      "price": 430000,
+      "price": 480000,
       "currency": "COP",
       "images": [
         "/assets/products/03pahugbl8yq-1.png",
@@ -9657,7 +10385,10 @@
         "/assets/products/03pahugbl8yq-5.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 430000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Combo con taladro o pulidora"
     },
     {
       "id": "3zhghfdpite",
@@ -9673,7 +10404,8 @@
         "/assets/products/3zhghfdpite-2.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 110000
     },
     {
       "id": "oue6kwb6frm",
@@ -9682,7 +10414,7 @@
       "description": "-Contiene 2 baterias -48v -8ah -3000 r/mn -mandril metálico de 13 mm(1/2)",
       "category": "TALADROS INALAMBRICOS",
       "brand": "",
-      "price": 350000,
+      "price": 380000,
       "currency": "COP",
       "images": [
         "/assets/products/oue6kwb6frm-1.png",
@@ -9693,7 +10425,10 @@
         "/assets/products/oue6kwb6frm-6.png"
       ],
       "available": true,
-      "featured": false
+      "featured": false,
+      "source_price": 350000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Taladro"
     }
   ]
 }

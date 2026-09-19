@@ -15,6 +15,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from pricing_rules import apply_pricing_rules
+
 SOURCE_SLUG = "protoolpowercali"
 SOURCE_PAGE = f"https://vercatalogo.com/{SOURCE_SLUG}/products"
 API_BASE = f"https://api-latam.vercatalogo.com/{SOURCE_SLUG}"
@@ -181,6 +183,7 @@ def main() -> None:
             }
         )
 
+    products = apply_pricing_rules(products)
     categories = sorted({p["category"] for p in products}, key=str.casefold)
     catalog = {
         "meta": {
@@ -192,6 +195,7 @@ def main() -> None:
             "retail_price_field": "pcia",
             "wholesale_prices_included": False,
             "images_hosted_locally": True,
+            "pricing_rules_applied": True,
         },
         "categories": categories,
         "products": products,

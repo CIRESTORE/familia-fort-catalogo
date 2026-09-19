@@ -13,6 +13,14 @@ assert len({p["category"] for p in products}) == catalog["meta"]["category_count
 assert all(isinstance(p["price"], int) and p["price"] >= 0 for p in products)
 assert all(p["currency"] == "COP" for p in products)
 assert all("wholesale" not in p and "psib" not in p and "precio_mayorista" not in p for p in products)
+by_id = {p["id"]: p for p in products}
+assert by_id["kaygt22s6di"]["price"] == 379_900
+assert by_id["7v9bc55hij"]["price"] == 800_000
+assert by_id["7v9bc55hij"]["payment_terms"] == "Únicamente pago anticipado"
+drill_adjustments = sum(p.get("pricing_rule") == "Taladro" for p in products)
+combo_adjustments = sum(p.get("pricing_rule") == "Combo con taladro o pulidora" for p in products)
+assert drill_adjustments == 59
+assert combo_adjustments == 21
 missing = []
 for product in products:
     for image in product["images"]:
@@ -27,4 +35,8 @@ print(json.dumps({
     "unique_ids": len({p["id"] for p in products}),
     "wholesale_fields": 0,
     "missing_images": len(missing),
+    "drills_adjusted": drill_adjustments,
+    "combos_adjusted": combo_adjustments,
+    "cordless_hedge_trimmer": by_id["kaygt22s6di"]["price"],
+    "gas_hedge_trimmer": by_id["7v9bc55hij"]["price"],
 }, ensure_ascii=False))

@@ -4,5 +4,7 @@ window.CATALOG_CONFIG = {
   whatsappMessage: "Hola Familia Fort, quiero realizar este pedido:",
   locale: "es-CO",
   currency: "COP",
+  minimumOrder: 80000,
+  freeShippingThreshold: 100000,
   pageSize: 24
 };
