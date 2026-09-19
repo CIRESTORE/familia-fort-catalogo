@@ -8,10 +8,10 @@ from typing import Any
 SPECIAL_PRICES = {
     # Precios definidos a partir del comparativo Homecenter del 2026-09-19.
     "vj16dguzq4k": {"price": 279_900, "rule": "Precio ajustado por mercado - 4076B"},
-    "zp3qdomqjyh": {"price": 329_900, "rule": "Precio ajustado por mercado - 7002"},
+    "zp3qdomqjyh": {"price": 299_900, "rule": "Precio ajustado por mercado - 7002"},
     "2ocbl6k817h": {"price": 269_900, "rule": "Precio ajustado por mercado - 4037"},
     "lywxr9bd6h": {"price": 229_900, "rule": "Precio ajustado por mercado - LO110MC"},
-    "htm9558tgqn": {"price": 239_900, "rule": "Precio ajustado por mercado - 747"},
+    "htm9558tgqn": {"price": 209_000, "rule": "Precio ajustado por mercado - 747"},
     "d5dr51a6hzl": {"price": 599_900, "rule": "Precio ajustado por mercado - 355A"},
     "q33bjj0558p": {"price": 599_900, "rule": "Precio ajustado por mercado - 355A ENUM"},
     "ivf5gtsesul": {"price": 329_900, "rule": "Precio ajustado por mercado - DM110RL"},

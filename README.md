@@ -47,10 +47,10 @@ Antes de abrir WhatsApp, el cliente diligencia nombre, celular, ciudad, direcci�
 ### Precios ajustados por comparativo de mercado (Homecenter, 2026-09-19)
 
 - 4076B Pulidora variable 4 1/2": `$279.900`.
-- 7002 Caladora eléctrica ENUM: `$329.900`.
+- 7002 Caladora eléctrica ENUM: `$299.900`.
 - 4037 Pulidora variable 4 1/2": `$269.900`.
 - LO110MC Lijadora roto-orbital: `$229.900`.
-- 747 Pistola de calor: `$239.900`.
+- 747 Pistola de calor: `$209.000`.
 - 355A Tronzadora 14" (dos publicaciones): `$599.900`.
 - DM110RL Rotomartillo doble mandril: `$329.900`.
 - 82A001 Cepillo eléctrico: `$259.900`.

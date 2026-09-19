@@ -21,10 +21,10 @@ class PricingRulesTests(unittest.TestCase):
     def test_market_adjusted_tools_have_exact_prices(self):
         expected_prices = {
             "vj16dguzq4k": 279_900,
-            "zp3qdomqjyh": 329_900,
+            "zp3qdomqjyh": 299_900,
             "2ocbl6k817h": 269_900,
             "lywxr9bd6h": 229_900,
-            "htm9558tgqn": 239_900,
+            "htm9558tgqn": 209_000,
             "d5dr51a6hzl": 599_900,
             "q33bjj0558p": 599_900,
             "ivf5gtsesul": 329_900,
