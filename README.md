@@ -44,6 +44,21 @@ Antes de abrir WhatsApp, el cliente diligencia nombre, celular, ciudad, direcci�
 - Maquinaria agrícola y jardín restante: incremento de `$50.000`, conservando los precios especiales de los cortasetos.
 - Los accesorios, repuestos, discos, adaptadores, bases y mangueras no reciben estos aumentos.
 
+### Precios ajustados por comparativo de mercado (Homecenter, 2026-09-19)
+
+- 4076B Pulidora variable 4 1/2": `$279.900`.
+- 7002 Caladora eléctrica ENUM: `$329.900`.
+- 4037 Pulidora variable 4 1/2": `$269.900`.
+- LO110MC Lijadora roto-orbital: `$229.900`.
+- 747 Pistola de calor: `$239.900`.
+- 355A Tronzadora 14" (dos publicaciones): `$599.900`.
+- DM110RL Rotomartillo doble mandril: `$329.900`.
+- 82A001 Cepillo eléctrico: `$259.900`.
+- 706 Sierra circular ENUM: `$359.900`.
+- REV1D Rebordeadora eléctrica: `$169.900`.
+
+Estos precios fijos tienen precedencia sobre los incrementos generales por categoría.
+
 Las reglas están en `scripts/pricing_rules.py` y el importador las reaplica de forma idempotente.
 
 ## Actualizar productos

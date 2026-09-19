@@ -6,6 +6,18 @@ import re
 from typing import Any
 
 SPECIAL_PRICES = {
+    # Precios definidos a partir del comparativo Homecenter del 2026-09-19.
+    "vj16dguzq4k": {"price": 279_900, "rule": "Precio ajustado por mercado - 4076B"},
+    "zp3qdomqjyh": {"price": 329_900, "rule": "Precio ajustado por mercado - 7002"},
+    "2ocbl6k817h": {"price": 269_900, "rule": "Precio ajustado por mercado - 4037"},
+    "lywxr9bd6h": {"price": 229_900, "rule": "Precio ajustado por mercado - LO110MC"},
+    "htm9558tgqn": {"price": 239_900, "rule": "Precio ajustado por mercado - 747"},
+    "d5dr51a6hzl": {"price": 599_900, "rule": "Precio ajustado por mercado - 355A"},
+    "q33bjj0558p": {"price": 599_900, "rule": "Precio ajustado por mercado - 355A ENUM"},
+    "ivf5gtsesul": {"price": 329_900, "rule": "Precio ajustado por mercado - DM110RL"},
+    "meq1ndqu5ki": {"price": 259_900, "rule": "Precio ajustado por mercado - 82A001"},
+    "8q8bwfvdmco": {"price": 359_900, "rule": "Precio ajustado por mercado - 706"},
+    "2gfsrsp5vd8": {"price": 169_900, "rule": "Precio ajustado por mercado - REV1D"},
     "kaygt22s6di": {
         "price": 379_900,
         "rule": "Precio fijo Cortasetos Inalámbrico",

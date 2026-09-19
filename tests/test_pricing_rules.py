@@ -18,6 +18,32 @@ class PricingRulesTests(unittest.TestCase):
         self.assertEqual(result["price"], 800000)
         self.assertEqual(result["payment_terms"], "Únicamente pago anticipado")
 
+    def test_market_adjusted_tools_have_exact_prices(self):
+        expected_prices = {
+            "vj16dguzq4k": 279_900,
+            "zp3qdomqjyh": 329_900,
+            "2ocbl6k817h": 269_900,
+            "lywxr9bd6h": 229_900,
+            "htm9558tgqn": 239_900,
+            "d5dr51a6hzl": 599_900,
+            "q33bjj0558p": 599_900,
+            "ivf5gtsesul": 329_900,
+            "meq1ndqu5ki": 259_900,
+            "8q8bwfvdmco": 359_900,
+            "2gfsrsp5vd8": 169_900,
+        }
+        products = [
+            {"id": product_id, "name": "MÁQUINA", "price": 100_000, "description": ""}
+            for product_id in expected_prices
+        ]
+
+        results = apply_pricing_rules(copy.deepcopy(products))
+
+        self.assertEqual(
+            {product["id"]: product["price"] for product in results},
+            expected_prices,
+        )
+
     def test_combo_with_drill_gets_fifty_thousand_increase_only(self):
         products = [{"id": "combo1", "name": "COMBO TALADRO Y PULIDORA", "price": 200000, "description": ""}]
         result = apply_pricing_rules(copy.deepcopy(products))[0]
