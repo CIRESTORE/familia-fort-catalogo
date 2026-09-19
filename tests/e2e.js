@@ -6,6 +6,7 @@ const ROOT = path.resolve(__dirname, '..');
 const ARTIFACTS = path.join(ROOT, 'artifacts');
 fs.mkdirSync(ARTIFACTS, { recursive: true });
 const executablePath = process.env.CHROME_PATH || '/root/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome';
+const baseUrl = process.env.BASE_URL || 'http://127.0.0.1:4173';
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);
@@ -20,7 +21,7 @@ function assert(condition, message) {
     page.on('console', (msg) => { if (msg.type() === 'error') errors.push(msg.text()); });
     page.on('pageerror', (error) => errors.push(error.message));
 
-    await page.goto('http://127.0.0.1:4173', { waitUntil: 'networkidle' });
+    await page.goto(baseUrl, { waitUntil: 'networkidle' });
     await page.waitForSelector('.product-card');
     results.title = await page.title();
     results.productCount = await page.locator('.product-card').count();
@@ -64,7 +65,7 @@ function assert(condition, message) {
     const mobileErrors = [];
     mobile.on('console', (msg) => { if (msg.type() === 'error') mobileErrors.push(msg.text()); });
     mobile.on('pageerror', (error) => mobileErrors.push(error.message));
-    await mobile.goto('http://127.0.0.1:4173', { waitUntil: 'networkidle' });
+    await mobile.goto(baseUrl, { waitUntil: 'networkidle' });
     await mobile.waitForSelector('.product-card');
     results.mobileCards = await mobile.locator('.product-card').count();
     results.mobileOverflow = await mobile.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth);
