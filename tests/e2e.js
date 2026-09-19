@@ -44,7 +44,15 @@ function assert(condition, message) {
     await page.locator('#cartTrigger').click();
     await page.waitForSelector('#cartDrawer.open');
     assert(await page.locator('.cart-item').count() === 1, 'El carrito no muestra el producto agregado');
-    assert(await page.locator('#checkoutButton').isDisabled(), 'Checkout debe esperar número oficial de WhatsApp');
+    assert(!(await page.locator('#checkoutButton').isDisabled()), 'Checkout de WhatsApp debe estar habilitado');
+    await page.evaluate(() => {
+      window.__openedUrl = '';
+      window.open = (url) => { window.__openedUrl = String(url); return null; };
+    });
+    await page.locator('#checkoutButton').click();
+    results.whatsappUrl = await page.evaluate(() => window.__openedUrl);
+    assert(results.whatsappUrl.startsWith('https://wa.me/573206135128?text='), 'El pedido no apunta al WhatsApp oficial');
+    assert(decodeURIComponent(results.whatsappUrl).includes('TOTAL'), 'El mensaje de WhatsApp no incluye el total');
     await page.locator('.item-quantity button').last().click();
     assert((await page.locator('#cartCount').textContent()).trim() === '2', 'No se pudo aumentar cantidad');
     results.cartTotal = await page.locator('#cartTotal').textContent();

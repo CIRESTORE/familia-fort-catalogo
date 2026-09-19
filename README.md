@@ -13,13 +13,13 @@ Abrir `http://localhost:4173`.
 
 ## Configurar WhatsApp
 
-Editar `public/config.js` y colocar el número oficial con código de país, solo dígitos:
+El checkout está conectado al WhatsApp oficial de Familia Fort:
 
 ```js
-whatsapp: "57XXXXXXXXXX"
+whatsapp: "573206135128"
 ```
 
-Mientras el número esté vacío, el carrito funciona pero el botón de finalizar permanece deshabilitado para evitar enviar pedidos a un negocio o número incorrecto.
+Los pedidos se generan con productos, cantidades, precios y total antes de abrir WhatsApp.
 
 ## Actualizar productos
 
