@@ -50,18 +50,21 @@ function assert(condition, message) {
     await page.locator('#checkoutButton').click();
     await page.waitForSelector('#orderModal:not([hidden])');
     assert(await page.locator('#orderForm').isVisible(), 'Debe abrir el formulario antes de WhatsApp');
-    assert(await page.locator('#customerDepartment').evaluate((element) => element.tagName === 'SELECT'), 'Departamento debe ser un desplegable');
-    assert(await page.locator('#customerCity').evaluate((element) => element.tagName === 'SELECT'), 'Ciudad debe ser un desplegable');
-    assert(await page.locator('#customerDepartment option').count() === 34, 'Debe listar los 32 departamentos y Bogotá');
+    assert(await page.locator('#customerDepartment').evaluate((element) => element.tagName === 'INPUT'), 'Departamento debe permitir escribir para buscar');
+    assert(await page.locator('#customerCity').evaluate((element) => element.tagName === 'INPUT'), 'Ciudad debe permitir escribir para buscar');
+    assert(await page.locator('#customerDepartment').getAttribute('list') === 'departmentOptions', 'Departamento debe estar conectado a su desplegable');
+    assert(await page.locator('#customerCity').getAttribute('list') === 'cityOptions', 'Ciudad debe estar conectada a su desplegable');
+    assert(await page.locator('#departmentOptions option').count() === 33, 'Debe listar los 32 departamentos y Bogotá');
 
     await page.locator('#orderSubmit').click();
     assert(await page.locator('#orderForm :invalid').count() >= 1, 'El formulario debe exigir datos de entrega');
 
     await page.locator('#customerName').fill('Cliente de Prueba');
     await page.locator('#customerPhone').fill('3001234567');
-    await page.locator('#customerDepartment').selectOption({ label: 'Valle del Cauca' });
+    await page.locator('#customerDepartment').fill('Valle del Cauca');
     assert(!(await page.locator('#customerCity').isDisabled()), 'Ciudad debe habilitarse después de elegir departamento');
-    await page.locator('#customerCity').selectOption({ label: 'Cali' });
+    assert(await page.locator('#cityOptions option').count() > 30, 'Debe cargar los municipios del departamento elegido');
+    await page.locator('#customerCity').fill('Cali');
     await page.locator('#customerAddress').fill('Calle 1 # 2-3');
     await page.locator('#customerNeighborhood').fill('Centro');
     await page.locator('#customerNotes').fill('Entregar en portería');

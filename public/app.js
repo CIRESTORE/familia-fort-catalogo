@@ -62,6 +62,8 @@
     orderShipping: $("#orderShipping"),
     customerDepartment: $("#customerDepartment"),
     customerCity: $("#customerCity"),
+    departmentOptions: $("#departmentOptions"),
+    cityOptions: $("#cityOptions"),
     heroHelp: $("#heroHelp"),
     footerHelp: $("#footerHelp"),
     toast: $("#toast")
@@ -93,27 +95,39 @@
     locations.forEach(({ name }) => {
       const option = document.createElement("option");
       option.value = name;
-      option.textContent = name;
-      elements.customerDepartment.append(option);
+      elements.departmentOptions.append(option);
     });
   }
 
-  function populateCities() {
-    const departmentName = elements.customerDepartment.value;
+  function selectedDepartment() {
     const locations = Array.isArray(window.COLOMBIA_LOCATIONS) ? window.COLOMBIA_LOCATIONS : [];
-    const department = locations.find(({ name }) => name === departmentName);
-    elements.customerCity.replaceChildren();
-    const placeholder = document.createElement("option");
-    placeholder.value = "";
-    placeholder.textContent = department ? "Selecciona una ciudad o municipio" : "Primero selecciona el departamento";
-    elements.customerCity.append(placeholder);
+    const query = normalize(elements.customerDepartment.value);
+    return locations.find(({ name }) => normalize(name) === query);
+  }
+
+  function populateCities() {
+    const department = selectedDepartment();
+    elements.cityOptions.replaceChildren();
+    elements.customerDepartment.setCustomValidity(
+      elements.customerDepartment.value && !department ? "Selecciona un departamento de la lista." : ""
+    );
+    elements.customerCity.value = "";
     elements.customerCity.disabled = !department;
+    elements.customerCity.placeholder = department ? "Escribe para buscar…" : "Primero selecciona el departamento";
     (department?.cities || []).forEach((city) => {
       const option = document.createElement("option");
       option.value = city;
-      option.textContent = city;
-      elements.customerCity.append(option);
+      elements.cityOptions.append(option);
     });
+  }
+
+  function validateCity() {
+    const department = selectedDepartment();
+    const city = normalize(elements.customerCity.value);
+    const valid = department?.cities.some((name) => normalize(name) === city);
+    elements.customerCity.setCustomValidity(
+      elements.customerCity.value && !valid ? "Selecciona una ciudad o municipio de la lista." : ""
+    );
   }
 
   function normalize(value) {
@@ -463,6 +477,7 @@
       showToast("Falta configurar el WhatsApp de Familia Fort");
       return;
     }
+    validateCity();
     if (!elements.orderForm.reportValidity()) return;
     const entries = cartEntries();
     if (!entries.length) return;
@@ -538,7 +553,8 @@
     elements.cartClose.addEventListener("click", closeCart);
     elements.modalClose.addEventListener("click", closeModal);
     elements.orderClose.addEventListener("click", closeOrder);
-    elements.customerDepartment.addEventListener("change", populateCities);
+    elements.customerDepartment.addEventListener("input", populateCities);
+    elements.customerCity.addEventListener("input", validateCity);
     elements.overlay.addEventListener("click", () => {
       closeCart();
       closeModal();

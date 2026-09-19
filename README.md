@@ -22,7 +22,7 @@ El checkout está conectado al WhatsApp oficial de Familia Fort:
 whatsapp: "573206135128"
 ```
 
-Antes de abrir WhatsApp, el cliente diligencia nombre, celular, departamento, ciudad o municipio, dirección, barrio e indicaciones. Departamento y municipio se seleccionan desde un listado local de Colombia para reducir errores de digitación. El mensaje usa jerarquía y formato de WhatsApp e incluye los datos de entrega, productos, cantidades, referencias, precios, subtotales, total y condición de envío.
+Antes de abrir WhatsApp, el cliente diligencia nombre, celular, departamento, ciudad o municipio, dirección, barrio e indicaciones. Departamento y municipio usan desplegables con búsqueda por escritura sobre un listado local de Colombia para reducir errores de digitación. El mensaje usa jerarquía y formato de WhatsApp e incluye los datos de entrega, productos, cantidades, referencias, precios, subtotales, total y condición de envío.
 
 Por seguridad, los enlaces `wa.me` no pueden pulsar **Enviar** en nombre del cliente: abren WhatsApp con el mensaje completo y la persona confirma el envío. Un envío totalmente automático requeriría un backend y WhatsApp Business Platform; no puede hacerse desde un catálogo estático ni enviarse como si proviniera de la cuenta personal del comprador.
 

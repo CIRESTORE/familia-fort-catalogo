@@ -183,14 +183,12 @@
         <input id="customerPhone" name="customerPhone" type="tel" autocomplete="tel" inputmode="tel" required minlength="7" maxlength="20">
       </label>
       <label class="field">Departamento
-        <select id="customerDepartment" name="customerDepartment" autocomplete="address-level1" required>
-          <option value="">Selecciona un departamento</option>
-        </select>
+        <input id="customerDepartment" name="customerDepartment" type="text" list="departmentOptions" autocomplete="off" required placeholder="Escribe para buscar…">
+        <datalist id="departmentOptions"></datalist>
       </label>
       <label class="field">Ciudad o municipio
-        <select id="customerCity" name="customerCity" autocomplete="address-level2" required disabled>
-          <option value="">Primero selecciona el departamento</option>
-        </select>
+        <input id="customerCity" name="customerCity" type="text" list="cityOptions" autocomplete="off" required disabled placeholder="Primero selecciona el departamento">
+        <datalist id="cityOptions"></datalist>
       </label>
       <label class="field field-wide">Dirección de entrega
         <input id="customerAddress" name="customerAddress" type="text" autocomplete="street-address" required maxlength="140">
