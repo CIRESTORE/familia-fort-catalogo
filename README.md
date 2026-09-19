@@ -35,7 +35,7 @@ Antes de abrir WhatsApp, el cliente diligencia nombre, celular, ciudad, direcci√
 - Combos con taladro o pulidora: incremento de `$50.000` sobre el precio fuente, sin acumular el aumento individual del taladro.
 - Pulidoras: incremento de `$20.000`.
 - Pistolas y llaves de impacto: incremento de `$30.000`.
-- Rotomartillos: conservan el precio de origen porque ya est√°n a precio de mercado.
+- Rotomartillos: incremento de `$30.000`.
 - Demoledores: incremento de `$50.000`.
 - Sierras y caladoras: incremento de `$30.000`.
 - Compresores: incremento de `$40.000`.

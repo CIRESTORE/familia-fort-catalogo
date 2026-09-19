@@ -20,12 +20,13 @@ assert by_id["7v9bc55hij"]["price"] == 800_000
 assert by_id["7v9bc55hij"]["payment_terms"] == "Únicamente pago anticipado"
 drill_adjustments = sum(p.get("pricing_rule") == "Taladro" for p in products)
 combo_adjustments = sum(p.get("pricing_rule") == "Combo con taladro o pulidora" for p in products)
-assert drill_adjustments == 57
+assert drill_adjustments == 59
 assert combo_adjustments == 21
 pricing_counts = Counter(p.get("pricing_rule") for p in products)
 expected_category_counts = {
     "Pulidoras": 37,
     "Pistolas y llaves de impacto": 17,
+    "Rotomartillos": 8,
     "Demoledores": 5,
     "Sierras y caladoras": 13,
     "Compresores": 8,
@@ -35,10 +36,10 @@ expected_category_counts = {
 }
 for rule, expected in expected_category_counts.items():
     assert pricing_counts[rule] == expected, (rule, pricing_counts[rule], expected)
-assert sum(count for rule, count in pricing_counts.items() if rule is not None) == 178
+assert sum(count for rule, count in pricing_counts.items() if rule is not None) == 188
 rotary_hammers = [p for p in products if p["category"] == "ROTOMARTILLO 110V/INALAMBRICO"]
 assert len(rotary_hammers) == 10
-assert all(p["price"] == p["source_price"] and not p.get("pricing_adjustment") for p in rotary_hammers)
+assert all(p["price"] == p["source_price"] + 30_000 and p.get("pricing_adjustment") == 30_000 for p in rotary_hammers)
 missing = []
 for product in products:
     for image in product["images"]:
@@ -57,7 +58,7 @@ print(json.dumps({
     "combos_adjusted": combo_adjustments,
     "cordless_hedge_trimmer": by_id["kaygt22s6di"]["price"],
     "gas_hedge_trimmer": by_id["7v9bc55hij"]["price"],
-    "total_adjusted": 178,
+    "total_adjusted": 188,
     "new_category_adjustments": sum(expected_category_counts.values()),
-    "rotary_hammers_at_source_price": len(rotary_hammers),
+    "rotary_hammers_increased": len(rotary_hammers),
 }, ensure_ascii=False))

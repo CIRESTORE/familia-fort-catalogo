@@ -73,14 +73,14 @@ class PricingRulesTests(unittest.TestCase):
         result = apply_pricing_rules(copy.deepcopy(products))[0]
         self.assertEqual(result["price"], 800_000)
 
-    def test_rotary_hammers_keep_market_price_even_when_named_drill(self):
+    def test_rotary_hammers_receive_thirty_thousand_increase_even_when_named_drill(self):
         products = [
             {"id": "rotary-1", "name": "ROTOMARTILLO 1500W", "category": "ROTOMARTILLO 110V/INALAMBRICO", "price": 450_000, "description": ""},
             {"id": "rotary-2", "name": "TALADRO DOBLE MANDRIL", "category": "ROTOMARTILLO 110V/INALAMBRICO", "price": 220_000, "description": ""},
         ]
         results = apply_pricing_rules(copy.deepcopy(products))
-        self.assertEqual([product["price"] for product in results], [450_000, 220_000])
-        self.assertTrue(all("pricing_adjustment" not in product for product in results))
+        self.assertEqual([product["price"] for product in results], [480_000, 250_000])
+        self.assertTrue(all(product["pricing_adjustment"] == 30_000 for product in results))
 
     def test_reapplying_rules_is_idempotent(self):
         products = [{"id": "drill1", "name": "TALADRO PERCUTOR", "price": 100000, "description": ""}]

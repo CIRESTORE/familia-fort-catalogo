@@ -32,6 +32,7 @@ DRILL_ACCESSORY_TERMS = (
 CATEGORY_INCREASES = {
     "PULIDORAS ELECTRICAS INALAMBRICAS": (20_000, "Pulidoras"),
     "PISTOLA DE IMPACTO INALAMBRICA": (30_000, "Pistolas y llaves de impacto"),
+    "ROTOMARTILLO 110V/INALAMBRICO": (30_000, "Rotomartillos"),
     "DEMOLEDORES 110V": (50_000, "Demoledores"),
     "SIERRAS Y CALADORAS COLILLADORAS TRONSAD": (30_000, "Sierras y caladoras"),
     "COMPRESORES": (40_000, "Compresores"),
@@ -40,9 +41,6 @@ CATEGORY_INCREASES = {
     "HERRAMIENTA AGRICOLA*JARDIN": (50_000, "Maquinaria agrícola y jardín"),
 }
 
-MARKET_PRICE_CATEGORIES = {
-    "ROTOMARTILLO 110V/INALAMBRICO",
-}
 
 CATEGORY_ACCESSORY_TERMS = (
     "ADAPTACION",
@@ -91,7 +89,7 @@ def category_adjustment(product: dict[str, Any]) -> tuple[int, str] | None:
 
 
 def apply_pricing_rules(products: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Aplica reglas con precedencia: especial > precio de mercado > combo > taladro > categoría.
+    """Aplica reglas con precedencia: especial > combo > taladro > categoría.
 
     `source_price` conserva el precio de origen y hace que la operación sea idempotente.
     """
@@ -109,8 +107,6 @@ def apply_pricing_rules(products: list[dict[str, Any]]) -> list[dict[str, Any]]:
             product["pricing_rule"] = special["rule"]
             if special.get("payment_terms"):
                 product["payment_terms"] = special["payment_terms"]
-        elif normalized_text(product.get("category")) in MARKET_PRICE_CATEGORIES:
-            product["price"] = source_price
         elif is_combo_with_drill_or_grinder(product):
             product["price"] = source_price + 50_000
             product["pricing_adjustment"] = 50_000
