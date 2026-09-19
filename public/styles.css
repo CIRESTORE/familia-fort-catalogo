@@ -192,8 +192,21 @@ img { max-width: 100%; display: block; }
 .checkout-button { width: 100%; margin-top: 12px; }
 .checkout-button:disabled { cursor: not-allowed; opacity: .55; transform: none; }
 .cart-summary > p { margin: 11px 0 0; color: var(--ink-soft); text-align: center; font-size: 10px; }
-.shipping-progress { height: 7px; margin-top: 15px; overflow: hidden; background: var(--teal-pale); border-radius: 999px; }
-.shipping-progress span { display: block; width: 0; height: 100%; background: linear-gradient(90deg, var(--amber), var(--teal)); border-radius: inherit; transition: width .25s ease; }
+.checkout-goals { display: block !important; margin: 16px 0 0 !important; padding: 13px; background: #f7faf9; border: 1px solid var(--line); border-radius: 12px; }
+.goal-labels { display: flex; justify-content: space-between; gap: 14px; margin-bottom: 10px; }
+.goal-labels span { display: grid; gap: 2px; }
+.goal-labels span:last-child { text-align: right; }
+.goal-labels small { color: var(--ink-soft); font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
+.goal-labels strong { color: var(--ink); font: 800 13px/1.2 "Manrope", sans-serif; }
+.shipping-progress { position: relative; height: 10px; overflow: hidden; background: #e5e9e8; border-radius: 999px; }
+.shipping-progress .progress-fill { display: block; width: 0; height: 100%; border-radius: inherit; transition: width .25s ease, background .25s ease; }
+.shipping-progress[data-state="minimum"] .progress-fill { background: #e39b2d; }
+.shipping-progress[data-state="enabled"] .progress-fill { background: #16879a; }
+.shipping-progress[data-state="free"] .progress-fill { background: #1f9d62; }
+.minimum-marker { position: absolute; z-index: 2; top: -3px; bottom: -3px; left: 80%; width: 2px; background: var(--white); box-shadow: 0 0 0 1px rgba(9,48,53,.22); }
+.progress-status { margin: 9px 0 0; color: var(--ink-soft); text-align: center; font-size: 10px; font-weight: 700; line-height: 1.4; }
+.free-shipping-badge { margin-top: 10px; padding: 9px 12px; color: #12683f; background: #dff6e9; border: 1px solid #9bd8b7; border-radius: 8px; text-align: center; font: 900 13px/1 "Manrope", sans-serif; letter-spacing: .08em; }
+.free-shipping-badge[hidden] { display: none !important; }
 .payment-terms, .product-restriction { color: #8a4e00; background: #fff3d8; border: 1px solid #f4d58f; font-weight: 800; }
 .payment-terms { display: inline-block; margin: 14px 0 0; padding: 8px 11px; border-radius: 8px; font-size: 12px; }
 .payment-terms[hidden] { display: none; }

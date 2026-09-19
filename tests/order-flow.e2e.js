@@ -32,21 +32,33 @@ function assert(condition, message) {
     await page.waitForTimeout(400);
     assert(await page.locator('#checkoutButton').isDisabled(), 'Debe bloquear pedidos por debajo de $80.000');
     assert((await page.locator('#checkoutNote').innerText()).includes('80.000'), 'Falta explicar cuánto falta para el mínimo');
+    assert(await page.locator('#shippingProgress').getAttribute('data-state') === 'minimum', 'La barra debe usar el estado de pedido mínimo');
+    assert((await page.locator('#progressStatus').innerText()).includes('falta'), 'La barra debe decir cuánto falta para llegar al mínimo');
+    assert(await page.locator('#freeShippingBadge').isHidden(), 'No debe mostrar envío gratis antes de $100.000');
     await page.screenshot({ path: path.join(ARTIFACTS, 'mobile-cart-minimum.png'), fullPage: false });
 
     await page.evaluate(() => localStorage.setItem('familia-fort-cart-v1', JSON.stringify({ '73n7k6izog': 1 })));
     await page.reload({ waitUntil: 'networkidle' });
     await page.locator('#cartTrigger').click();
     await page.waitForSelector('#cartDrawer.open');
+    await page.waitForTimeout(400);
     assert(!(await page.locator('#checkoutButton').isDisabled()), 'Un pedido de $85.000 debe poder continuar');
     assert(/envío.*cotiza/i.test(await page.locator('#checkoutNote').innerText()), 'Pedidos entre $80.000 y $99.999 deben indicar envío cotizado aparte');
+    assert(await page.locator('#shippingProgress').getAttribute('data-state') === 'enabled', 'La barra debe cambiar de color al superar $80.000');
+    assert((await page.locator('#progressStatus').innerText()).includes('15.000'), 'Debe mostrar cuánto falta para el envío gratis');
+    await page.screenshot({ path: path.join(ARTIFACTS, 'mobile-cart-order-enabled.png'), fullPage: false });
 
     await page.evaluate(() => localStorage.setItem('familia-fort-cart-v1', JSON.stringify({ '7v9bc55hij': 1 })));
     await page.reload({ waitUntil: 'networkidle' });
     await page.locator('#cartTrigger').click();
     await page.waitForSelector('#cartDrawer.open');
+    await page.waitForTimeout(400);
     assert((await page.locator('#cartTotal').innerText()).includes('800.000'), 'El cortasetos a gasolina debe costar $800.000');
     assert(/envío gratis/i.test(await page.locator('#checkoutNote').innerText()), 'Pedidos de $100.000 o más deben indicar envío gratis');
+    assert(await page.locator('#shippingProgress').getAttribute('data-state') === 'free', 'La barra debe cambiar al color de envío gratis');
+    assert(await page.locator('#freeShippingBadge').isVisible(), 'Debe aparecer el letrero visible ENVÍO GRATIS');
+    assert((await page.locator('#freeShippingBadge').innerText()).trim() === 'ENVÍO GRATIS', 'El letrero debe decir ENVÍO GRATIS');
+    await page.screenshot({ path: path.join(ARTIFACTS, 'mobile-cart-free-shipping.png'), fullPage: false });
     await page.locator('#checkoutButton').click();
     await page.waitForSelector('#orderModal:not([hidden])');
     assert(await page.locator('#orderForm').isVisible(), 'Debe abrir el formulario antes de WhatsApp');
@@ -77,9 +89,11 @@ function assert(condition, message) {
     const openedUrl = await page.evaluate(() => window.__openedUrl);
     assert(openedUrl.startsWith('https://wa.me/573206135128?text='), 'El pedido debe ir al WhatsApp oficial');
     const message = decodeURIComponent(openedUrl);
-    for (const expected of ['*Nuevo pedido | Familia Fort*', 'Cliente de Prueba', '3001234567', '📍 Cali, Valle del Cauca', 'Calle 1 # 2-3', '🚚 *Envío gratis*', 'Únicamente pago anticipado', '*Total:']) {
+    for (const expected of ['*Nuevo pedido | Familia Fort*', 'Cliente de Prueba', '3001234567', 'Ubicación: Cali, Valle del Cauca', 'Calle 1 # 2-3', '*ENVÍO GRATIS*', 'Únicamente pago anticipado', '*Total:']) {
       assert(message.includes(expected), `El mensaje no incluye: ${expected}`);
     }
+    assert(!/[\u{1F000}-\u{1FAFF}]/u.test(message), 'El mensaje no debe incluir emojis incompatibles');
+    assert(!message.includes('�'), 'El mensaje no debe incluir caracteres dañados');
     assert(!message.includes('DATOS DEL CLIENTE'), 'El mensaje no debe usar encabezados largos en mayúscula');
     assert(errors.length === 0, `Errores de consola: ${errors.join(' | ')}`);
     console.log(JSON.stringify({ minimumBlocked: true, paidShippingRange: true, freeShipping: true, formValidated: true, dependentLocationSelectors: true, formattedWhatsapp: true, whatsapp: '573206135128', consoleErrors: errors }, null, 2));

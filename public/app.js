@@ -41,7 +41,10 @@
     cartTotal: $("#cartTotal"),
     checkoutButton: $("#checkoutButton"),
     checkoutNote: $("#checkoutNote"),
-    shippingProgress: $("#shippingProgress span"),
+    shippingProgress: $("#shippingProgress"),
+    shippingProgressFill: $("#shippingProgress .progress-fill"),
+    progressStatus: $("#progressStatus"),
+    freeShippingBadge: $("#freeShippingBadge"),
     productModal: $("#productModal"),
     modalClose: $("#modalClose"),
     modalImage: $("#modalImage"),
@@ -458,14 +461,25 @@
     const minimum = Number(CONFIG.minimumOrder || 0);
     const freeShipping = Number(CONFIG.freeShippingThreshold || 0);
     elements.checkoutButton.disabled = !configured || total < minimum;
-    elements.shippingProgress.style.width = `${Math.min(100, freeShipping ? (total / freeShipping) * 100 : 100)}%`;
+    const progress = Math.min(100, freeShipping ? (total / freeShipping) * 100 : 100);
+    elements.shippingProgressFill.style.width = `${progress}%`;
+    elements.shippingProgress.setAttribute("aria-valuenow", String(Math.round(progress)));
+    elements.freeShippingBadge.hidden = total < freeShipping;
     if (!configured) {
+      elements.shippingProgress.dataset.state = "minimum";
+      elements.progressStatus.textContent = "Configura WhatsApp para habilitar pedidos.";
       elements.checkoutNote.textContent = "Falta configurar el número oficial de WhatsApp de Familia Fort.";
     } else if (total < minimum) {
+      elements.shippingProgress.dataset.state = "minimum";
+      elements.progressStatus.textContent = `Te falta ${formatPrice(minimum - total)} para habilitar tu pedido.`;
       elements.checkoutNote.textContent = `Pedido mínimo ${formatPrice(minimum)} · Agrega ${formatPrice(minimum - total)} para continuar.`;
     } else if (total < freeShipping) {
+      elements.shippingProgress.dataset.state = "enabled";
+      elements.progressStatus.textContent = `Pedido habilitado · Te faltan ${formatPrice(freeShipping - total)} para envío gratis.`;
       elements.checkoutNote.textContent = `Pedido habilitado · El envío se cotiza aparte. Agrega ${formatPrice(freeShipping - total)} para envío gratis.`;
     } else {
+      elements.shippingProgress.dataset.state = "free";
+      elements.progressStatus.textContent = "Completaste las dos metas.";
       elements.checkoutNote.textContent = `¡Envío gratis! Superaste ${formatPrice(freeShipping)}.`;
     }
   }
@@ -492,24 +506,24 @@
     const value = (key) => String(data.get(key) || "").trim();
     const neighborhood = value("customerNeighborhood");
     const lines = [
-      "🛒 *Nuevo pedido | Familia Fort*",
+      "*Nuevo pedido | Familia Fort*",
       "",
       "*Cliente*",
-      `👤 ${value("customerName")}`,
-      `📱 ${value("customerPhone")}`,
-      `📍 ${value("customerCity")}, ${value("customerDepartment")}`,
-      `🏠 ${value("customerAddress")}${neighborhood ? ` · ${neighborhood}` : ""}`,
+      `Nombre: ${value("customerName")}`,
+      `Celular: ${value("customerPhone")}`,
+      `Ubicación: ${value("customerCity")}, ${value("customerDepartment")}`,
+      `Dirección: ${value("customerAddress")}${neighborhood ? ` · ${neighborhood}` : ""}`,
     ];
-    if (value("customerNotes")) lines.push(`📝 ${value("customerNotes")}`);
+    if (value("customerNotes")) lines.push(`Indicaciones: ${value("customerNotes")}`);
     lines.push("", "*Productos*");
     entries.forEach(({ product, quantity }, index) => {
-      lines.push(`*${index + 1}. ${quantity} × ${product.name}*`);
+      lines.push(`*${index + 1}. ${quantity} x ${product.name}*`);
       lines.push(`Ref. ${product.sku} · ${formatPrice(product.price)} c/u`);
       lines.push(`Subtotal: ${formatPrice(product.price * quantity)}`);
-      if (product.payment_terms) lines.push(`⚠️ ${product.payment_terms}`);
+      if (product.payment_terms) lines.push(`Condición: ${product.payment_terms}`);
     });
-    lines.push("", "────────────", `*Total: ${formatPrice(total)}*`);
-    lines.push(total >= freeShipping ? "🚚 *Envío gratis*" : "🚚 Envío por cotizar");
+    lines.push("", "--------------------", `*Total: ${formatPrice(total)}*`);
+    lines.push(total >= freeShipping ? "*ENVÍO GRATIS*" : "Envío por cotizar");
     lines.push("", "_Confirma disponibilidad y tiempo de entrega, por favor._");
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(lines.join("\n"))}`, "_blank", "noopener,noreferrer");
   }

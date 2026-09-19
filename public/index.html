@@ -134,7 +134,18 @@
     <div class="cart-summary" id="cartSummary" hidden>
       <div><span>Productos</span><strong id="cartUnits">0</strong></div>
       <div class="cart-total"><span>Total</span><strong id="cartTotal">$0</strong></div>
-      <div class="shipping-progress" id="shippingProgress" aria-hidden="true"><span></span></div>
+      <div class="checkout-goals">
+        <div class="goal-labels" aria-hidden="true">
+          <span><small>Pedido mínimo</small><strong>$80.000</strong></span>
+          <span><small>Envío gratis</small><strong>$100.000</strong></span>
+        </div>
+        <div class="shipping-progress" id="shippingProgress" data-state="minimum" role="progressbar" aria-label="Progreso hacia envío gratis" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <span class="progress-fill"></span>
+          <i class="minimum-marker" aria-hidden="true"></i>
+        </div>
+        <p class="progress-status" id="progressStatus"></p>
+        <div class="free-shipping-badge" id="freeShippingBadge" hidden>ENVÍO GRATIS</div>
+      </div>
       <button class="button button-primary checkout-button" id="checkoutButton" type="button">Continuar con datos de entrega</button>
       <p id="checkoutNote">El pedido se enviará con productos, cantidades y total.</p>
     </div>
