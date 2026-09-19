@@ -41,6 +41,39 @@ class PricingRulesTests(unittest.TestCase):
         results = apply_pricing_rules(copy.deepcopy(products))
         self.assertTrue(all(product["price"] == 50000 for product in results))
 
+    def test_approved_machine_categories_receive_their_increase(self):
+        cases = [
+            ("PULIDORAS ELECTRICAS INALAMBRICAS", 20_000),
+            ("PISTOLA DE IMPACTO INALAMBRICA", 30_000),
+            ("ROTOMARTILLO 110V/INALAMBRICO", 30_000),
+            ("DEMOLEDORES 110v", 50_000),
+            ("SIERRAS Y CALADORAS COLILLADORAS TRONSAD", 30_000),
+            ("COMPRESORES", 40_000),
+            ("LIJADORAS", 20_000),
+            ("RUTEADORA Y REBORDEADORA", 20_000),
+            ("HERRAMIENTA AGRICOLA*JARDIN", 50_000),
+        ]
+        products = [
+            {"id": f"machine-{index}", "name": "MÁQUINA COMPLETA", "category": category, "price": 100_000, "description": ""}
+            for index, (category, _) in enumerate(cases)
+        ]
+        results = apply_pricing_rules(copy.deepcopy(products))
+        self.assertEqual([product["price"] for product in results], [100_000 + increase for _, increase in cases])
+
+    def test_accessories_in_approved_categories_are_excluded(self):
+        products = [
+            {"id": "accessory-1", "name": "DISCO PARA SIERRA", "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD", "price": 30_000, "description": ""},
+            {"id": "accessory-2", "name": "ADAPTADOR PARA PULIDORA", "category": "PULIDORAS ELECTRICAS INALAMBRICAS", "price": 40_000, "description": ""},
+            {"id": "accessory-3", "name": "MANGUERA PARA COMPRESOR", "category": "COMPRESORES", "price": 50_000, "description": ""},
+        ]
+        results = apply_pricing_rules(copy.deepcopy(products))
+        self.assertTrue(all(product["price"] == product["source_price"] for product in results))
+
+    def test_special_price_wins_over_agricultural_category_increase(self):
+        products = [{"id": "7v9bc55hij", "name": "CORTASETOS A GASOLINA", "category": "HERRAMIENTA AGRICOLA*JARDIN", "price": 550_000, "description": ""}]
+        result = apply_pricing_rules(copy.deepcopy(products))[0]
+        self.assertEqual(result["price"], 800_000)
+
     def test_reapplying_rules_is_idempotent(self):
         products = [{"id": "drill1", "name": "TALADRO PERCUTOR", "price": 100000, "description": ""}]
         first = apply_pricing_rules(copy.deepcopy(products))

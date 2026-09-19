@@ -33,6 +33,16 @@ Antes de abrir WhatsApp, el cliente diligencia nombre, celular, ciudad, direcci�
 - Cortasetos a gasolina: `$800.000`, únicamente pago anticipado.
 - Taladros: incremento de `$30.000` sobre el precio fuente.
 - Combos con taladro o pulidora: incremento de `$50.000` sobre el precio fuente, sin acumular el aumento individual del taladro.
+- Pulidoras: incremento de `$20.000`.
+- Pistolas y llaves de impacto: incremento de `$30.000`.
+- Rotomartillos: incremento de `$30.000`.
+- Demoledores: incremento de `$50.000`.
+- Sierras y caladoras: incremento de `$30.000`.
+- Compresores: incremento de `$40.000`.
+- Lijadoras: incremento de `$20.000`.
+- Ruteadoras y rebordeadoras: incremento de `$20.000`.
+- Maquinaria agrícola y jardín restante: incremento de `$50.000`, conservando los precios especiales de los cortasetos.
+- Los accesorios, repuestos, discos, adaptadores, bases y mangueras no reciben estos aumentos.
 
 Las reglas están en `scripts/pricing_rules.py` y el importador las reaplica de forma idempotente.
 

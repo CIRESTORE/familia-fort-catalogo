@@ -115,14 +115,16 @@
       "description": "PULIDORA VARIABLE 4 1/2\" – 1400W ⚡🔧 Potencia, velocidad y control para trabajos de corte, desbaste y pulido en diferentes aplicaciones. Ideal para talleres, construcción, mantenimiento y trabajos profesionales. ✅Potencia: 1400W ⚡Velocidad máxima: 11.000 RPM 🎚️Velocidad variable: permite ajustar las revoluciones según el tipo de trabajo y material. 💿Disco: 4 1/2\" 🖐️Incluye mango auxiliar para mayor comodidad, estabilidad y control. 🛡️Incluye protector de chispa para brindar mayor seguridad durante el trabajo. 💪Una herramienta versátil y potente para quienes necesitan rendimiento y mayor control en cada aplicación.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "BOSITENG",
-      "price": 145000,
+      "price": 165000,
       "currency": "COP",
       "images": [
         "/assets/products/vj16dguzq4k-1.png"
       ],
       "available": true,
       "featured": true,
-      "source_price": 145000
+      "source_price": 145000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "2gfsrsp5vd8",
@@ -131,14 +133,16 @@
       "description": "Potencia y precisión para trabajos de carpintería, acabados y rebajado de madera. 🪵⚙️ ⚡Potencia: 710W 📏Pinza: 6.35 mm (1/4”) 🚀Velocidad: 27.000 RPM 🔌Voltaje: 110V 💪Ideal para realizar rebordes, perfiles, ranuras y acabados con mayor precisión. Perfecta para carpinteros, talleres y trabajos profesionales o de bricolaje. 🛠️",
       "category": "RUTEADORA Y REBORDEADORA",
       "brand": "Protool",
-      "price": 120000,
+      "price": 140000,
       "currency": "COP",
       "images": [
         "/assets/products/2gfsrsp5vd8-1.png"
       ],
       "available": true,
       "featured": true,
-      "source_price": 120000
+      "source_price": 120000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Ruteadoras y rebordeadoras"
     },
     {
       "id": "xq5ouh6zan",
@@ -301,14 +305,16 @@
       "description": "Potencia y precisión para conseguir acabados uniformes y profesionales en diferentes superficies. 🛠️✨ Su movimiento roto-orbital ayuda a realizar trabajos de lijado con mayor eficiencia, ideal para preparar superficies y eliminar imperfecciones. ⚡ Potencia: 300W 🚀 Velocidad: hasta 12.000 RPM ⭕ Diámetro: 125 mm 🪵 Ideal para madera, pintura, acabados y trabajos de restauración. Perfecta para carpintería, talleres, mantenimiento y proyectos de bricolaje.",
       "category": "LIJADORAS",
       "brand": "Protool",
-      "price": 150000,
+      "price": 170000,
       "currency": "COP",
       "images": [
         "/assets/products/lywxr9bd6h-1.png"
       ],
       "available": true,
       "featured": false,
-      "source_price": 150000
+      "source_price": 150000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Lijadoras"
     },
     {
       "id": "gv01tb2u2t",
@@ -317,14 +323,16 @@
       "description": "Potencia y practicidad para trabajos de mecánica, mantenimiento, talleres y montaje. 💪🔧 🔩 Encaje: 1/2” 💥 Torque máximo: 350 N·m ⚡ Velocidad: hasta 2.400 RPM 🧰 Incluye accesorios: juego de copas, puntas, brocas y más. 🔋 Diseño práctico para facilitar diferentes trabajos. Una excelente opción para quienes buscan versatilidad y rendimiento en una sola herramienta. 🛠️",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Protool",
-      "price": 220000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/gv01tb2u2t-1.png"
       ],
       "available": true,
       "featured": false,
-      "source_price": 220000
+      "source_price": 220000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "9outigiehjq",
@@ -333,14 +341,16 @@
       "description": "Potencia y practicidad para trabajos de mecánica, mantenimiento, talleres y montaje. 💪🔧 🔩 Encaje: 1/2” 💥 Torque máximo: 350 N·m ⚡ Velocidad: hasta 2.400 RPM 🧰 Incluye accesorios: juego de copas, puntas, brocas y más. 🔋 Diseño práctico para facilitar diferentes trabajos. Una excelente opción para quienes buscan versatilidad y rendimiento en una sola herramienta. 🛠️",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Protool",
-      "price": 220000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/9outigiehjq-1.png"
       ],
       "available": true,
       "featured": false,
-      "source_price": 220000
+      "source_price": 220000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "2wzj14n1q8f",
@@ -349,14 +359,16 @@
       "description": "Potencia y practicidad para trabajos de atornillado y fijación. 🔄 Velocidad: 1.450 RPM 💥 Torque máximo: 45 Nm 🔋 Incluye: 2 baterías 🛠️ Diseño inalámbrico para mayor libertad de movimiento 🔧 Ideal para trabajos de instalación, mantenimiento, montaje y reparación Una herramienta práctica y versátil para uso profesional y doméstico.",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Protool",
-      "price": 150000,
+      "price": 180000,
       "currency": "COP",
       "images": [
         "/assets/products/2wzj14n1q8f-1.png"
       ],
       "available": true,
       "featured": false,
-      "source_price": 150000
+      "source_price": 150000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "20q46v9hkud",
@@ -545,7 +557,7 @@
       "description": "La Pulidora Eléctrica 4 1/2\" combina potencia, velocidad y control para realizar trabajos de corte, desbaste y pulido con excelente rendimiento, siendo una herramienta ideal para talleres, construcción, mantenimiento. ✅ Motor de rendimiento de 750W para trabajos. ⚡ Velocidad máxima: 11.000 RPM. 🔌 Voltaje: 110V. 💿 Disco de 4 1/2\", ideal para diferentes aplicaciones de corte, desbaste y pulido. ✋ Incluye mango auxiliar para mejorar el control, estabilidad y comodidad durante el trabajo. 🛡️ Incluye protector de seguridad para mayor protección durante las aplicaciones. 💼 Diseñada para ofrecer potencia, precisión y versatilidad en trabajos profesionales y de mantenimiento.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Meingeng",
-      "price": 135000,
+      "price": 155000,
       "currency": "COP",
       "images": [
         "/assets/products/x3cw5uax2nb-1.png",
@@ -554,7 +566,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 135000
+      "source_price": 135000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "d5dr51a6hzl",
@@ -563,7 +577,7 @@
       "description": "Tronzadora 14\" es la herramienta ideal para realizar cortes limpios y eficientes en perfiles metálicos, tuberías, varillas y otros materiales de construcción, ofreciendo potencia y estabilidad en cada trabajo. ✅ Potencia: 1900W. ⚡ Velocidad: 3.800 RPM para cortes rápidos y de alta precisión. 🛞 Disco de 14\", ideal para trabajos de gran exigencia. 🏗️ Base metálica reforzada, que proporciona mayor estabilidad y seguridad durante el corte. 🪚 Incluye disco de corte, lista para comenzar a trabajar. 💼 Diseñada para uso profesional, perfecta para talleres, metalmecánica, construcción, cerrajería y Mantenimiento industrial.",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "Enum",
-      "price": 450000,
+      "price": 480000,
       "currency": "COP",
       "images": [
         "/assets/products/d5dr51a6hzl-1.png",
@@ -574,7 +588,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 450000
+      "source_price": 450000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "fkaqz8na1zp",
@@ -583,7 +599,7 @@
       "description": "Potencia y precisión para realizar cortes rápidos y uniformes en tus proyectos de carpintería y construcción. 💪 ⚡ Potencia: 1400W 🔄 Velocidad: 4.600 RPM 📏 Disco: 10\" 🎯 Ideal para cortes rectos y en diferentes ángulos con mayor precisión. 🛠️ Perfecta para carpinterías, talleres, construcción y trabajos profesionales. 🔥 Más potencia, velocidad y precisión para cada corte.",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "Enum",
-      "price": 500000,
+      "price": 530000,
       "currency": "COP",
       "images": [
         "/assets/products/fkaqz8na1zp-1.png",
@@ -593,7 +609,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 500000
+      "source_price": 500000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "qrxi9xp0pym",
@@ -602,7 +620,7 @@
       "description": "Potencia extrema para trabajos de demolición exigentes. Su motor de alto rendimiento ofrece fuerza, estabilidad y durabilidad para trabajar en concreto y materiales de alta resistencia. ⚡ Potencia: 2300W 🔌 Voltaje: 110V/60Hz – 220V/50Hz 💥 Energía de impacto: 80J 🔨 Frecuencia: 1.900 pulsaciones/min 🔩 Tipo: HEX-30 🌡️ Sistema de entrada y salida de aire diseñado para una disipación eficiente del calor, ayudando a prolongar la vida útil y mantener un funcionamiento estable. ✋ Mango antideslizante para mayor seguridad, control y comodidad durante jornadas de trabajo exigentes. 💪 Ideal para demolición, construcción y trabajos pesados. 🔥 Potencia que golpea fuerte. Rendimiento para Trabajos exigentes",
       "category": "DEMOLEDORES 110v",
       "brand": "Enum",
-      "price": 1700000,
+      "price": 1750000,
       "currency": "COP",
       "images": [
         "/assets/products/qrxi9xp0pym-1.png",
@@ -611,7 +629,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 1700000
+      "source_price": 1700000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Demoledores"
     },
     {
       "id": "ab1pom5tow",
@@ -620,7 +640,7 @@
       "description": "La Pulidora Eléctrica 4 1/2\" ENUM Professional combina potencia, velocidad y control para realizar trabajos de corte, desbaste y pulido con excelente rendimiento, siendo una herramienta ideal para talleres, construcción, mantenimiento y trabajos profesionales. ✅ Motor de alto rendimiento de 1200W para trabajos exigentes. ⚡ Velocidad máxima: 11.000 RPM. 🔌 Voltaje: 110V. 🎚️ Velocidad estándar 💿 Disco de 4 1/2\", ideal para diferentes aplicaciones de corte, desbaste y pulido. ✋ Incluye mango auxiliar para mejorar el control, estabilidad y comodidad durante el trabajo. 🛡️ Incluye protector de seguridad para mayor protección durante las aplicaciones. 💼 Diseñada para ofrecer potencia, precisión y versatilidad en trabajos profesionales y de mantenimiento. 🔧 ENUM Professional | Potencia y rendimiento para Llevar tu trabajo al siguiente nivel.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Enum",
-      "price": 180000,
+      "price": 200000,
       "currency": "COP",
       "images": [
         "/assets/products/ab1pom5tow-1.png",
@@ -630,7 +650,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 180000
+      "source_price": 180000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "8038gs0viun",
@@ -662,7 +684,7 @@
       "description": "La Pulidora Eléctrica 4 1/2\" ENUM Professional combina potencia, velocidad y control para realizar trabajos de corte, desbaste y pulido con excelente rendimiento, siendo una herramienta ideal para talleres, construcción, mantenimiento y trabajos profesionales. ✅ Motor de alto rendimiento de 1200W para trabajos exigentes. ⚡ Velocidad máxima: 11.000 RPM. 🔌 Voltaje: 110V. 🎚️ Velocidad estándar. 💿 Disco de 4 1/2\", ideal para diferentes aplicaciones de corte, desbaste y pulido. ✋ Incluye mango auxiliar para mejorar el control, estabilidad y comodidad durante el trabajo. 🛡️ Incluye protector de seguridad para mayor protección durante las aplicaciones. 💼 Diseñada para ofrecer potencia, precisión y versatilidad en trabajos profesionales y de mantenimiento. 🔧 ENUM Professional | Potencia y rendimiento para llevar tu trabajo al siguiente nivel",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Protool",
-      "price": 190000,
+      "price": 210000,
       "currency": "COP",
       "images": [
         "/assets/products/t8i21mvwq8b-1.png",
@@ -672,7 +694,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 190000
+      "source_price": 190000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "fil82h9k54",
@@ -681,7 +705,7 @@
       "description": "La Pulidora Eléctrica 4 1/2\" ENUM Professional combina potencia, velocidad y control para realizar trabajos de corte, desbaste y pulido con excelente rendimiento, siendo una herramienta ideal para talleres, construcción, mantenimiento y trabajos profesionales. ✅ Motor de alto rendimiento de 1200W para trabajos exigentes. ⚡ Velocidad máxima: 11.000 RPM. 🔌 Voltaje: 110V. 🎚️ Velocidad variable para adaptar el funcionamiento según el tipo de trabajo y material. 💿 Disco de 4 1/2\", ideal para diferentes aplicaciones de corte, desbaste y pulido. ✋ Incluye mango auxiliar para mejorar el control, estabilidad y comodidad durante el trabajo. 🛡️ Incluye protector de seguridad para mayor protección durante las aplicaciones. 💼 Diseñada para ofrecer potencia, precisión y versatilidad en trabajos profesionales y de mantenimiento. 🔧 ENUM Professional | Potencia y rendimiento para llevar tu trabajo al siguiente nivel.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "",
-      "price": 180000,
+      "price": 200000,
       "currency": "COP",
       "images": [
         "/assets/products/fil82h9k54-1.png",
@@ -691,7 +715,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 180000
+      "source_price": 180000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "f3juyph6iu7",
@@ -700,7 +726,7 @@
       "description": "La Pulidora Eléctrica 4 1/2\" ENUM Professional combina potencia, velocidad y control para realizar trabajos de corte, desbaste y pulido con excelente rendimiento, siendo una herramienta ideal para talleres, construcción, mantenimiento y trabajos profesionales. ✅ Motor de alto rendimiento de 1200W para trabajos exigentes. ⚡ Velocidad máxima: 11.000 RPM. 🔌 Voltaje: 110V. 🎚️ Velocidad variable para adaptar el funcionamiento según el tipo de trabajo y material. 💿 Disco de 4 1/2\", ideal para diferentes aplicaciones de corte, desbaste y pulido. ✋ Incluye mango auxiliar para mejorar el control, estabilidad y comodidad durante el trabajo. 🛡️ Incluye protector de seguridad para mayor protección durante las aplicaciones. 💼 Diseñada para ofrecer potencia, precisión y versatilidad en trabajos profesionales y de mantenimiento. 🔧 ENUM Professional | Potencia y rendimiento para Llevar tu trabajo al siguiente nivel.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Protool",
-      "price": 190000,
+      "price": 210000,
       "currency": "COP",
       "images": [
         "/assets/products/f3juyph6iu7-1.png",
@@ -710,7 +736,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 190000
+      "source_price": 190000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "33ep21pk9qy",
@@ -719,7 +747,7 @@
       "description": "",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 450000,
+      "price": 480000,
       "currency": "COP",
       "images": [
         "/assets/products/33ep21pk9qy-1.png",
@@ -731,7 +759,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 450000
+      "source_price": 450000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Rotomartillos"
     },
     {
       "id": "4p6bf1ymf0i",
@@ -740,7 +770,7 @@
       "description": "Potencia y rendimiento para trabajos exigentes en construcción, remodelación y perforación. 💪 ⚡ Potencia: 1550W 💥 Impactos: 4.600 BPM 🔨 Fuerza de impacto: 10J ⚙️ Velocidad: 950 RPM 📦 Incluye: ✔️ Cincel ✔️ Caja plástica 💪 ENUM | Potencia que responde cuando el trabajo",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Enum",
-      "price": 450000,
+      "price": 480000,
       "currency": "COP",
       "images": [
         "/assets/products/4p6bf1ymf0i-1.png",
@@ -751,7 +781,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 450000
+      "source_price": 450000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Rotomartillos"
     },
     {
       "id": "u9qj93irur",
@@ -760,7 +792,7 @@
       "description": "Si necesitas potencia para perforar y trabajar sobre concreto, este Rotomartillo ENUM está diseñado para trabajos exigentes en construcción, remodelación y obra. 💪⚙️ ⚡ Potencia: 1500W 💥 Fuerza de impacto: 15 J 🔨 Impactos: 4.850 BPM 🔄 Velocidad: 1.800 RPM 🎚️ Velocidad variable para mayor control 🛠️ Tecnología AVR para reducir las vibraciones y trabajar con mayor comodidad 🪓 Incluye cincel 🧰 Caja plástica para transporte y almacenamiento Ideal para concreto, construcción, remodelaciones y Trabajos de alta exigencia.",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Enum",
-      "price": 620000,
+      "price": 650000,
       "currency": "COP",
       "images": [
         "/assets/products/u9qj93irur-1.png",
@@ -772,7 +804,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 620000
+      "source_price": 620000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Rotomartillos"
     },
     {
       "id": "ivf5gtsesul",
@@ -803,7 +837,7 @@
       "description": "Rotomartillo 2 en 1 de PROTOOL POWER, diseñado para ofrecer un excelente rendimiento en trabajos de perforación y demolición ligera. ✅ Potencia: 1050W ⚡ Velocidad: 1100 RPM 🔄 Doble mandril: Funciona como rotomartillo y taladro de 1/2\". 🛠️ Incluye: Cinceles, brocas y resistente caja plástica para un transporte seguro. Ideal para construcción, remodelaciones, instalaciones y trabajos profesionales que requieren Potencia,precisión y practicidad.",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 220000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/1nvwaf4c7s9j-1.png",
@@ -814,7 +848,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 220000
+      "source_price": 220000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Rotomartillos"
     },
     {
       "id": "go3iu2pqg67",
@@ -823,7 +859,7 @@
       "description": "Rotomartillo 2 en 1 de PROTOOL POWER, diseñado para ofrecer un excelente rendimiento en trabajos de perforación y demolición ligera. ✅ Potencia: 1050W ⚡ Velocidad: 1100 RPM 🔄 Doble mandril: Funciona como rotomartillo y taladro de 1/2\". 🛠️ Incluye: Cinceles, brocas y resistente caja plástica para un transporte seguro. Ideal para construcción, remodelaciones, instalaciones y trabajos profesionales que requieren potencia precisión y practicidad",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 220000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/go3iu2pqg67-1.png",
@@ -834,7 +870,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 220000
+      "source_price": 220000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Rotomartillos"
     },
     {
       "id": "ucoqw5zvgt7",
@@ -883,7 +921,7 @@
       "description": "Potencia y torque para trabajos exigentes. 💪⚙️ 🔧 Encaje: 1/2\" ⚡ Velocidad: 2.300 RPM 💥 Torque máximo: 900 Nm 🔋 Incluye 2 baterías de 128V – 8.0 Ah 🔄 Motor Brushless 💡 Diseño ergonómico para mayor comodidad y control Ideal para mecánica automotriz, talleres, mantenimiento, montaje y desmontaje de pernos.",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Drill",
-      "price": 350000,
+      "price": 380000,
       "currency": "COP",
       "images": [
         "/assets/products/gpl0jdv8oko-1.png",
@@ -893,7 +931,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 350000
+      "source_price": 350000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "g60x8epx8zk",
@@ -1190,7 +1230,7 @@
       "description": "",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "BOSITENG",
-      "price": 130000,
+      "price": 150000,
       "currency": "COP",
       "images": [
         "/assets/products/jxfp06taxt-1.png",
@@ -1199,7 +1239,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 130000
+      "source_price": 130000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "ktzpwwlcrzp",
@@ -1208,7 +1250,7 @@
       "description": "Pulidora Eléctrica 4.5\"/5\" Marca MEINENG es la herramienta ideal para trabajos de corte, desbaste y pulido, ofreciendo un excelente rendimiento y un diseño ergonómico para mayor comodidad durante largas jornadas de trabajo. ✅ Potencia: 1250W. ⚡ Velocidad: Hasta 11.000 RPM para cortes rápidos y precisos. 🔌 Alimentación: 110V. ✋ Diseño de mango largo, que proporciona un mejor agarre, estabilidad y control. 🎯 Interruptor tipo gatillo, práctico y seguro para un manejo más cómodo. 🛠️ Ideal para cortar, desbastar y pulir metal, hierro, acero, tubería, perfiles y otros materiales.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Meingeng",
-      "price": 145000,
+      "price": 165000,
       "currency": "COP",
       "images": [
         "/assets/products/ktzpwwlcrzp-1.png",
@@ -1217,7 +1259,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 145000
+      "source_price": 145000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "42ey6g48yrf",
@@ -1226,7 +1270,7 @@
       "description": "La Rebordeadora Eléctrica para Madera Marca MEINENG es la herramienta ideal para realizar acabados, perfilar bordes, ranurar y dar forma a piezas de madera con gran precisión y excelente rendimiento. ✅ Potencia: 450W. ⚡ Velocidad: Hasta 30.000 RPM para cortes limpios y precisos. 🔌 Alimentación: 110V. 🪵 Ideal para perfilar, biselar, ranurar y realizar acabados finos en madera y MDF. ✋ Diseño compacto, ergonómico y liviano que brinda mayor control y comodidad durante el trabajo",
       "category": "RUTEADORA Y REBORDEADORA",
       "brand": "Meingeng",
-      "price": 140000,
+      "price": 160000,
       "currency": "COP",
       "images": [
         "/assets/products/42ey6g48yrf-1.png",
@@ -1235,7 +1279,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 140000
+      "source_price": 140000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Ruteadoras y rebordeadoras"
     },
     {
       "id": "eaneizgpye",
@@ -1306,7 +1352,7 @@
       "description": "El Demoledor Marca ENUM está diseñado para enfrentar las tareas más exigentes en construcción, remodelación y obra pesada, ofreciendo una gran fuerza de impacto y un rendimiento confiable para largas jornadas de trabajo. ✅ Potencia: 2300W. 🔌 Voltaje: 110V / 60Hz. ⚡ Frecuencia de impacto: Hasta 2.000 pulsaciones por minuto. 💥 Energía de impacto: 65 Joules, ideal para romper concreto, pisos, muros y estructuras de alta resistencia. 🔩 Sistema de encastre HEX-30, que proporciona mayor firmeza y transmisión de fuerza en cada golpe. 🛠️ Construcción robusta y resistente, diseñada para uso profesional. Ideal para trabajos de demolición en concreto, mampostería, remodelaciones, construcción e Infraestructura",
       "category": "DEMOLEDORES 110v",
       "brand": "Enum",
-      "price": 820000,
+      "price": 870000,
       "currency": "COP",
       "images": [
         "/assets/products/l0tdzcrbg1-1.png",
@@ -1316,7 +1362,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 820000
+      "source_price": 820000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Demoledores"
     },
     {
       "id": "jeaws5g3k3g",
@@ -1343,7 +1391,7 @@
       "description": "La Sierra Circular 7\" Marca ENUM de PROTOOL POWER SAS está diseñada para brindar cortes rápidos, limpios y precisos en madera, tableros, melamina y otros materiales, siendo la herramienta ideal para carpinteros, constructores y profesionales. ✅ Potencia: 1500W. ⚡ Velocidad: 5.500 RPM para un rendimiento superior. 🪚 Disco de 7\" (185 mm) que permite cortes profundos y de gran capacidad. 📏 Cortes precisos, uniformes y de excelente acabado. 💪 Construcción resistente para uso profesional. 🧰 Ideal para carpintería, ebanistería, construcción y Montaje",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "Enum",
-      "price": 270000,
+      "price": 300000,
       "currency": "COP",
       "images": [
         "/assets/products/8q8bwfvdmco-1.png",
@@ -1355,7 +1403,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 270000
+      "source_price": 270000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "meq1ndqu5ki",
@@ -1383,7 +1433,7 @@
       "description": "La Pulidora Inalámbrica 4 1/2\" Marca ENUM está diseñada para ofrecer la máxima potencia y durabilidad en trabajos de corte, desbaste y pulido, gracias a su eficiente motor Brushless de alto rendimiento. ✅ Motor Brushless, mayor potencia, eficiencia y vida útil. 🔋 Voltaje: 21V. 🔋 Incluye 2 baterías de 4Ah para trabajar por más tiempo. ⚡ Potencia: 1100W. 🚀 Velocidad: Hasta 7.900 RPM para un desempeño rápido y preciso. 🛡️ Incluye cubrechispas para mayor seguridad. ✋ Mango auxiliar que brinda mejor estabilidad y control. 🔌 Incluye cargador y resistente caja plástica para proteger y transportar la herramienta. 💼 Diseñada para uso profesional, ideal para trabajos en metal, acero, hierro, tubería, construcción, mantenimiento y fabricación.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Enum",
-      "price": 540000,
+      "price": 560000,
       "currency": "COP",
       "images": [
         "/assets/products/kyr4trok62n-1.png",
@@ -1394,7 +1444,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 540000
+      "source_price": 540000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "29pojptiri8",
@@ -1403,7 +1455,7 @@
       "description": "La Llave de Impacto Inalámbrica 1/2\" Marca ENUM está diseñada para uso profesional, ofreciendo un torque excepcional y el rendimiento ideal para mecánica, talleres, montajes y trabajos industriales. ✅ Voltaje: 21V. 🔋 Incluye 2 baterías de 4Ah para mayor autonomía. 💪 Torque máximo: 580 N·m, ideal para aflojar y ajustar pernos con facilidad. ⚡ Velocidad: Hasta 2.200 RPM para un desempeño potente y eficiente. 🔩 Encastre de 1/2\", compatible con una amplia variedad de aplicaciones. 🧰 Incluye 4 copas, cargador y resistente caja plástica para un transporte seguro. 💼 Diseñada para uso profesional, perfecta para mecánicos, montallantas, talleres automotrices, construcción y mantenimiento industrial.",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Enum",
-      "price": 420000,
+      "price": 450000,
       "currency": "COP",
       "images": [
         "/assets/products/29pojptiri8-1.png",
@@ -1414,7 +1466,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 420000
+      "source_price": 420000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "3biflgo3ll3",
@@ -1423,7 +1477,7 @@
       "description": "La Sierra Circular 9\" Marca ENUM de PROTOOL POWER SAS está diseñada para brindar cortes rápidos, limpios y precisos en madera, tableros, melamina y otros materiales, siendo la herramienta ideal para carpinteros, constructores y profesionales. ✅ Potencia: 1800W. ⚡ Velocidad: 4.100 RPM para un rendimiento superior. 🪚 Disco de 9\" (235 mm) que permite cortes profundos y de gran capacidad. 📏 Cortes precisos, uniformes y de excelente acabado. 💪 Construcción resistente para uso profesional. 🧰 Ideal para carpintería, ebanistería, construcción y montaje",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "Enum",
-      "price": 315000,
+      "price": 345000,
       "currency": "COP",
       "images": [
         "/assets/products/3biflgo3ll3-1.png",
@@ -1435,7 +1489,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 315000
+      "source_price": 315000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "2ocbl6k817h",
@@ -1444,7 +1500,7 @@
       "description": "La Pulidora Eléctrica Variable de 4 1/2\" de ENUM está diseñada para ofrecer un rendimiento excepcional en trabajos de corte, desbaste y pulido, tanto para uso profesional como exigente. ✅ Potencia: 1500W. ⚡ Velocidad máxima: 11.000 RPM. 🎚️ 6 niveles de velocidad variable para adaptarse a cada tipo de trabajo. ✋ Interruptor tipo paleta, más cómodo y seguro durante el uso. 🛡️ Incluye cubrechispas y mango auxiliar para mayor protección, estabilidad y control. Ideal para trabajar en metal, hierro, acero, tubería, perfiles y otros materiales, brindando potencia y Precisión de cada corte.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Enum",
-      "price": 150000,
+      "price": 170000,
       "currency": "COP",
       "images": [
         "/assets/products/2ocbl6k817h-1.png",
@@ -1456,7 +1512,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 150000
+      "source_price": 150000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "9jr3xv00zvg",
@@ -1465,7 +1523,7 @@
       "description": "La Pulidora Eléctrica 9\" Marca ENUM está diseñada para afrontar los trabajos más exigentes de corte, desbaste y pulido, ofreciendo una combinación de fuerza, resistencia y confiabilidad para uso profesional. ✅ Potencia: 2600W. ⚡ Velocidad: Hasta 6.500 RPM para un rendimiento potente y constante. 🔌 Alimentación: 110V. ✋ Interruptor tipo gatillo, que brinda un agarre cómodo, mayor seguridad y excelente control durante el uso. 🛠️ Ideal para trabajos pesados de corte, desbaste y pulido en acero, hierro, perfiles metálicos, tuberías y otros materiales de alta resistencia. 💼 Diseñada para uso profesional, perfecta para talleres, construcción, metalmecánica, mantenimiento E industria",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Enum",
-      "price": 320000,
+      "price": 340000,
       "currency": "COP",
       "images": [
         "/assets/products/9jr3xv00zvg-1.png",
@@ -1475,7 +1533,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 320000
+      "source_price": 320000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "0qvg4k00h30a",
@@ -1484,7 +1544,7 @@
       "description": "La Pulidora Eléctrica 4.5\" Marca ENUM es una herramienta compacta, potente y confiable, ideal para trabajos de corte, desbaste y pulido con un excelente desempeño en aplicaciones profesionales. ✅ Potencia: 1050W. ⚡ Velocidad: Hasta 11.000 RPM para cortes rápidos y acabados precisos. 🔌 Alimentación: 110V. ✋ Interruptor lateral, diseñado para un manejo cómodo, práctico y seguro. 🛠️ Ideal para cortar, desbastar y pulir metal, acero, hierro, tubería y otros materiales. 💼 Diseñada para uso profesional, ofreciendo potencia, durabilidad y un rendimiento confiable en cada trabajo.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Enum",
-      "price": 135000,
+      "price": 155000,
       "currency": "COP",
       "images": [
         "/assets/products/0qvg4k00h30a-1.png",
@@ -1493,7 +1553,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 135000
+      "source_price": 135000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "bjp9j8l0mp5",
@@ -1519,7 +1581,7 @@
       "description": "Potencia 1500w 1400Bpm Color amarillo Incluye 2 baterías",
       "category": "DEMOLEDORES 110v",
       "brand": "Protool",
-      "price": 480000,
+      "price": 530000,
       "currency": "COP",
       "images": [
         "/assets/products/sfs5wx21oj8-1.png",
@@ -1529,7 +1591,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 480000
+      "source_price": 480000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Demoledores"
     },
     {
       "id": "62wy4nq3qp",
@@ -1554,7 +1618,7 @@
       "description": "La Lijadora para Panel Drywall de PROTOOL POWER SAS está diseñada para ofrecer un lijado uniforme, rápido y preciso en muros, techos y superficies de yeso. ✅ Potencia: 810W ⚡ Velocidad variable: Hasta 2100 RPM. 📏 Diámetro de lija: 225 mm para mayor cobertura. 🔧 Incluye tubo expandible, ideal para alcanzar techos y zonas de difícil acceso. 🪵 Incluye 6 lijas circulares, bolsa recolectora de polvo y resistente estuche plástico para un transporte seguro. Ideal para instaladores de drywall, pintores, remodeladores y profesionales de la construcción",
       "category": "LIJADORAS",
       "brand": "",
-      "price": 540000,
+      "price": 560000,
       "currency": "COP",
       "images": [
         "/assets/products/gpkiul7bcu4-1.png",
@@ -1566,7 +1630,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 540000
+      "source_price": 540000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Lijadoras"
     },
     {
       "id": "87hbjxaoa2l",
@@ -1655,7 +1721,7 @@
       "description": "880NM Cuadrante de 1/2 Incluye 2 baterías",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Prtool",
-      "price": 420000,
+      "price": 450000,
       "currency": "COP",
       "images": [
         "/assets/products/o1luzbcm3cg-1.png",
@@ -1667,7 +1733,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 420000
+      "source_price": 420000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "4s5isff8blw",
@@ -1717,7 +1785,7 @@
       "description": "Telescópica 1800w 110V 220V 5000rpm 255mm profesional",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "Meingeng",
-      "price": 980000,
+      "price": 1010000,
       "currency": "COP",
       "images": [
         "/assets/products/zdpcvp5wjka-1.png",
@@ -1727,7 +1795,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 980000
+      "source_price": 980000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "mtg3rdo3xj",
@@ -1848,7 +1918,7 @@
       "description": "10” 5000 rpm",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "Kzubr",
-      "price": 1200000,
+      "price": 1230000,
       "currency": "COP",
       "images": [
         "/assets/products/a5qcotxeflh-1.png",
@@ -1858,7 +1928,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 1200000
+      "source_price": 1200000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "s6rwrwhqgwn",
@@ -2099,7 +2171,7 @@
       "description": "68v 3500r/m 3 funciones pistola,atornillador,taladro",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Prower",
-      "price": 230000,
+      "price": 260000,
       "currency": "COP",
       "images": [
         "/assets/products/j0kzixkp5lb-1.png",
@@ -2109,7 +2181,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 230000
+      "source_price": 230000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "9lvi4sd8g3",
@@ -2491,7 +2565,7 @@
       "description": "220w 30litros 1390w 8bar Libre de aceite",
       "category": "COMPRESORES",
       "brand": "JCTOP",
-      "price": 580000,
+      "price": 620000,
       "currency": "COP",
       "images": [
         "/assets/products/p1kbh9t2xd-1.png",
@@ -2499,7 +2573,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 580000
+      "source_price": 580000,
+      "pricing_adjustment": 40000,
+      "pricing_rule": "Compresores"
     },
     {
       "id": "butfrdt0y6c",
@@ -2508,7 +2584,7 @@
       "description": "Compresor 50L 2780W potencia 160L/min aire 220w",
       "category": "COMPRESORES",
       "brand": "JCTOP",
-      "price": 950000,
+      "price": 990000,
       "currency": "COP",
       "images": [
         "/assets/products/butfrdt0y6c-1.png",
@@ -2519,7 +2595,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 950000
+      "source_price": 950000,
+      "pricing_adjustment": 40000,
+      "pricing_rule": "Compresores"
     },
     {
       "id": "5kep4oyi5h2",
@@ -3058,7 +3136,7 @@
       "description": "110v 8500r/mn 115mm",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Prower",
-      "price": 100000,
+      "price": 120000,
       "currency": "COP",
       "images": [
         "/assets/products/aurph63dk-1.png",
@@ -3066,7 +3144,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 100000
+      "source_price": 100000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "sruldop0sr",
@@ -3075,7 +3155,7 @@
       "description": "110v 60hz 1180 W",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "ProEKCO",
-      "price": 140000,
+      "price": 160000,
       "currency": "COP",
       "images": [
         "/assets/products/sruldop0sr-1.png",
@@ -3083,7 +3163,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 140000
+      "source_price": 140000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "ggy3pkbiyi4",
@@ -3092,7 +3174,7 @@
       "description": "La Pulidora Eléctrica 4 1/2\" combina potencia, velocidad y control para realizar trabajos de corte, desbaste y pulido con excelente rendimiento, siendo una herramienta ideal para talleres, construcción, mantenimiento. ✅ Motor de rendimiento de 750W para trabajos. ⚡ Velocidad máxima: 11.000 RPM. 🔌 Voltaje: 110V. 💿 Disco de 4 1/2\", ideal para diferentes aplicaciones de corte, desbaste y pulido. ✋ Incluye mango auxiliar para mejorar el control, estabilidad y comodidad durante el trabajo. 🛡️ Incluye protector de seguridad para mayor protección durante las aplicaciones. 💼 Diseñada para ofrecer potencia, precisión y versatilidad en trabajos profesionales y de Mantenimiento.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Enum",
-      "price": 140000,
+      "price": 160000,
       "currency": "COP",
       "images": [
         "/assets/products/ggy3pkbiyi4-1.png",
@@ -3100,7 +3182,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 140000
+      "source_price": 140000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "06fllla69d3y",
@@ -3109,7 +3193,7 @@
       "description": "900W 1200-2300rpm",
       "category": "LIJADORAS",
       "brand": "",
-      "price": 350000,
+      "price": 370000,
       "currency": "COP",
       "images": [
         "/assets/products/06fllla69d3y-1.png",
@@ -3117,7 +3201,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 350000
+      "source_price": 350000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Lijadoras"
     },
     {
       "id": "zsw3xuoqlya",
@@ -3283,7 +3369,7 @@
       "description": "Espada de 90 cm A gasolina",
       "category": "HERRAMIENTA AGRICOLA*JARDIN",
       "brand": "",
-      "price": 1550000,
+      "price": 1600000,
       "currency": "COP",
       "images": [
         "/assets/products/7uc6g5ahvz2-1.png",
@@ -3292,7 +3378,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 1550000
+      "source_price": 1550000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Maquinaria agrícola y jardín"
     },
     {
       "id": "c1jgapcxpep",
@@ -3301,7 +3389,7 @@
       "description": "800w 60Hz 110v",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 220000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/c1jgapcxpep-1.png",
@@ -3309,7 +3397,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 220000
+      "source_price": 220000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Rotomartillos"
     },
     {
       "id": "2ycp4qae81j",
@@ -3318,7 +3408,7 @@
       "description": "110V 60Hz 800w",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Protool",
-      "price": 220000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/2ycp4qae81j-1.png",
@@ -3329,7 +3419,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 220000
+      "source_price": 220000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Rotomartillos"
     },
     {
       "id": "nzl5qdksg5i",
@@ -3361,7 +3453,7 @@
       "description": "800w 115mm 60Hz",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "",
-      "price": 120000,
+      "price": 140000,
       "currency": "COP",
       "images": [
         "/assets/products/mai3ukq02rg-1.png",
@@ -3371,7 +3463,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 120000
+      "source_price": 120000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "p7ylgu88he",
@@ -3380,7 +3474,7 @@
       "description": "1850w",
       "category": "RUTEADORA Y REBORDEADORA",
       "brand": "Protool",
-      "price": 280000,
+      "price": 300000,
       "currency": "COP",
       "images": [
         "/assets/products/p7ylgu88he-1.png",
@@ -3389,7 +3483,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 280000
+      "source_price": 280000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Ruteadoras y rebordeadoras"
     },
     {
       "id": "mikmaabk9h",
@@ -3398,7 +3494,7 @@
       "description": "800w 115mm 60Hz",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "",
-      "price": 120000,
+      "price": 140000,
       "currency": "COP",
       "images": [
         "/assets/products/mikmaabk9h-1.png",
@@ -3406,7 +3502,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 120000
+      "source_price": 120000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "yidiu59v08a",
@@ -3434,7 +3532,7 @@
       "description": "",
       "category": "DEMOLEDORES 110v",
       "brand": "Enum",
-      "price": 2650000,
+      "price": 2700000,
       "currency": "COP",
       "images": [
         "/assets/products/8jlam9g8qgi-1.png",
@@ -3442,7 +3540,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 2650000
+      "source_price": 2650000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Demoledores"
     },
     {
       "id": "agy44ipll2m",
@@ -3451,7 +3551,7 @@
       "description": "",
       "category": "DEMOLEDORES 110v",
       "brand": "BOSITENG",
-      "price": 830000,
+      "price": 880000,
       "currency": "COP",
       "images": [
         "/assets/products/agy44ipll2m-1.png",
@@ -3460,7 +3560,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 830000
+      "source_price": 830000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Demoledores"
     },
     {
       "id": "0skrnibp9bd",
@@ -3526,7 +3628,7 @@
       "description": "Motor Brushless 1/2 2 baterías 128V 1100Nm Incluye 4 Gopas",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Protool",
-      "price": 450000,
+      "price": 480000,
       "currency": "COP",
       "images": [
         "/assets/products/8o9jijmtlrf-1.png",
@@ -3536,7 +3638,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 450000
+      "source_price": 450000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "p5cj5660ou",
@@ -4549,7 +4653,7 @@
       "description": "8bar 110v.",
       "category": "COMPRESORES",
       "brand": "",
-      "price": 540000,
+      "price": 580000,
       "currency": "COP",
       "images": [
         "/assets/products/tgl081la329-1.png",
@@ -4558,7 +4662,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 540000
+      "source_price": 540000,
+      "pricing_adjustment": 40000,
+      "pricing_rule": "Compresores"
     },
     {
       "id": "7se691l5qvj",
@@ -4567,7 +4673,7 @@
       "description": "2.5HP 8 bar 24L 110v",
       "category": "COMPRESORES",
       "brand": "",
-      "price": 580000,
+      "price": 620000,
       "currency": "COP",
       "images": [
         "/assets/products/7se691l5qvj-1.png",
@@ -4576,7 +4682,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 580000
+      "source_price": 580000,
+      "pricing_adjustment": 40000,
+      "pricing_rule": "Compresores"
     },
     {
       "id": "rs3ulpr930k",
@@ -4769,14 +4877,16 @@
       "description": "",
       "category": "RUTEADORA Y REBORDEADORA",
       "brand": "",
-      "price": 90000,
+      "price": 110000,
       "currency": "COP",
       "images": [
         "/assets/products/4aoawyqco7-1.png"
       ],
       "available": true,
       "featured": false,
-      "source_price": 90000
+      "source_price": 90000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Ruteadoras y rebordeadoras"
     },
     {
       "id": "ladrfxkmg1",
@@ -5122,7 +5232,7 @@
       "description": "220w",
       "category": "COMPRESORES",
       "brand": "",
-      "price": 500000,
+      "price": 540000,
       "currency": "COP",
       "images": [
         "/assets/products/xon37hk5at7-1.png",
@@ -5133,7 +5243,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 500000
+      "source_price": 500000,
+      "pricing_adjustment": 40000,
+      "pricing_rule": "Compresores"
     },
     {
       "id": "3ph5be2m0g",
@@ -5432,7 +5544,7 @@
       "description": "Corriente pico: 1000 A Corriente de arranque: 500 A Capacidad: 8000 mAh Salida de carga: 12 V Entrada tipo C: 5 V Pantalla digital y luz LED integrada (modo linterna y emergencia) Tiempo de carga: 4 a 5 horas Ciclo de vida: hasta 2000 usos Material: ABS de alta resistencia Color: Negro Tamaño compacto: 22.5 × 12.5 × 5.5 cm",
       "category": "COMPRESORES",
       "brand": "",
-      "price": 260000,
+      "price": 300000,
       "currency": "COP",
       "images": [
         "/assets/products/uzlifd2g2th-1.png",
@@ -5442,7 +5554,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 260000
+      "source_price": 260000,
+      "pricing_adjustment": 40000,
+      "pricing_rule": "Compresores"
     },
     {
       "id": "9mt1jwbh2rr",
@@ -5591,7 +5705,7 @@
       "description": "",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "",
-      "price": 190000,
+      "price": 210000,
       "currency": "COP",
       "images": [
         "/assets/products/n06nsbb98ak-1.png",
@@ -5599,7 +5713,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 190000
+      "source_price": 190000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "hp2o0twy5f",
@@ -5608,7 +5724,7 @@
       "description": "",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "",
-      "price": 160000,
+      "price": 180000,
       "currency": "COP",
       "images": [
         "/assets/products/hp2o0twy5f-1.png",
@@ -5616,7 +5732,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 160000
+      "source_price": 160000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "crigcrktsz",
@@ -5625,7 +5743,7 @@
       "description": "Pulidora de velocidad estándar 110v 2600w 7”-9”",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "",
-      "price": 320000,
+      "price": 340000,
       "currency": "COP",
       "images": [
         "/assets/products/crigcrktsz-1.png",
@@ -5636,7 +5754,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 320000
+      "source_price": 320000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "y58f2brzwwd",
@@ -5835,7 +5955,7 @@
       "description": "La Tronzadora 14\" es la herramienta ideal para realizar cortes limpios y eficientes en perfiles metálicos, tuberías, varillas y otros materiales de construcción, ofreciendo potencia y estabilidad en cada trabajo. ✅ Potencia: 1900W. ⚡ Velocidad: 3.800 RPM para cortes rápidos y de alta precisión. 🛞 Disco de 14\", ideal para trabajos de gran exigencia. 🏗️ Base metálica reforzada, que proporciona mayor estabilidad y seguridad durante el corte. 🪚 Incluye disco de corte, lista para comenzar a trabajar. 💼 Diseñada para uso profesional, perfecta para talleres, metalmecánica, construcción, cerrajería",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "Enum",
-      "price": 450000,
+      "price": 480000,
       "currency": "COP",
       "images": [
         "/assets/products/q33bjj0558p-1.png",
@@ -5846,7 +5966,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 450000
+      "source_price": 450000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "hfhwqpb0qsv",
@@ -5991,7 +6113,7 @@
       "description": "",
       "category": "RUTEADORA Y REBORDEADORA",
       "brand": "Protool",
-      "price": 490000,
+      "price": 510000,
       "currency": "COP",
       "images": [
         "/assets/products/a78z96r2tjd-1.png",
@@ -6002,7 +6124,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 490000
+      "source_price": 490000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Ruteadoras y rebordeadoras"
     },
     {
       "id": "cz45povbhx",
@@ -6105,7 +6229,7 @@
       "description": "Motor brushless 9000r/m 68v 4 1/2",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Drill",
-      "price": 350000,
+      "price": 370000,
       "currency": "COP",
       "images": [
         "/assets/products/hga9mpnz1i5-1.png",
@@ -6116,7 +6240,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 350000
+      "source_price": 350000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "6uvtwtc968k",
@@ -6125,7 +6251,7 @@
       "description": "Pulidora de 4” 2Baterias De 68V 710W",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Prtool",
-      "price": 280000,
+      "price": 300000,
       "currency": "COP",
       "images": [
         "/assets/products/6uvtwtc968k-1.png",
@@ -6135,7 +6261,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 280000
+      "source_price": 280000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "9s7caf3f71r",
@@ -6144,7 +6272,7 @@
       "description": "Pro ekco 2400W potencia 9” Diámetro 6500r/m min Velocidad standard",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "ProEKCO",
-      "price": 260000,
+      "price": 280000,
       "currency": "COP",
       "images": [
         "/assets/products/9s7caf3f71r-1.png",
@@ -6154,7 +6282,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 260000
+      "source_price": 260000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "b5zvvp5vr1r",
@@ -6163,7 +6293,7 @@
       "description": "Pulidora 4” velocidad variable 1150w 11000r/m",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "ProEKCO",
-      "price": 120000,
+      "price": 140000,
       "currency": "COP",
       "images": [
         "/assets/products/b5zvvp5vr1r-1.png",
@@ -6171,7 +6301,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 120000
+      "source_price": 120000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "6oq00euw4zf",
@@ -6180,7 +6312,7 @@
       "description": "Pulidora mini 12V",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Protool",
-      "price": 65000,
+      "price": 85000,
       "currency": "COP",
       "images": [
         "/assets/products/6oq00euw4zf-1.png",
@@ -6189,7 +6321,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 65000
+      "source_price": 65000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "5tjk2efcdxb",
@@ -6198,7 +6332,7 @@
       "description": "710W Variable 8500r/m",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Prtool",
-      "price": 100000,
+      "price": 120000,
       "currency": "COP",
       "images": [
         "/assets/products/5tjk2efcdxb-1.png",
@@ -6207,7 +6341,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 100000
+      "source_price": 100000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "icpkgrgsbr",
@@ -6216,7 +6352,7 @@
       "description": "110v 60hz 2350w 6000rpm 9” color amarillo naranja",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Prtool",
-      "price": 200000,
+      "price": 220000,
       "currency": "COP",
       "images": [
         "/assets/products/icpkgrgsbr-1.png",
@@ -6227,7 +6363,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 200000
+      "source_price": 200000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "aho4w4nyjag",
@@ -6236,7 +6374,7 @@
       "description": "Pulidora de velocidad estándar 110v 1000W 10000r/m AMARILLA",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "McCraft",
-      "price": 150000,
+      "price": 170000,
       "currency": "COP",
       "images": [
         "/assets/products/aho4w4nyjag-1.png",
@@ -6246,7 +6384,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 150000
+      "source_price": 150000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "g7jrxcd8hj6",
@@ -6255,7 +6395,7 @@
       "description": "Pulidora 4” velocidad estándar 980” 11000r/m",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "ProEKCO",
-      "price": 95000,
+      "price": 115000,
       "currency": "COP",
       "images": [
         "/assets/products/g7jrxcd8hj6-1.png",
@@ -6264,7 +6404,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 95000
+      "source_price": 95000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "y3a9cc0mn1",
@@ -6310,14 +6452,16 @@
       "description": "Garantía 1 año al detal",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Enum",
-      "price": 300000,
+      "price": 320000,
       "currency": "COP",
       "images": [
         "/assets/products/aux1sxu0uxj-1.png"
       ],
       "available": true,
       "featured": false,
-      "source_price": 300000
+      "source_price": 300000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "vwqus0dvkx",
@@ -6326,7 +6470,7 @@
       "description": "Motor brushless 1/2\" 2 baterías 128v 1800r/m 350nm",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Protool",
-      "price": 350000,
+      "price": 380000,
       "currency": "COP",
       "images": [
         "/assets/products/vwqus0dvkx-1.png",
@@ -6336,7 +6480,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 350000
+      "source_price": 350000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "6blv57vqzwi",
@@ -6345,7 +6491,7 @@
       "description": "La Llave de Impacto Inalámbrica 1/2\" Marca ENUM está diseñada para uso profesional, ofreciendo un torque excepcional y el rendimiento ideal para mecánica, talleres, montajes y trabajos industriales. ✅ Voltaje: 21V. 🔋 Incluye 2 baterías de 4Ah para mayor autonomía. 💪 Torque máximo: 850 N·m, ideal para aflojar y ajustar pernos con facilidad. ⚡ Velocidad: Hasta 2.550 RPM para un desempeño potente y eficiente. 🔩 Encastre de 1/2\", compatible con una amplia variedad de aplicaciones. 🧰 Incluye 4 copas, cargador y resistente caja plástica para un transporte seguro. 💼 Diseñada para uso profesional, perfecta para mecánicos, montallantas, talleres automotrices, construcción y mantenimiento industrial.",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Enum",
-      "price": 500000,
+      "price": 530000,
       "currency": "COP",
       "images": [
         "/assets/products/6blv57vqzwi-1.png",
@@ -6357,7 +6503,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 500000
+      "source_price": 500000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "bawbqhyrxsc",
@@ -6724,7 +6872,7 @@
       "description": "",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "Protool",
-      "price": 370000,
+      "price": 400000,
       "currency": "COP",
       "images": [
         "/assets/products/aoou0dnbtr6-1.png",
@@ -6738,7 +6886,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 370000
+      "source_price": 370000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "59kkjjlzi2h",
@@ -6747,7 +6897,7 @@
       "description": "4500r/m 48v 1/4”",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "Drill",
-      "price": 190000,
+      "price": 220000,
       "currency": "COP",
       "images": [
         "/assets/products/59kkjjlzi2h-1.png",
@@ -6757,7 +6907,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 190000
+      "source_price": 190000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "rvv54gcd0oe",
@@ -6766,7 +6918,7 @@
       "description": "Mini motosierra inalámbrica protool 48V",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "",
-      "price": 90000,
+      "price": 120000,
       "currency": "COP",
       "images": [
         "/assets/products/rvv54gcd0oe-1.png",
@@ -6775,7 +6927,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 90000
+      "source_price": 90000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "u7yx0nmfwcs",
@@ -6784,7 +6938,7 @@
       "description": "Mini motosierra inalámbrica Protool 24 voltios 2700r/m 20m/s 5ah 8*(200mm)",
       "category": "HERRAMIENTA AGRICOLA*JARDIN",
       "brand": "Protool",
-      "price": 180000,
+      "price": 230000,
       "currency": "COP",
       "images": [
         "/assets/products/u7yx0nmfwcs-1.png",
@@ -6794,7 +6948,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 180000
+      "source_price": 180000,
+      "pricing_adjustment": 50000,
+      "pricing_rule": "Maquinaria agrícola y jardín"
     },
     {
       "id": "0oa2peiwttxf",
@@ -6957,7 +7113,7 @@
       "description": "El kit incluye 4 lijas",
       "category": "LIJADORAS",
       "brand": "",
-      "price": 105000,
+      "price": 125000,
       "currency": "COP",
       "images": [
         "/assets/products/bvlrre695yq-1.png",
@@ -6970,7 +7126,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 105000
+      "source_price": 105000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Lijadoras"
     },
     {
       "id": "te1pghktvl",
@@ -6979,7 +7137,7 @@
       "description": "Órbita 5” 2 Baterías 36V",
       "category": "LIJADORAS",
       "brand": "Prtool",
-      "price": 200000,
+      "price": 220000,
       "currency": "COP",
       "images": [
         "/assets/products/te1pghktvl-1.png",
@@ -6988,7 +7146,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 200000
+      "source_price": 200000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Lijadoras"
     },
     {
       "id": "1rjyhn90hwp",
@@ -7090,7 +7250,7 @@
       "description": "90 PSI 660NM TORQUE",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "",
-      "price": 300000,
+      "price": 330000,
       "currency": "COP",
       "images": [
         "/assets/products/8ya8oydctxm-1.png",
@@ -7100,7 +7260,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 300000
+      "source_price": 300000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "qibnmezn5er",
@@ -7109,7 +7271,7 @@
       "description": "Ruteadora industrial Finder 1200W Potencia 30000r/m 50mm",
       "category": "RUTEADORA Y REBORDEADORA",
       "brand": "",
-      "price": 325000,
+      "price": 345000,
       "currency": "COP",
       "images": [
         "/assets/products/qibnmezn5er-1.png",
@@ -7118,7 +7280,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 325000
+      "source_price": 325000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Ruteadoras y rebordeadoras"
     },
     {
       "id": "88a391iwk0u",
@@ -7748,7 +7912,7 @@
       "description": "Voltaje: 380V presión máxima de 130 ps pesa 1.5",
       "category": "COMPRESORES",
       "brand": "",
-      "price": 150000,
+      "price": 190000,
       "currency": "COP",
       "images": [
         "/assets/products/6ohe74r24eg-1.png",
@@ -7756,7 +7920,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 150000
+      "source_price": 150000,
+      "pricing_adjustment": 40000,
+      "pricing_rule": "Compresores"
     },
     {
       "id": "2sirnqy8865",
@@ -7968,7 +8134,7 @@
       "description": "Pulidora 4\" velocidad 1180W 11000r/m",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "",
-      "price": 140000,
+      "price": 160000,
       "currency": "COP",
       "images": [
         "/assets/products/k168ykd5osc-1.png",
@@ -7976,7 +8142,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 140000
+      "source_price": 140000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "7wgc7jor61p",
@@ -7985,7 +8153,7 @@
       "description": "670W",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "",
-      "price": 95000,
+      "price": 115000,
       "currency": "COP",
       "images": [
         "/assets/products/7wgc7jor61p-1.png",
@@ -7993,7 +8161,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 95000
+      "source_price": 95000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "lrfq21yvij",
@@ -8147,7 +8317,7 @@
       "description": "Lijadora 700W",
       "category": "LIJADORAS",
       "brand": "",
-      "price": 540000,
+      "price": 560000,
       "currency": "COP",
       "images": [
         "/assets/products/u1sx1m1w6lf-1.png",
@@ -8155,7 +8325,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 540000
+      "source_price": 540000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Lijadoras"
     },
     {
       "id": "xipahhc2f7n",
@@ -8668,7 +8840,7 @@
       "description": "",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "Drill",
-      "price": 190000,
+      "price": 220000,
       "currency": "COP",
       "images": [
         "/assets/products/ymyrl2syra-1.png",
@@ -8677,7 +8849,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 190000
+      "source_price": 190000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "090vdvt3tfqx",
@@ -8686,7 +8860,7 @@
       "description": "110v garantía 1 año detal",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "",
-      "price": 320000,
+      "price": 350000,
       "currency": "COP",
       "images": [
         "/assets/products/090vdvt3tfqx-1.png",
@@ -8695,7 +8869,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 320000
+      "source_price": 320000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "38pphy4a7jf",
@@ -8741,7 +8917,7 @@
       "description": "Descripción La Caladora Eléctrica Marca ENUM es la herramienta ideal para realizar cortes rectos y curvos con precisión en madera, MDF, aglomerado, plástico y otros materiales. ✅ Potencia: 950W. ⚡ Velocidad máxima: 2.800 RPM. 🎚️ 6 niveles de velocidad variable para adaptarse a cada tipo de material y acabado. 🔌 Alimentación: 110V. 🪵 Ideal para cortes precisos, rápidos y de excelente calidad. 🧰 Incluye sierra, guía de corte y todos los accesorios necesarios para comenzar a trabajar. Perfecta para carpinteros, ebanistas, instaladores y profesionales que buscan potencia, precisión y un excelente desempeño en cada proyecto.",
       "category": "SIERRAS Y CALADORAS COLILLADORAS TRONSAD",
       "brand": "Enum",
-      "price": 200000,
+      "price": 230000,
       "currency": "COP",
       "images": [
         "/assets/products/zp3qdomqjyh-1.png",
@@ -8751,7 +8927,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 200000
+      "source_price": 200000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Sierras y caladoras"
     },
     {
       "id": "7wd7qjwjtb9",
@@ -8760,7 +8938,7 @@
       "description": "2000NM",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Prtool",
-      "price": 820000,
+      "price": 850000,
       "currency": "COP",
       "images": [
         "/assets/products/7wd7qjwjtb9-1.png",
@@ -8770,7 +8948,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 820000
+      "source_price": 820000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "5ga4cc5kuhn",
@@ -8779,7 +8959,7 @@
       "description": "Pistola impacto,de 1 pulgada con copas afloja pernos de camión y carros",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Drill",
-      "price": 1500000,
+      "price": 1530000,
       "currency": "COP",
       "images": [
         "/assets/products/5ga4cc5kuhn-1.png",
@@ -8790,7 +8970,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 1500000
+      "source_price": 1500000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "1o128hsxw19",
@@ -8799,7 +8981,7 @@
       "description": "Pistola de Impacto Inalámbrica 3000NM – PROTOOL by Protool Power SAS Potencia que se siente en cada giro. La Pistola de Impacto de 1\" PROTOOL 3000NM ofrece fuerza real de torsión y 2400 rpm, ideal para trabajos automotrices, industriales y de taller. Diseñada para brindar rendimiento profesional, cuenta con 2 baterías recargables, cargador rápido, juego de copas y maletín de transporte resistente. Herramienta duradera, eficiente y lista para las tareas más exigentes.",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Prtool",
-      "price": 1350000,
+      "price": 1380000,
       "currency": "COP",
       "images": [
         "/assets/products/1o128hsxw19-1.png",
@@ -8808,7 +8990,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 1350000
+      "source_price": 1350000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "7sx70v0uxnr",
@@ -9020,7 +9204,7 @@
       "description": "Pistola de impacto MEINENG equipada con 2 baterías y cargador, diseñada para trabajos de apriete y afloje de alta exigencia. Ofrece potencia, movilidad y rendimiento confiable para uso profesional y mecánico.",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "Meingeng",
-      "price": 300000,
+      "price": 330000,
       "currency": "COP",
       "images": [
         "/assets/products/0skjfdtm35sl-1.png",
@@ -9030,7 +9214,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 300000
+      "source_price": 300000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "p9ky93oz4xp",
@@ -9094,7 +9280,7 @@
       "description": "Mototool eléctrico de 110V con set completo de 183 piezas, ideal para trabajos de corte, grabado, lijado y pulido de alta precisión. Su presentación completa y versátil lo hace perfecto para uso profesional y manualidades especializadas.",
       "category": "LIJADORAS",
       "brand": "McCraft",
-      "price": 150000,
+      "price": 170000,
       "currency": "COP",
       "images": [
         "/assets/products/eucreuzuaha-1.png",
@@ -9103,7 +9289,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 150000
+      "source_price": 150000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Lijadoras"
     },
     {
       "id": "5amo1o8ms2h",
@@ -9134,7 +9322,7 @@
       "description": "Rotomartillo inalámbrico diseñado para trabajos de perforación y percusión. Ofrece potencia, movilidad y rendimiento confiable para uso profesional en obra.",
       "category": "ROTOMARTILLO 110V/INALAMBRICO",
       "brand": "Prtool",
-      "price": 350000,
+      "price": 380000,
       "currency": "COP",
       "images": [
         "/assets/products/rc7gve294m-1.png",
@@ -9143,7 +9331,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 350000
+      "source_price": 350000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Rotomartillos"
     },
     {
       "id": "6dowsqxa77l",
@@ -9170,7 +9360,7 @@
       "description": "Pulidora compatible con rosca M10 y M14, diseñada para trabajos de corte, desbaste y pulido. Ofrece versatilidad, ajuste seguro de accesorios y desempeño confiable para uso profesional.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "",
-      "price": 140000,
+      "price": 160000,
       "currency": "COP",
       "images": [
         "/assets/products/7v22keuyu33-1.png",
@@ -9178,7 +9368,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 140000
+      "source_price": 140000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "z95erozrdp",
@@ -9187,7 +9379,7 @@
       "description": "Pulidora BOSITENG de 5 pulgadas con motor de 1050W, equipada con control de velocidad variable de 6 niveles hasta 11.000 r/min. Diseñada para trabajos de corte, desbaste y pulido, ofrece control preciso, potencia constante y rendimiento confiable para uso profesional.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "",
-      "price": 170000,
+      "price": 190000,
       "currency": "COP",
       "images": [
         "/assets/products/z95erozrdp-1.png",
@@ -9197,7 +9389,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 170000
+      "source_price": 170000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "ym1vz2mu3g",
@@ -9224,7 +9418,7 @@
       "description": "Pulidora alámbrica ENUM de 4 pulgadas, diseñada para trabajos de corte, desbaste y pulido. Ofrece desempeño confiable, fácil manejo y es ideal para uso profesional y de alta rotación.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Enum",
-      "price": 130000,
+      "price": 150000,
       "currency": "COP",
       "images": [
         "/assets/products/115ius1emyth-1.png",
@@ -9234,7 +9428,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 130000
+      "source_price": 130000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "ou3fjf5ebs",
@@ -9335,7 +9531,7 @@
       "description": "Pulidora alámbrica ENUM de 1600W diseñada para trabajos exigentes de pulido, corte y desbaste. Cuenta con velocidad variable de hasta 10.000 rpm, permitiendo mayor control y precisión según el tipo de trabajo. Ideal para uso profesional continuo.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Enum",
-      "price": 160000,
+      "price": 180000,
       "currency": "COP",
       "images": [
         "/assets/products/sk0jbzftt2-1.png",
@@ -9345,7 +9541,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 160000
+      "source_price": 160000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "ygpzcm0a5c",
@@ -9354,7 +9552,7 @@
       "description": "Pulidora alámbrica de 1280W diseñada para trabajos exigentes de corte, desbaste y pulido. Alcanza hasta 11.000 rpm y es compatible con discos de 4.5” y 5”, ofreciendo potencia constante, control y rendimiento confiable para uso profesional.",
       "category": "PULIDORAS ELECTRICAS INALAMBRICAS",
       "brand": "Enum",
-      "price": 145000,
+      "price": 165000,
       "currency": "COP",
       "images": [
         "/assets/products/ygpzcm0a5c-1.png",
@@ -9363,7 +9561,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 145000
+      "source_price": 145000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Pulidoras"
     },
     {
       "id": "oqas1q9rhp",
@@ -9516,7 +9716,7 @@
       "description": "Iniciador de batería con mini compresor integrado, capacidad de 50.800 mAh y corriente de arranque de 200A–300A. Cuenta con salidas 12V, 16V y 19V, ofreciendo una solución práctica y multifuncional para uso vehicular.",
       "category": "COMPRESORES",
       "brand": "",
-      "price": 140000,
+      "price": 180000,
       "currency": "COP",
       "images": [
         "/assets/products/2vw3q7l9ytf-1.png",
@@ -9524,7 +9724,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 140000
+      "source_price": 140000,
+      "pricing_adjustment": 40000,
+      "pricing_rule": "Compresores"
     },
     {
       "id": "jj1cae4nav",
@@ -9568,7 +9770,7 @@
       "description": "Lijadora orbital eléctrica de 110V con base de lija cuadrada, diseñada para acabados finos y uniformes. Ideal para trabajos en madera y superficies pintadas, ofreciendo control, comodidad y rendimiento constante.",
       "category": "LIJADORAS",
       "brand": "Prtool",
-      "price": 130000,
+      "price": 150000,
       "currency": "COP",
       "images": [
         "/assets/products/6m4cw84kanf-1.png",
@@ -9576,7 +9778,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 130000
+      "source_price": 130000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Lijadoras"
     },
     {
       "id": "pcm6kbrgh7h",
@@ -9585,7 +9789,7 @@
       "description": "Rebordeadora inalámbrica 48V con motor de 350W y velocidad máxima de 30.000 rpm, diseñada para cortes precisos y acabados profesionales. Ideal para trabajos en madera que requieren potencia, control y movilidad.",
       "category": "RUTEADORA Y REBORDEADORA",
       "brand": "Drill",
-      "price": 190000,
+      "price": 210000,
       "currency": "COP",
       "images": [
         "/assets/products/pcm6kbrgh7h-1.png",
@@ -9596,7 +9800,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 190000
+      "source_price": 190000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Ruteadoras y rebordeadoras"
     },
     {
       "id": "2pb5r2he9oc",
@@ -9605,7 +9811,7 @@
       "description": "Set de 35 fresas para rebordeadora con vástago de 6,35 mm, ideal para trabajos de corte, perfilado y acabado en madera. Ofrece versatilidad y precisión para uso profesional. (No incluye Herramienta)",
       "category": "RUTEADORA Y REBORDEADORA",
       "brand": "",
-      "price": 230000,
+      "price": 250000,
       "currency": "COP",
       "images": [
         "/assets/products/2pb5r2he9oc-1.png",
@@ -9614,7 +9820,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 230000
+      "source_price": 230000,
+      "pricing_adjustment": 20000,
+      "pricing_rule": "Ruteadoras y rebordeadoras"
     },
     {
       "id": "qte8husst1i",
@@ -10081,14 +10289,16 @@
       "description": "Pistola de Impacto Neumática 2600 Psi 1\"",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "",
-      "price": 650000,
+      "price": 680000,
       "currency": "COP",
       "images": [
         "/assets/products/4r34bixdmpn-1.png"
       ],
       "available": true,
       "featured": false,
-      "source_price": 650000
+      "source_price": 650000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "c7zbeeieo7q",
@@ -10097,7 +10307,7 @@
       "description": "1/2 /6.3bar 90psi 660NM 487 ft-lb",
       "category": "PISTOLA DE IMPACTO INALAMBRICA",
       "brand": "",
-      "price": 255000,
+      "price": 285000,
       "currency": "COP",
       "images": [
         "/assets/products/c7zbeeieo7q-1.png",
@@ -10108,7 +10318,9 @@
       ],
       "available": true,
       "featured": false,
-      "source_price": 255000
+      "source_price": 255000,
+      "pricing_adjustment": 30000,
+      "pricing_rule": "Pistolas y llaves de impacto"
     },
     {
       "id": "tps336dmjic",

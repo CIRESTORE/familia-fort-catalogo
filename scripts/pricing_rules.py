@@ -29,6 +29,34 @@ DRILL_ACCESSORY_TERMS = (
     "REPUESTO",
 )
 
+CATEGORY_INCREASES = {
+    "PULIDORAS ELECTRICAS INALAMBRICAS": (20_000, "Pulidoras"),
+    "PISTOLA DE IMPACTO INALAMBRICA": (30_000, "Pistolas y llaves de impacto"),
+    "ROTOMARTILLO 110V/INALAMBRICO": (30_000, "Rotomartillos"),
+    "DEMOLEDORES 110V": (50_000, "Demoledores"),
+    "SIERRAS Y CALADORAS COLILLADORAS TRONSAD": (30_000, "Sierras y caladoras"),
+    "COMPRESORES": (40_000, "Compresores"),
+    "LIJADORAS": (20_000, "Lijadoras"),
+    "RUTEADORA Y REBORDEADORA": (20_000, "Ruteadoras y rebordeadoras"),
+    "HERRAMIENTA AGRICOLA*JARDIN": (50_000, "Maquinaria agrícola y jardín"),
+}
+
+CATEGORY_ACCESSORY_TERMS = (
+    "ADAPTACION",
+    "ADAPTACIÓN",
+    "ADAPTADOR",
+    "ADAPATADOR",
+    "BASE",
+    "BOQUILLA",
+    "CADENA",
+    "DISCO",
+    "ESPADA",
+    "HOJA",
+    "JUEGO DE COPA",
+    "MANGUERA",
+    "REPUESTO",
+)
+
 
 def normalized_text(value: Any) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip().upper()
@@ -50,8 +78,17 @@ def is_standalone_drill(product: dict[str, Any]) -> bool:
     return not any(term in name for term in DRILL_ACCESSORY_TERMS)
 
 
+def category_adjustment(product: dict[str, Any]) -> tuple[int, str] | None:
+    category = normalized_text(product.get("category"))
+    name = normalized_text(product.get("name"))
+    rule = CATEGORY_INCREASES.get(category)
+    if not rule or any(term in name for term in CATEGORY_ACCESSORY_TERMS):
+        return None
+    return rule
+
+
 def apply_pricing_rules(products: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Aplica reglas con precedencia: precio especial > combo > taladro.
+    """Aplica reglas con precedencia: especial > combo > taladro > categoría.
 
     `source_price` conserva el precio de origen y hace que la operación sea idempotente.
     """
@@ -77,6 +114,11 @@ def apply_pricing_rules(products: list[dict[str, Any]]) -> list[dict[str, Any]]:
             product["price"] = source_price + 30_000
             product["pricing_adjustment"] = 30_000
             product["pricing_rule"] = "Taladro"
+        elif (category_rule := category_adjustment(product)):
+            adjustment, label = category_rule
+            product["price"] = source_price + adjustment
+            product["pricing_adjustment"] = adjustment
+            product["pricing_rule"] = label
         else:
             product["price"] = source_price
 

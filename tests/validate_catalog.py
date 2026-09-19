@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +22,21 @@ drill_adjustments = sum(p.get("pricing_rule") == "Taladro" for p in products)
 combo_adjustments = sum(p.get("pricing_rule") == "Combo con taladro o pulidora" for p in products)
 assert drill_adjustments == 59
 assert combo_adjustments == 21
+pricing_counts = Counter(p.get("pricing_rule") for p in products)
+expected_category_counts = {
+    "Pulidoras": 37,
+    "Pistolas y llaves de impacto": 17,
+    "Rotomartillos": 8,
+    "Demoledores": 5,
+    "Sierras y caladoras": 13,
+    "Compresores": 8,
+    "Lijadoras": 8,
+    "Ruteadoras y rebordeadoras": 8,
+    "Maquinaria agrícola y jardín": 2,
+}
+for rule, expected in expected_category_counts.items():
+    assert pricing_counts[rule] == expected, (rule, pricing_counts[rule], expected)
+assert sum(count for rule, count in pricing_counts.items() if rule is not None) == 188
 missing = []
 for product in products:
     for image in product["images"]:
@@ -39,4 +55,6 @@ print(json.dumps({
     "combos_adjusted": combo_adjustments,
     "cordless_hedge_trimmer": by_id["kaygt22s6di"]["price"],
     "gas_hedge_trimmer": by_id["7v9bc55hij"]["price"],
+    "total_adjusted": 188,
+    "new_category_adjustments": sum(expected_category_counts.values()),
 }, ensure_ascii=False))
